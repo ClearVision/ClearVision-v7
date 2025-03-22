@@ -7,35 +7,35 @@ IMAGE OUTDATED NEEDS UPDATING
 
 </div>
 
-<div>
-Default presets:
-Pearl - Pinkish theme, primarily for light mode
-Garnet - Magenta theme, primarily for dark mode
-Lapis - Darkish blue theme, primarily for dark mode | Art: https://www.pixiv.net/en/artworks/123209397 ; https://www.pixiv.net/en/users/44473246 -- NEED PERMISSION BEFORE USING
-Obsidian - Nearly black theme, primarily for dark mode | Art: https://www.publicdomainpictures.net/en/view-image.php?image=195779 ; CC0 ; https://www.publicdomainpictures.net/en/browse-author.php?a=1 (maybe?)
-Diamond - White theme, primarily for light mode
 
-Old v6 presets are offered, too. All primarily for dark mode:
-Sapphire - Darkish blue | Art: https://www.deviantart.com/kuldarleement/art/Stellar-collision-397866757 ; https://www.deviantart.com/kuldarleement/ ; http://www.kuldarleement.eu/
-Ruby - Red | Art: https://www.deviantart.com/artistmef/art/Follow-the-path-279366207 ; https://www.deviantart.com/artistmef/
-Amber - Orange | Art: https://www.deviantart.com/chromamancer/art/War-March-201045286 ; https://www.furaffinity.net/view/5408230 ; https://www.furaffinity.net/user/chromamancer/
-Emerald - Green | Art: Work from "Guild Wars" or "Guild Wars 2" ; http://www.kekaiart.com/guild-wars-2.html ; http://www.kekaiart.com/uploads/5/4/7/6/5476798/7976137_orig.jpg ; http://www.kekaiart.com/t
-Amethyst - Magenta | Art (tinted purple): https://www.deviantart.com/vityar83/art/gulls-149920115 ; https://www.deviantart.com/vityar83
-Halloween - Orange, for festivity | Art: https://www.deviantart.com/unidcolor/art/Halloween-2014-491224711 ; https://www.deviantart.com/unidcolor/
-Winter - Light blue, for festivity | Art: https://wall.alphacoders.com/big.php?i=114938 ; unknown artist.
+### Default presets
+- Pearl - Pinkish theme, primarily for light mode
+- Garnet - Magenta theme, primarily for dark mode
+- Lapis - Darkish blue theme, primarily for dark mode | Art: https://www.pixiv.net/en/artworks/123209397 ; https://www.pixiv.net/en/users/44473246 -- NEED PERMISSION BEFORE USING
+- Obsidian - Nearly black theme, primarily for dark mode | Art: https://www.publicdomainpictures.net/en/view-image.php?image=195779 ; CC0 ; https://www.publicdomainpictures.net/en/browse-author.php?a=1 (maybe?)
+- Diamond - White theme, primarily for light mode
+
+### Legacy Presets
+Old ClearVision v6 presets are offered, too. All primarily for dark mode
+- Sapphire - Darkish blue | Art: https://www.deviantart.com/kuldarleement/art/Stellar-collision-397866757 ; https://www.deviantart.com/kuldarleement/ ; http://www.kuldarleement.eu/  
+- Ruby - Red | Art: https://www.deviantart.com/artistmef/art/Follow-the-path-279366207 ; https://www.deviantart.com/artistmef/  
+- Amber - Orange | Art: https://www.deviantart.com/chromamancer/art/War-March-201045286 ; https://www.furaffinity.net/view/5408230 ; https://www.furaffinity.net/user/chromamancer/  
+- Emerald - Green | Art: Work from "Guild Wars" or "Guild Wars 2" ; http://www.kekaiart.com/guild-wars-2.html ; http://www.kekaiart.com/uploads/5/4/7/6/5476798/7976137_orig.jpg ; http://www.kekaiart.com/t  
+- Amethyst - Magenta | Art (tinted purple): https://www.deviantart.com/vityar83/art/gulls-149920115 ; https://www.deviantart.com/vityar83  
+- Halloween - Orange, for festivity | Art: https://www.deviantart.com/unidcolor/art/Halloween-2014-491224711 ; https://www.deviantart.com/unidcolor/  
+- Winter - Light blue, for festivity | Art: https://wall.alphacoders.com/big.php?i=114938 ; unknown artist.
 
 Goals:
-only supports visual refresh
-supports both light and dark, along with dark variants
-ensure all colour variables have some form of `calc(var(--saturation-factor,1) * $val)` in them
-uses smallest css target possible
-never use complex selectors before `> htmlElement` or `> *` without a very good reason
-avoid usage of :has() without a good reason
-always give reason for using `!important`
-plugin support in extra files for respective client mods
+- Only supports visual refresh
+- Supports both light and dark, along with dark variants
+- Ensure all colour variables have some form of `calc(var(--saturation-factor,1) * $val)` in them
+- Uses smallest css target possible
+- Never use complex selectors before `> htmlElement` or `> *` without a very good reason
+- Avoid usage of :has() without a good reason
+- Always give reason for using `!important`
+- Plugin support in extra files for respective client mods
 
-addons???
-</div>
+### addons???
 
 ## Theme Editor
 
