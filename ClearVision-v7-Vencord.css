@@ -13,8 +13,8 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #2780e6;
-  --hover-color: #1e63b3;
+  --main-color: #a35206;
+  --hover-color: #fc7a05;
   --success-color: #43b581;
   --danger-color: #982929;
   /* STATUS COLORS */
@@ -24,14 +24,14 @@
   --streaming-color: #593695;
   --offline-color: #808080;
   /* BACKGROUND IMAGES */
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg);
+  --background-image: url(https://i.imgur.com/kBw3mOY.jpeg);
   --background-attachment: fixed;
   --user-popout-image: var(--background-image);
   --user-popout-attachment: var(--background-attachment);
   --user-modal-image: var(--background-image);
   --user-modal-attachment: var(--background-attachment);
   /* HOME ICON */
-  --home-icon: url(https://clearvision.github.io/icons/discord.svg);
+  --home-icon: url(https://i.imgur.com/eabPzyW.png);
   /* FONTS */
   --main-font: "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
   --code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
