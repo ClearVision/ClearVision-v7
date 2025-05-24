@@ -42,3 +42,9 @@
 #{c(thread header)} {
   background-color: cv('shading.popout');
 }
+
+// ACTIVE THREADS
+#{c(thread activethreadsContainer)},
+#{c(thread activethreadsHeader)} {
+  background: transparent;
+}
