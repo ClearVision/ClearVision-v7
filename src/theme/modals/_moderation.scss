@@ -6,10 +6,12 @@
 }
 :is(#{c(main themeLight)}, #{c(main themeDark)}) {
   #{c(modals timeout item)} {
-    background: cv('color.main');
+    border-color: cv('color.main');
   }
 }
-
+#{c(modals timeout selectorButtonSelected)}{
+  background: cv('color.main');
+}
 // BAN
 #{c(main visualRefresh)} {
   #{c(modals ban radioItem)} {
