@@ -22,6 +22,10 @@
   animation: none;
 }
 
+#{c(call pulseGradient)} {
+  display: none;
+}
+
 // BUTTONS
 #{c(call buttonSection)} {
   &#{c(call buttonSectionExperiment)} {
