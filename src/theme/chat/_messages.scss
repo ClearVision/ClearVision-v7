@@ -5,10 +5,12 @@
   transition:
     all 0.3s ease-in-out,
     transform 0.1s ease-in-out;
+
   &#{c(chat chatHeaderClickable)}:active {
     transform: scale(0.9);
   }
 }
+
 #{c(chat botTag)} {
   background: cv('color.main');
   color: var(--text-strong);
@@ -33,12 +35,14 @@
   background: cv('shading.card');
   border: 1px solid var(--border-normal);
 }
+
 #{c(chat markup)} {
   code {
     background: cv('shading.card');
+
     // INLINE
     &#{c(chat codeInline)} {
-      border:none;
+      border: none;
       background: hsl(from cv('shading.card') h s calc(100 - l) / calc(alpha * 0.5));
       padding: 2px 6px
     }
@@ -48,14 +52,17 @@
 // REPLY
 #{c(chat replied spine)} {
   border-color: cv('color.main');
+
   &:hover,
   &#{c(chat replied contentHovered)} {
     border-color: cv('color.hover');
   }
 }
+
 #{c(chat replied textPreview)} {
   color: cv('text.normal');
   opacity: 0.7;
+
   #{c(chat chatHeaderClickable)}:hover,
   #{c(chat replied spineHovered)} {
     opacity: 1;
@@ -68,10 +75,12 @@
     border-color: cv('color.main');
   }
 }
+
 #{c(chat replied app executedCommand)} {
   #{c(chat replied app launcherCommandName)} {
     color: cv('color.main');
     background: transparent;
+
     &:hover {
       color: cv('color.hover');
       background: transparent;
@@ -84,10 +93,12 @@
   --background-mentioned: hsl(from var(--hsl-main-color) h s l/.1);
   --background-mentioned-hover: hsl(from var(--hsl-hover-color) h s l/.1);
   background: var(--background-mentioned);
+
   &:hover,
-  #{c(chat messageSelected)}  {
+  #{c(chat messageSelected)} {
     background: var(--background-mentioned-hover) !important; // way easier than whatever discord does
   }
+
   &::before {
     background: cv('color.hover');
   }
@@ -99,6 +110,7 @@
   color: cv('text.normal');
   border-radius: 5px;
   padding: 0 4px;
+
   &:hover {
     background-color: cv('color.hover');
   }
@@ -107,8 +119,9 @@
 // MENTIONED BG
 #{c(chat mentioned)} {
   --background-mentioned: hsl(from var(--hsl-main-color) h s l/.1);
-  --background-mentioned-hover: hsl(from var(--hsl-hover-color) h s l/.1);
+  --message-mentioned-background-hover: hsl(from var(--hsl-hover-color) h s l/.1);
   background: var(--background-mentioned);
+
   &:before {
     background-color: cv('color.main');
   }
@@ -138,7 +151,9 @@
 #{c(embeds hoverButton group)} {
   background: cv('shading.popout');
 }
+
 #{c(embeds hoverButton button)} {
+
   &#{c(embeds hoverButton selected)},
   &:hover {
     background: transparent;
@@ -150,6 +165,7 @@
   background: cv('shading.card');
   border: none;
 }
+
 #{c(embeds attachment upload progressBar)} {
   background: cv('color.main') !important;
 }
@@ -159,9 +175,11 @@
   background: cv('shading.card');
   border: none;
 }
+
 #{c(embeds invite statusOnline)} {
   background: cv('color.online');
 }
+
 #{c(embeds invite statusOffline)} {
   background: cv('color.offline');
 }
@@ -178,6 +196,7 @@
 #{c(embeds gift tile)} {
   background: cv('shading.card');
   border: none;
+
   &:hover {
     background: cv('shading.card');
   }
@@ -188,9 +207,11 @@
   background: cv('shading.card');
   border: none;
 }
+
 #{c(embeds media audioControls)} {
   background: transparent;
 }
+
 #{c(embeds media videoWrapper)} {
   background: cv('shading.card');
 }
@@ -201,17 +222,21 @@
   background: cv('shading.card');
   border: none;
 }
+
 #{c(embeds textContainer codeView)} {
   background: transparent;
 }
+
 #{c(embeds textContainer languageSelectorPopout)} {
   background: cv('shading.popout');
 }
+
 // TEXT CONTAINER MODAL 
 #{c(embeds textContainer modal textContainer)} {
   background: transparent;
   border: none;
 }
+
 #{c(embeds textContainer modal content)} #{c(embeds textContainer codeView)} {
   background: transparent;
 }
@@ -219,20 +244,24 @@
 // HAS THREAD
 #{c(chat cozy)} {
   &#{c(chat hasThread)} {
+
     // cozy view
     &::after {
       border-color: cv('color.main');
     }
   }
 }
+
 #{c(embeds threadContainer)} {
   // compact view
   border-color: cv('color.main');
 }
+
 #{c(embeds threadContainer)} {
   background: cv('shading.card');
   border: none;
 }
+
 #{c(embeds threadCTA)} {
   color: cv('color.main');
 }
@@ -242,14 +271,17 @@
   background: cv('shading.card');
   border: none;
 }
+
 #{c(embeds voiceMessage ripple)} {
   background: cv('color.main');
 }
+
 :is(#{c(main themeLight)}, #{c(main themeDark)}) {
   #{c(embeds voiceMessage container)} {
     &:not(#{c(embeds voiceMessage playing)}) {
       #{c(embeds voiceMessage playButtonContainer)} {
         background: cv('color.main');
+
         &:is(:hover, :active) {
           background: cv('color.hover');
         }
@@ -257,6 +289,7 @@
     }
   }
 }
+
 #{c(embeds voiceMessage playing)} {
   #{c(embeds voiceMessage playIcon)} {
     color: cv('color.main');
@@ -269,6 +302,7 @@
 #{c(embeds automod footerContainer)} {
   background: cv('shading.card');
 }
+
 #{c(embeds automod dot)} {
   background: transparent;
 }
@@ -285,20 +319,25 @@
     outline: 1px solid cv('color.main');
   }
 }
+
 #{c(embeds poll secondaryButtonPresentation)} {
   background: cv('color.main');
   border: transparent;
 }
+
 #{c(embeds poll checkbox)} {
   border-width: 1px;
 }
+
 #{c(embeds poll radioForeground)} {
   color: currentColor;
 }
+
 #{c(embeds poll checkboxSelected)} {
   border: 1px solid cv('color.main');
   background: transparent;
 }
+
 #{c(embeds poll votedStyles)} {
   --custom-poll-style-vote-percentage: hsl(from var(--hsl-main-color) h s l/.2);
   --custom-poll-style-border: var(--hsl-main-color);
