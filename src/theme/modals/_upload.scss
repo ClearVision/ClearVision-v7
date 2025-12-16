@@ -5,6 +5,6 @@
     background: cv('color.main');
   }
   #{c(modals upload inner)} {
-    border-color: var(--text-strong);
+    border-color: cv('text.strong');
   }
 }

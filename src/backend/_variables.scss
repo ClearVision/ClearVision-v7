@@ -81,14 +81,14 @@ $cv: (
           bg: var(--hsl-input-shading),
           border: var(--hsl-input-border-shading),
         ),
-      hover: var(--background-modifier-hover),
+      hover: var(--background-mod-subtle),
     ),
   // TEXT COLORS - ALSO TO BE USED IN .theme-light AND .theme-dark
   text: (
       normal: var(--text-default),
       muted: var(--text-muted),
-      primary: var(--text-primary),
-      secondary: var(--text-secondary),
+      strong: var(--text-strong),
+      interactive: var(--interactive-text-normal),
     ),
 
   // FONT

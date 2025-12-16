@@ -13,7 +13,6 @@
   fill: var(--interactive-text-active);
 }
 #{c(radio indicatorChecked)} {
-  color: var(--interactive-active);
   #{c(radio refreshIconFill)} {
     fill: none;
   }

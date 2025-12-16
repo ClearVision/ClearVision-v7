@@ -59,7 +59,7 @@
     }
     &[aria-selected='true'] {
       background-color: cv('color.main');
-      color: var(--text-strong);
+      color: cv('text.strong');
     }
   }
 }

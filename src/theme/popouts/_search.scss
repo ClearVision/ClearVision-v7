@@ -59,7 +59,7 @@
   // DAY NAME
   :is(#{c(main themeLight)}, #{c(main themeDark)}) & {
     #{c(popouts search calendar dayName)} {
-      color: var(--text-strong);
+      color: cv('text.strong');
     }
   }
 

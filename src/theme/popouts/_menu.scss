@@ -12,13 +12,13 @@
   &:active {
     &:not(#{c(popouts menus itemHideInteraction)}) {
       background-color: cv('color.main');
+    }    
+    #{c(popouts menus label)} {
+      color: var(--interactive-text-active);
     }
   }
 }
 #{c(popouts menus colorDanger)} {
-  #{c(popouts menus label)} {
-    color: cv('color.danger');
-  }
   &#{c(popouts menus itemFocused)} {
     background-color: cv('color.danger');
     &:not(#{c(popouts menus checkboxContainer)}) {
@@ -30,14 +30,12 @@
   }
   &:active {
     &:not(#{c(popouts menus itemHideInteraction)}) {
-      background-color: hsl(from cv('color.danger') h s l/.8);
+      background-color: cv('color.danger');
       color: var(--interactive-text-active);
-      #{c(popouts menus label)} {
-        color: var(--interactive-text-active);
-      }
     }
   }
 }
+
 #{c(popouts menus item)} {
   &#{c(popouts menus itemFocused)} {
     #{c(popouts menus label)} {

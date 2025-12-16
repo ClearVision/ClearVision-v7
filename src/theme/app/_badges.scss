@@ -3,5 +3,5 @@
 #{c(badges number)},
 #{c(badges text)} {
   background: cv('color.main') !important;
-  color: var(--text-strong);
+  color: cv('text.strong');
 }

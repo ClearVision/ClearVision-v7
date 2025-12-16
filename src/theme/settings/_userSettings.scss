@@ -157,7 +157,7 @@
 // DEVICES
 #{c(userSettings devices sessionIcon)} {
   background: cv('color.main');
-  color: var(--text-strong);
+  color: cv('text.strong');
 }
 
 // CONNECTIONS

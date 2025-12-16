@@ -3,7 +3,7 @@
 // NEW CHANNEL BADGE
 #{c(sidebar server channels newChannelBadge)} {
   background: cv('color.main') !important; //inline
-  color: var(--text-strong);
+  color: cv('text.strong');
 }
 
 // CHANNELS BACKGROUND
@@ -32,6 +32,12 @@
 #{c(sidebar server unreadBar old bar)} {
   background-color: cv('color.main');
   border-color: cv('color.main');
+}
+#{c(sidebar server unreadBar text)},
+#{c(sidebar server unreadBar icon)},
+#{c(sidebar server unreadBar old text)},
+#{c(sidebar server unreadBar old icon)} {
+  color: cv('text.strong') !important;
 }
 
 // THREAD SPINE
