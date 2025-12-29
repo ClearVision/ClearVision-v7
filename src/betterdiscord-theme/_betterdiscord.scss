@@ -38,4 +38,43 @@
   #{c(bd addonHeader)} {
     background: cv('shading.card');
   }
+  // notifications
+  #{c(bd notification)} {
+    background: cv('shading.card');
+  }
+  #{c(bd notificationFooter)} {
+    background: transparent;
+  }
+  // modals
+  #{c(bd modal)} {
+    background: cv('shading.card');
+    border: 2px solid cv('color.main');
+  }
+  #{c(bd modalFooter)} {
+    background: transparent;
+  }
+  // new buttons for some reason
+  #{c(bd buttonFilled)} {
+    &#{c(bd buttonPrimary)} {
+      border-radius: 4px;
+      background: cv('color.main');
+      border-color: transparent;
+      &:hover,
+      &:active {
+        background: cv('color.hover');
+        border-color: transparent;
+      }
+    }
+  }
+  #{c(bd addonErrorIcon)} {
+    background: cv('color.main');
+  }
+  #{c(bd addonError)} {
+    border: 1px solid cv('color.main');
+  }
 }
+
+
+
+
+// NEW BUTTON CLASSES
