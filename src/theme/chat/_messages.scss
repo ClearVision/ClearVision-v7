@@ -134,6 +134,11 @@
   border-bottom: none;
 }
 
+// BOT EMBED CONTAINER
+#{c(embeds embedBotContainer)} {
+  background: cv('shading.card');
+}
+
 // EMBED DOWNLOAD BUTTON
 #{c(embeds hoverButton group)} {
   background: cv('shading.popout');
