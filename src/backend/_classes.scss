@@ -1861,6 +1861,8 @@ $classes: (
     'embedGridContainer': '_623de82e76ad7f82-gridContainer',
     'embedSuppressButton': '_623de82e76ad7f82-embedSuppressButton',
     'embedVideo': '_623de82e76ad7f82-embedVideo',
+
+    'embedBotContainer': '_60fa3b8f3ca9845f-container',
     
     'attachment': (
       'wrapper': '_0ccaee68b77c7469-fileWrapper',
@@ -6276,10 +6278,18 @@ $classes: (
     'addonStore': 'bd-store-card',
     'addonStoreCard': 'bd-addon-store-card',
     'addonStoreTag': 'bd-addon-store-card-tag',
+    'addonErrorIcon': 'bd-addon-error-icon',
+    'addonError': 'bd-addon-error',
+    'buttonFilled': 'bd-button-filled',
+    'buttonPrimary': 'bd-button-color-primary',
     'searchWrapper': 'bd-search-wrapper',
     'notices': '#bd-notices',
     'notice': 'bd-notice',
     'noticeInfo': 'bd-notice-info',
+    'notification': 'bd-notification',
+    'notificationFooter': 'bd-notification-footer',
+    'modal': 'bd-modal-root',
+    'modalFooter': 'bd-modal-footer',
   ),
   'bdEditor': (
     'floatingWindow': 'floating-window',
