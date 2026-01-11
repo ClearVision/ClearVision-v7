@@ -2611,30 +2611,31 @@ $classes: (
     // idk where this is used
   ),
   'search': (
-    'wrap': 'a9e7064fdee8e9b0-searchResultsWrap',
-    'header': 'f3b986a284a18c78-searchHeader',
-    'results': 'f3b986a284a18c78-totalResults',
-    'headerTabList': 'f3b986a284a18c78-searchHeaderTabList',
-    'scroller': 'a9e7064fdee8e9b0-scroller',
-    'channelNameText': 'c68065c20f8328a7-channelNameText',
-    'resultsGroup': 'c68065c20f8328a7-searchResultGroup',
-    'resultContainer': '_02a39cb2980ceaaf-container',
-    'result': '_02a39cb2980ceaaf-searchResult',
-    'message': '_02a39cb2980ceaaf-message',
-    'blocked': 'c68065c20f8328a7-resultsBlocked',
-    'jumpButtonContainer': '_02a39cb2980ceaaf-buttonsContainer',
-    'jumpButton': '_02a39cb2980ceaaf-button',
-    'navContainer': '_3f123bbf537a483c-container',
-    'errorImage': 'a9e7064fdee8e9b0-errorImage',
-    'errorMessage': 'a9e7064fdee8e9b0-errorMessage',
-    // paired with emptyResultsText
-    'OOOOHHHHHHHHBANANA': 'a9e7064fdee8e9b0-alt',
-    // used for banana image, don't mind the name
-    'emptyResultsWrap': 'a9e7064fdee8e9b0-emptyResultsWrap',
-    'emptyResultsContent': 'a9e7064fdee8e9b0-emptyResultsContent',
-    'noResultsImage': 'a9e7064fdee8e9b0-noResultsImage',
-    'emptyResultsText': 'a9e7064fdee8e9b0-emptyResultsText',
-    'noResults': 'a9e7064fdee8e9b0-noResults',
+    'wrap': 'a98f3b020416ad54-searchResultsWrap',
+
+    'header': 'ae7890a1b8e75804-searchHeader',
+    'results': 'ae7890a1b8e75804-totalResults',
+    'modeAndFilter': 'ae7890a1b8e75804-searchModeAndFiltersContainer',
+
+    'scroller': 'a98f3b020416ad54-scroller',
+
+    'resultsGroup': 'a7e67f4ddd7c6bb2-searchResultGroup',
+    'channelNameContainer': 'a7e67f4ddd7c6bb2-channelNameContainer',
+    'blocked': 'a7e67f4ddd7c6bb2-resultsBlocked',
+    // blocked user
+    
+    'resultContainer': '_80bf8435713f6adb-container',
+    'result': '_80bf8435713f6adb-searchResult',
+    'message': '_80bf8435713f6adb-message',
+    'jumpButtonContainer': '_80bf8435713f6adb-buttonsContainer',
+    'jumpButton': '_80bf8435713f6adb-button',
+
+    'emptyResultsWrap': 'a98f3b020416ad54-emptyResultsWrap',
+    'emptyResultsContent': 'a98f3b020416ad54-emptyResultsContent',
+    'noResultsImage': 'a98f3b020416ad54-noResultsImage',
+    'emptyResultsText': 'a98f3b020416ad54-emptyResultsText',
+    'noResults': 'a98f3b020416ad54-noResults',
+    'noResultsAlt': 'a98f3b020416ad54-alt',
   ),
 
   'searchbar': (
@@ -2720,6 +2721,7 @@ $classes: (
     'bottomButtonContainer': '_650eb104245d257b-tutorialContainer',
     'bottomButton': '_5bc7ed9d4097f6b5-circleIconButton',
     'bottomButtonSelected': '_5bc7ed9d4097f6b5-selected',
+    'bottomButtonDisabled': '_5bc7ed9d4097f6b5-disabled',
     'bottomButtonIcon': '_5bc7ed9d4097f6b5-circleIcon',
     'lowerBadge': 'cc5dd25190031396-lowerBadge',
     'upperBadge': 'cc5dd25190031396-upperBadge',
@@ -4509,47 +4511,30 @@ $classes: (
 
     // Click the in-chat search bar in header
     'search': (
-      'container': '_55c999adcf6db265-container',
-      'query': '_55c999adcf6db265-queryContainer',
-      'queryFocused': '_55c999adcf6db265-focused',
-      'queryText': '_55c999adcf6db265-queryText',
-      'queryShortcut': '_55c999adcf6db265-queryShortcut',
+      'container': 'b6544fb09f373e60-container',
 
-      'header': '_56fec8e8b8048fe0-header',
-      'learnMore': '_56fec8e8b8048fe0-searchLearnMore',
-      // (?) link
-      'resultsGroup': '_56fec8e8b8048fe0-resultsGroup',
-      'option': '_56fec8e8b8048fe0-option',
-      'searchOption': '_56fec8e8b8048fe0-searchOption',
-      'filter': '_56fec8e8b8048fe0-filter',
-      'answer': '_56fec8e8b8048fe0-answer',
-      'plusIcon': '_56fec8e8b8048fe0-plusIcon',
-
-      'optionUser': '_56fec8e8b8048fe0-user',
-      'displayedNick': '_56fec8e8b8048fe0-displayedNick',
-      'displayUsername': '_56fec8e8b8048fe0-displayUsername',
-
-      'resultChannel': '_56fec8e8b8048fe0-resultChannel',
-      'resultChannelIcon': '_56fec8e8b8048fe0-searchResultChannelIcon',
-      'resultChannelCategory': '_56fec8e8b8048fe0-searchResultChannelCategory',
-
-      'historyRow': '_56fec8e8b8048fe0-searchHistoryRow',
-      'clearHistory': '_56fec8e8b8048fe0-searchClearHistory',
-      'datePicker': '_56fec8e8b8048fe0-datePicker',
-      'datePickerHint': '_56fec8e8b8048fe0-datePickerHint',
-      'hint': '_56fec8e8b8048fe0-hint',
-      'hintValue': '_56fec8e8b8048fe0-hintValue',
+      'groupWrapper': '_8de16516b8d9f538-groupWrapper',
+      'groupHeader': '_8de16516b8d9f538-groupHeader',
+      'itemContainer': '_8de16516b8d9f538-itemContainer',
+      'item': '_8de16516b8d9f538-item',
+      'itemIcon': '_8de16516b8d9f538-itemIcon',
+      'filterSublabelTextContainer': '_8de16516b8d9f538-filterSublabelTextContainer',
+      'autocompletePillContainer': '_8de16516b8d9f538-autocompletePillContainer', // history
+      'divider': '_8de16516b8d9f538-divider',
+      'clearSearchHistory': '_8de16516b8d9f538-clearSearchHistory',
 
       'calendar': (
         // outer class
         'picker': 'd27f17593b8064c5-calendarPicker',
+        'container': '_9bb02e82f9a1c59d-calendarContainer',
+
+        'datePicker': 'react-datepicker',
 
         'navigation': 'react-datepicker__navigation',
         'navigation--next': 'react-datepicker__navigation--next',
         'navigation--previous': 'react-datepicker__navigation--previous',
         'navigation-icon': 'react-datepicker__navigation-icon',
 
-        'datePicker': 'react-datepicker',
         'monthContainer': 'react-datepicker__month-container',
         'header': 'react-datepicker__header',
         'currentMonth': 'react-datepicker__current-month',

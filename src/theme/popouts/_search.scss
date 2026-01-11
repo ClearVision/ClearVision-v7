@@ -5,48 +5,11 @@
   border: none;
 }
 
-// QUERY
-#{c(popouts search query)} {
-  background: transparent;
-}
-
-// OPTIONS
-#{c(popouts search option)} {
-  &:hover {
-    background-color: cv('color.hover');
-    :is(#{c(popouts search filter)}, #{c(popouts search answer), #{c(popouts search plusIcon)}}) {
-      color: var(--interactive-text-active);
-    }
-    :is(#{c(popouts search resultChannelIcon)}, #{c(popouts search resultChannelCategory)}) {
-      opacity: 1;
-    }
-    strong {
-      //channel name
-      color: var(--interactive-text-active);
-    }
-  }
-  &[aria-selected='true'] {
-    background-color: cv('color.hover');
-    box-shadow: none;
-    :is(strong, #{c(popouts search plusIcon)}) {
-      color: var(--interactive-text-active);
-    }
-  }
-}
-
 // DATEPICKER
-#{c(popouts search datePicker)} {
-  #{c(popouts search datePickerHint)} {
-    #{c(popouts search hintValue)} {
-      background: cv('color.main');
-      padding: 0 5px;
-    }
-  }
-}
-
-// CALENDAR
 #{c(popouts search calendar picker)} {
-  #{c(popouts search calendar datePicker)},
+  #{c(popouts search calendar datePicker)} {
+    background: cv('shading.popout');
+  }
   #{c(popouts search calendar header)} {
     background: transparent;
   }

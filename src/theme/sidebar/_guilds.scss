@@ -57,6 +57,9 @@
 // ADD GUILD/DISCOVER BUTTONS
 #{c(guildList bottomButton)} {
   background-color: cv('shading.card');
+  &:hover:not(#{c(guildList bottomButtonDisabled)}) {
+    background: cv('color.hover');
+  }
   &#{c(guildList bottomButtonSelected)} {
     background: cv('color.main');
   }
