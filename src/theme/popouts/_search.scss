@@ -5,6 +5,11 @@
   border: none;
 }
 
+// DROPDOWN
+#{c(popouts search dropdown)} {
+  background: cv('shading.popout');
+}
+
 // DATEPICKER
 #{c(popouts search calendar picker)} {
   #{c(popouts search calendar datePicker)} {

@@ -4,26 +4,6 @@
 #{c(guildSettings profile bannerSelected)} {
   border: 2px solid cv('color.main');
 }
-#{c(guildSettings profile traitContainer)} {
-  background: cv('shading.input.bg');
-  border-color: cv('shading.input.border');
-  &:focus-within {
-    border-color: cv('color.main');
-    box-shadow: 0 0 2px 0 cv('color.main');
-  }
-}
-#{c(guildSettings profile traitEmoji)} {
-  border: none;
-  padding-left: 10px;
-}
-#{c(guildSettings profile traitInput)} {
-  background: transparent;
-  box-shadow: none;
-  height: 32px;
-  &:focus-within {
-    box-shadow: none;
-  }
-}
 
 // STICKERS
 #{c(guildSettings stickers wrapper)} {
@@ -54,21 +34,6 @@
   background: cv('color.main');
   color: var(--interactive-text-active);
 }
-#{c(guildSettings roles circleButton)} {
-  margin-left: 10px;
-}
-#{c(guildSettings roles row)} {
-  &:hover {
-    &:not(#{c(guildSettings roles rowDisableHover)}) {
-      #{c(guildSettings roles circleButton)} {
-        background: cv('shading.card');
-        &:hover {
-          background: cv('color.main');
-        }
-      }
-    }
-  }
-}
 // ROLES - EDIT
 #{c(guildSettings roles edit backContainer)} {
   background: transparent;
@@ -97,7 +62,6 @@
 }
 
 // SAFETY SETUP
-#{c(guildSettings safety changelog)},
 #{c(guildSettings safety checklist)},
 #{c(guildSettings safety itemWrapper)} {
   background: cv('shading.card');
@@ -126,9 +90,6 @@
 }
 
 // AUTOMOD
-#{c(guildSettings automod badge)} {
-  border-color: transparent;
-}
 #{c(guildSettings automod editCard)} {
   background: cv('shading.card');
   border: none;
@@ -199,14 +160,6 @@
 }
 
 // SERVER BOOST
-#{c(guildSettings boost tierCard)} {
-  border: none;
-}
-#{c(guildSettings boost tierHeader)},
-#{c(guildSettings boost tierBody)} {
-  background: cv('shading.card');
-  border: none;
-}
 
 // SERVER TEMPLATE
 #{c(guildSettings template descriptionBox)} {

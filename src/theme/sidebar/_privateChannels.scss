@@ -11,7 +11,7 @@
 // HEADER
 #{c(sidebar private headerContainer)} {
   &,
-  &:not(#{c(sidebar private tall)}):hover {
+  &:hover {
     color: cv('color.main');
   }
 }
@@ -36,7 +36,6 @@
     margin-left: 5px;
   }
 }
-#{c(sidebar private startActivityIcon)},
 #{c(sidebar private inviteButtonIcon)} {
   color: cv('color.main');
   &:hover {

@@ -181,12 +181,3 @@
     filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7));
   }
 }
-
-// QUEST POPOUT
-#{c(memberList quest container)} {
-  background: cv('shading.popout');
-}
-#{c(memberList quest button)} {
-  background: cv('color.main');
-  border: none;
-}
