@@ -141,11 +141,11 @@
 #{c(button new criticalSecondary)} {
   background: transparent;
   border-color: cv('color.danger');
-  color: var(--control-text-critical-primary-default);
+  color: var(--control-critical-primary-text-default);
   &:hover,
   &:active  {
     background: transparent;
     border-color: hsl(from cv('color.danger') h s l/.8);
-    color: var(--control-text-critical-primary-default);
+    color:var(--control-critical-primary-text-default);
   }
 }
