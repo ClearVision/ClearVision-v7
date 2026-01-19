@@ -19,3 +19,8 @@
     }
   }
 }
+
+#{c(radio groupOption)}[data-selected] #{c(radio fill)},
+#{c(radio standaloneIndicator)}[data-selected='true'] #{c(radio fill)} {
+  fill: cv('color.main');
+}
