@@ -415,22 +415,20 @@ $classes: (
   ),
 
   'switch': (
-    'container': '_3f21e80f8677ec40-container',
-    'slider': '_3f21e80f8677ec40-slider',
-    'checked': '_3f21e80f8677ec40-checked',
-    'disabled': '_3f21e80f8677ec40-disabled',
-    'input': '_3f21e80f8677ec40-input',
+    'container': 'a2827844fe91d55f-container',
+    'indicator': 'a2827844fe91d55f-switchIndicator',
+    'thumb': 'a2827844fe91d55f-thumb',
   ),
 
   'radio': (
-    'item': '_88a69141dd70013a-item',
-    'itemDisabled': '_88a69141dd70013a-disabled',
-    'bar': '_88a69141dd70013a-radioBar',
-    'barInfo': '_88a69141dd70013a-info',
-    'indicatorChecked': '_88a69141dd70013a-radioIndicatorChecked',
-    'refreshIconFill': '_88a69141dd70013a-refreshIconFill',
-    'refreshIconStroke': '_88a69141dd70013a-refreshIconStroke',
-    'refreshIcon': '_88a69141dd70013a-refreshIcon',
+    'groupOption': '_64e6155a0667273d-radioGroupOption',
+    // dot
+    'indicator': '_64e6155a0667273d-radioIndicator',
+    'base': '_64e6155a0667273d-outerRadioBase',
+    'fill': '_64e6155a0667273d-outerRadioFill',
+    'dot': '_64e6155a0667273d-innerDotRadio',
+    // text
+    'label': '_64e6155a0667273d-label',
   ),
 
   'slider': (

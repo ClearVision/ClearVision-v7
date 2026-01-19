@@ -1,32 +1,21 @@
 @use 'backend' as *;
 
-#{c(radio item)} {
-  &[aria-checked='true'] {
-    background-color: transparent;
-  }
+#{c(radio base)} {
+  stroke:var(--interactive-text-active);
+  stroke-width: 4;
 }
-#{c(radio refreshIconStroke)} {
-  r: 10 !important; // inline
-  stroke: var(--interactive-text-active);
-}
-#{c(radio refreshIcon)} {
-  fill: var(--interactive-text-active);
-}
-#{c(radio indicatorChecked)} {
-  #{c(radio refreshIconFill)} {
-    fill: none;
-  }
-  #{c(radio refreshIconStroke)} {
-    stroke: var(--interactive-text-active);
-  }
-}
-#{c(radio bar)} {
-  background-color: cv('shading.card');
-  transition: all 0.1s ease;
-  &:hover {
-    box-shadow: inset 0 0 0 2px var(--radio-bar-accent-color, cv('color.hover'));
-  }
-  #{c(radio item)}[aria-checked='true'] & {
-    background-color: var(--radio-bar-accent-color, cv('color.main'));
+// SELECTED
+#{c(radio groupOption)} {
+  &[data-selected] {
+    :is(#{c(radio base)}, #{c(radio fill)}) {
+      fill: none;
+      stroke:var(--interactive-text-active)
+    }
+    &:not([data-disabled]):hover {
+      :is(#{c(radio base)}, #{c(radio fill)}) {
+        fill: none;
+        stroke: var(--interactive-text-active)
+      }
+    }
   }
 }
