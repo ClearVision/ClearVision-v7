@@ -386,32 +386,15 @@ $classes: (
   ),
   'checkbox': (
     // checkboxes
-    'wrapper': '_09aca73e6d4b214b-checkboxWrapper',
-    'wrapperDisabled': '_09aca73e6d4b214b-checkboxWrapperDisabled',
-    'checkbox': '_09aca73e6d4b214b-checkbox',
-    'checked': '_09aca73e6d4b214b-checked',
-
-    // input stuffs
-    'input': '_09aca73e6d4b214b-input',
-    'inputDefault': '_09aca73e6d4b214b-inputDefault',
-    'inputDisabled': '_09aca73e6d4b214b-inputDisabled',
-    'inputReadonly': '_09aca73e6d4b214b-inputReadonly',
-
-    // shapes
-    'round': '_09aca73e6d4b214b-round',
-    'box': '_09aca73e6d4b214b-checkbox',
-    'smallBox': '_09aca73e6d4b214b-smallBox',
-
-    // labels
-    'label': '_09aca73e6d4b214b-label',
-    'labelClickable': '_09aca73e6d4b214b-labelClickable',
-    'labelDisabled': '_09aca73e6d4b214b-labelDisabled',
-    'labelForward': '_09aca73e6d4b214b-labelForward',
-    'labelReversed': '_09aca73e6d4b214b-labelReversed',
-
-    'row': '_09aca73e6d4b214b-row',
-    'alignTop': '_09aca73e6d4b214b-alignTop',
-    'alignCenter': '_09aca73e6d4b214b-alignCenter',
+    'option': '_714a9a7abaf0392a-checkboxOption',
+    'animateIn': '_714a9a7abaf0392a-animateIn',
+    'spacing': '_714a9a7abaf0392a-spacing',
+    'indicator': '_714a9a7abaf0392a-checkboxIndicator',
+    // bg
+    'checkmark': '_714a9a7abaf0392a-checkmark',
+    'dot': '_714a9a7abaf0392a-dot',
+    // checkmark and dot used for animation stuff
+    'tick': '_714a9a7abaf0392a-checkStroke',
   ),
 
   'switch': (

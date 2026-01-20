@@ -1,8 +1,7 @@
 @use 'backend' as *;
 
-#{c(checkbox checkbox)} {
-  border-radius: 4px;
-  &#{c(checkbox checked)} {
+#{c(checkbox option)}[data-selected] {
+  &#{c(checkbox indicator)} {
     border-color: cv('color.main');
     background-color: transparent;
   }

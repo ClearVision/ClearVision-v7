@@ -47,16 +47,16 @@
 // STATUS PICKER
 // inline styles
 #{c(popouts menus status)} {
-  &[style*='rgb(132, 133, 141)'] {
+  &[style='background-color: rgb(132, 133, 141);'] {
     background-color: cv('color.offline') !important;
   }
-  &[style*='rgb(69, 163, 102)'] {
+  &[style='background-color: rgb(69, 163, 102);'] {
     background-color: cv('color.online') !important;
   }
-  &[style*='rgb(255, 192, 78)'] {
+  &[style='background-color: rgb(255, 192, 78);'] {
     background-color: cv('color.idle') !important;
   }
-  &[style*='rgb(218, 62, 68)'] {
+  &[style='background-color: rgb(218, 62, 68);'] {
     background-color: cv('color.dnd') !important;
   }
 }
