@@ -5,7 +5,7 @@
   stroke-width: 4;
 }
 // SELECTED
-#{c(radio groupOption)} {
+:is(#{c(radio groupOption)}, #{c(radio standaloneIndicator)}) {
   &[data-selected] {
     :is(#{c(radio base)}, #{c(radio fill)}) {
       fill: none;
@@ -18,9 +18,4 @@
       }
     }
   }
-}
-
-#{c(radio groupOption)}[data-selected] #{c(radio fill)},
-#{c(radio standaloneIndicator)}[data-selected='true'] #{c(radio fill)} {
-  fill: cv('color.main');
 }

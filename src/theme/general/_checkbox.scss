@@ -1,8 +1,11 @@
 @use 'backend' as *;
 
 #{c(checkbox option)}[data-selected] {
-  &#{c(checkbox indicator)} {
-    border-color: cv('color.main');
-    background-color: transparent;
+  &,
+  &:hover:not([data-disabled]) {
+    #{c(checkbox indicator)} {
+      border-color: cv('color.main');
+      background-color: transparent;
+    }
   }
 }
