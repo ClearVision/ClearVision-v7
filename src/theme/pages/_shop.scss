@@ -63,3 +63,8 @@
   background: cv('shading.card');
   border: 2px solid cv('color.main');
 }
+
+// hover on tabs
+#{c(shop tab)}:hover {
+  border-bottom: 2px solid cv('color.main');
+}

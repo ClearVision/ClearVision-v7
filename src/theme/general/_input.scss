@@ -6,6 +6,7 @@
   &:not([data-read-only=true]):has(input:focus,textarea:focus) {
     border-color: cv('color.main');
     box-shadow: 0 0 2px 0 cv('color.main');
+    outline: 2px solid cv('color.main');
   }
 }
 

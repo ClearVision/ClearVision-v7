@@ -1,0 +1,6 @@
+@use 'backend' as *;
+
+// hover on tabs
+#{c(sidebar panel quest tab)}:hover {
+  border-bottom: 2px solid cv('color.main');
+}

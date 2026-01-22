@@ -1240,12 +1240,12 @@ $classes: (
           'headerLeft': '_5808f3d86030cee1-headerLeft',
           'headerText': '_5808f3d86030cee1-headerText',
           // inline color
-          'count': '_5808f3d86030cee1-countContainer',
-          'countText': '_5808f3d86030cee1-countText',
+          'count': 'f369dba7416c67f0-countContainer',
+          'countText': 'f369dba7416c67f0-countText',
 
           'row': '_5808f3d86030cee1-row',
 
-          'tagContainer': '_5808f3d86030cee1-tagContainer',
+          'tagContainer': 'f369dba7416c67f0-tagsContainer',
           'tag': '_5808f3d86030cee1-tag',
 
           'separator': '_5808f3d86030cee1-separator',
@@ -2154,7 +2154,8 @@ $classes: (
     'shop': '_6db1d32c47b6ad72-shop',
     'scroll': '_1feb0fca744244ab-shopScroll',
     'header': '_8067953d83f4b8a8-headerBar',
-
+    'tab': '_354ecbbf936fa060-tab',
+    
     // featured
     'featuredScroll': '_084152b107f71237-shopScroll',
     'featured': '_084152b107f71237-shop',
@@ -3316,6 +3317,7 @@ $classes: (
         'questPanelAcceptedExpandedContent': 'questAcceptedContent__636a2',
         'headerText': 'headerText__636a2',
         'submenuIcon': 'submenuIcon__636a2',
+        'tab': '_2666984507b357ac-tab',
         // 3 dots
       ),
     ),
@@ -4379,7 +4381,7 @@ $classes: (
 
     // Click the in-chat search bar in header
     'search': (
-      'container': 'b6544fb09f373e60-container',
+      'container': '_16eb0bfd5c5a90d1-container',
 
       'groupWrapper': '_8de16516b8d9f538-groupWrapper',
       'groupHeader': '_8de16516b8d9f538-groupHeader',
