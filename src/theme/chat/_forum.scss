@@ -64,6 +64,11 @@
   }
 }
 
+// SELECTED TAGS COUNT
+#{c(forums tags count)} {
+  background-color: cv('color.main');
+}
+
 // TAGS POPOUT
 //#{c(forums tags tagsPopout container)} {
 //  background-color: cv('shading.popout');
