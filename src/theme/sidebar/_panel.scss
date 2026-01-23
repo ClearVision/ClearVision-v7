@@ -59,18 +59,14 @@
   background-color: transparent;
   border: none;
 }
-#{c(sidebar panel quest headerText)},
-#{c(sidebar panel quest submenuIcon)} {
-  color: transparent; // hide when collapsed
+#{c(sidebar panel quest questAcceptedHeader)} {
+  visibility: hidden; // hide when collapsed
 }
 #{c(sidebar panel quest contentInteractable)} {
   #{c(sidebar panel quest postEnrollmentExpanded)} {
     background-color: cv('shading.popout');
   }
-  #{c(sidebar panel quest headerText)} {
-    color: cv('text.normal')
-  }
-  #{c(sidebar panel quest submenuIcon)} {
-    color: var(--interactive-text-default);
+  #{c(sidebar panel quest questAcceptedHeader)} {
+    visibility: visible;
   }
 }

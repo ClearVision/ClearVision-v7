@@ -21,7 +21,7 @@
   background-color: cv('shading.card');
   &#{c(friends highlight)} {
     background-color: cv('shading.card');
-    color: var(--interactive-text-active);
+    color: cv('icon.strong');
   }
   &:hover {
     background: cv('color.hover');
@@ -30,14 +30,14 @@
     color: cv('color.success');
     &:hover {
       background: cv('color.success');
-      color: var(--interactive-text-active);
+      color: cv('icon.strong');
     }
   }
   &#{c(friends actionButtonDeny)} {
     color: cv('color.danger');
     &:hover {
       background: cv('color.danger');
-      color: var(--interactive-text-active);
+      color: cv('icon.strong');
     }
   }
 }

@@ -43,7 +43,7 @@
 }
 #{c(popouts inbox unread tutorialIcon)} {
   background: cv('color.main');
-  color: var(--interactive-text-active);
+  color: cv('icon.strong');
 }
 #{c(popouts inbox unread messages)} {
   background: cv('shading.card');

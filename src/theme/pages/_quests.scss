@@ -1,6 +1,25 @@
 @use 'backend' as *;
 
-// hover on tabs
-#{c(sidebar panel quest tab)}:hover {
-  border-bottom: 2px solid cv('color.main');
+// tabs
+#{c(quests tab)}:hover {
+  border-bottom: 2px solid cv('color.hover');
+}
+#{c(quests tabSelected)}:hover {
+  border-bottom: 2px solid cv('color.main') !important;
+}
+
+// QUESTS
+#{c(quests tileContainer)} {
+  background: cv('shading.card');
+}
+#{c(quests tileContent)} {
+  background: transparent;
+}
+
+// video modal
+#{c(quests video background)} {
+  background: cv('shading.modal');
+}
+#{c(quests video content)} {
+  background: transparent !important;
 }

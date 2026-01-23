@@ -91,6 +91,10 @@ $cv: (
       interactive: var(--interactive-text-normal),
     ),
 
+  icon: (
+    strong: var(--icon-strong),
+  ),
+
   // FONT
   font: (
       main: var(--main-font),

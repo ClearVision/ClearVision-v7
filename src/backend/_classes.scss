@@ -1234,14 +1234,14 @@ $classes: (
         // usually the "all" button; clicking it brings up a popout
         'tagsButtonInner': 'f369dba7416c67f0-tagsButtonInner',
 
-        'popout': (
+        'tagsPopout': (
           'container': '_5808f3d86030cee1-container',
           'header': '_5808f3d86030cee1-header',
           'headerLeft': '_5808f3d86030cee1-headerLeft',
           'headerText': '_5808f3d86030cee1-headerText',
           // inline color
-          'count': 'f369dba7416c67f0-countContainer',
-          'countText': 'f369dba7416c67f0-countText',
+          'count': '_5808f3d86030cee1-countContainer',
+          'countText': '_5808f3d86030cee1-countText',
 
           'row': '_5808f3d86030cee1-row',
 
@@ -1805,23 +1805,6 @@ $classes: (
       'countDot': '_4cb8ad5be329b603-memberCountDot',
       'searchContainer': 'cbd375bef7ac11dc-container',
       'searchNoResult': '_74f3ec6bb8faa3e2-container',
-    ),
-
-    'quests': (
-      'tileContainer': 'cec93441fbd47328-container',
-      'tile': '_60f82152ef4c5e63-questTile',
-      'tileContent': '_956c67492d3b967a-container',
-      'tileDescription': '_956c67492d3b967a-rewardDescriptionContainer',
-      'tileQuestName': '_956c67492d3b967a-questName',
-
-      // video quest modal
-      'video': (
-        'root': '_4577670752bdbe9c-modalRoot',
-        'background': '_4577670752bdbe9c-modalBg',
-        'body': '_4577670752bdbe9c-modalBody',
-        'content': '_4577670752bdbe9c-modalContent',
-        'footer': '_4577670752bdbe9c-contentFooter',
-      ),
     ),
   ),
   'embeds': (
@@ -2519,6 +2502,27 @@ $classes: (
     // preview server/view server as role
     'previewButton': 'c5cd6ac154c385c9-button',
   ),
+
+  'quests': (
+    'tab': '_2666984507b357ac-tab',
+    'tabSelected': '_2666984507b357ac-selected',
+
+    'tileContainer': 'cec93441fbd47328-container',
+    'tile': '_60f82152ef4c5e63-questTile',
+    'tileContent': '_956c67492d3b967a-container',
+    'tileDescription': '_956c67492d3b967a-rewardDescriptionContainer',
+    'tileQuestName': '_956c67492d3b967a-questName',
+
+    // video quest modal
+    'video': (
+      'root': '_4577670752bdbe9c-modalRoot',
+      'background': '_4577670752bdbe9c-modalBg',
+      'body': '_4577670752bdbe9c-modalBody',
+      'content': '_4577670752bdbe9c-modalContent',
+      'footer': '_4577670752bdbe9c-contentFooter',
+    ),
+  ),
+
   // These appear to be shared between profile popout and server settings. likely used elsewhere too.
   // DOES NOT APPLY TO TOP OF CHAT CHANNEL AREA.
   'role': (
@@ -3305,20 +3309,20 @@ $classes: (
           // There is no "stop watching" button in the panel.,,
       ),
 
-      'quest': (          
+      'quest': (
         'wrapper': '_0d6162a4e6a4b802-wrapper',
         'contentWrapper': '_0d6162a4e6a4b802-contentWrapper',
         'contentWrapperAccepted': '_0d6162a4e6a4b802-contentWrapperAccepted',
         'contentWrapperExpanded': '_0d6162a4e6a4b802-contentWrapperExpanded',
-        'contentInteractable': 'contentInteractable__636a2',
-        'postEnrollmentBackground': 'postEnrollmentBackground__636a2',
-        'postEnrollmentCollapsed': 'postEnrollmentBackgroundCollapsed__636a2',
-        'postEnrollmentExpanded': 'postEnrollmentBackgroundExpanded__636a2',
-        'questPanelAcceptedExpandedContent': 'questAcceptedContent__636a2',
-        'headerText': 'headerText__636a2',
-        'submenuIcon': 'submenuIcon__636a2',
-        'tab': '_2666984507b357ac-tab',
-        // 3 dots
+
+        'contentInteractable': '_24e2c2ebe64fd7d3-contentInteractable',
+        'postEnrollmentBackground': '_24e2c2ebe64fd7d3-postEnrollmentBackground',
+        'postEnrollmentCollapsed': '_24e2c2ebe64fd7d3-postEnrollmentBackgroundCollapsed',
+        'postEnrollmentExpanded': '_24e2c2ebe64fd7d3-postEnrollmentBackgroundExpanded',
+
+        'questAcceptedHeader': '_1ba69b2cc2159849-questAcceptedHeader',
+        'headerText': '_1ba69b2cc2159849-headerText',
+        'submenuIcon': '_1ba69b2cc2159849-submenuIcon',
       ),
     ),
 

@@ -98,17 +98,3 @@
 #{c(discover servers searchContainer)} {
   background: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.4));
 }
-
-// QUESTS
-#{c(discover quests tileContainer)} {
-  background: cv('shading.card');
-}
-#{c(discover quests tileContent)} {
-  background: transparent;
-}
-#{c(discover quests video background)} {
-  background: cv('shading.modal');
-}
-#{c(discover quests video content)} {
-  background: transparent !important;
-}
