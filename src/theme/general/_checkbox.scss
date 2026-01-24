@@ -1,6 +1,6 @@
 @use 'backend' as *;
 
-/*#{c(checkbox option)}[data-selected] {
+#{c(checkbox option)}[data-selected] {
   &,
   &:hover:not([data-disabled]) {
     #{c(checkbox indicator)} {
@@ -8,4 +8,4 @@
       background-color: transparent;
     }
   }
-}*/
+}

@@ -14,9 +14,9 @@
 #{c(channelSettings permissions sideScroller)} {
   background: transparent;
 }
-//#{c(channelSettings permissions roleDropdownPopout)} {
-//  background: cv('shading.popout');
-//}
+#{c(channelSettings permissions roleDropdownPopout)} {
+  background: cv('shading.popout');
+}
 #{c(channelSettings permissions permGroup)} {
   border-color: cv('shading.cardAlt');
 }

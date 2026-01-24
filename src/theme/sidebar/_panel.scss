@@ -50,4 +50,23 @@
     background: transparent;
   }
 }
-
+#{c(sidebar panel quest contentWrapper)} {
+  background: none !important;
+}
+#{c(sidebar panel quest postEnrollmentCollapsed)},
+#{c(sidebar panel quest postEnrollmentExpanded)} {
+  background-image: none !important;
+  background-color: transparent;
+  border: none;
+}
+#{c(sidebar panel quest questAcceptedHeader)} {
+  visibility: hidden; // hide when collapsed
+}
+#{c(sidebar panel quest contentInteractable)} {
+  #{c(sidebar panel quest postEnrollmentExpanded)} {
+    background-color: cv('shading.popout');
+  }
+  #{c(sidebar panel quest questAcceptedHeader)} {
+    visibility: visible;
+  }
+}

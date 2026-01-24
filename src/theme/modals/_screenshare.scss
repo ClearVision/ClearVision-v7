@@ -1,7 +1,7 @@
 @use 'backend' as *;
-//#{c(modals screenshare footer)} {
-//  background: transparent;
-//}
+#{c(modals screenshare footer)} {
+  background: transparent;
+}
 
 #{c(modals screenshare pillContainer)} {
   background: cv('shading.cardAlt');
