@@ -1833,8 +1833,8 @@ $classes: (
       'nameLink': 'fileNameLink__0ccae',
 
       'upload': (        
-        'progress': 'progress__5a6ab',
-        'progressBar': 'progressBar__5a6ab',
+        'progress': 'progress__45530',
+        'progressBar': 'progressBar__45530',
       ),
     ),
 
@@ -4402,8 +4402,6 @@ $classes: (
       'clearSearchHistory': 'clearSearchHistory__8de16',
 
       // All below are found in more filters
-      'dropdown': 'selectDropdown__5fa2f',
-
       'calendar': (
         // outer class
         'picker': 'calendarPicker_d27f17',
@@ -4438,12 +4436,9 @@ $classes: (
       'wrapper': 'wrapper_a16aea',
       'select': 'select_a16aea',
       'filled': 'lookFilled_a16aea',
-
       'open': 'open_a16aea',
-
       'value': 'value_a16aea',
       'icons': 'icons_a16aea',
-
       'popout': 'popout_a16aea',
       'positionTop': 'popoutPositionTop_a16aea',
       'measurement': 'measurement_a16aea',
@@ -4455,41 +4450,14 @@ $classes: (
       // hover over item
       'multi': 'multi_a16aea',
 
-      // multi select
-      'optionPillContainer': 'optionPillContainer_a16aea',
-      'optionPillItem': 'optionPillItem_a16aea',
-      'optionPillBtn': 'optionPillBtn_a16aea',
-      'optionPill': 'optionPill_a16aea',
-      'deleteOptionIcon': 'deleteOptionIcon_a16aea',
-      'multiSelectCheckbox': 'multiSelectCheckbox_a16aea',
-      'unchecked': 'unchecked_a16aea',
-      'checked': 'checked_a16aea',
+      'selectFieldContainer': 'selectFieldContainer__0edde',
+      'selectField': 'selectField__0edde',
+      'selectFieldInert': 'isInert__0edde',
+      'selectFieldFocused': 'isFocused__0edde',
+      'dropdown': 'selectDropdown__0edde',
 
-      'clear': 'clear_a16aea',
-
-      // i can't find this class but it's in a rule
-      // idk where lmao
-      'searchable': 'searchable_a16aea',
-      'searchInput': 'searchInput_a16aea',
-      'editing': 'editing_a16aea',
-      'label': 'label_f6639d',
-      'selectPositionTop': 'selectPositionTop_a16aea',
-      'disabled': 'disabled_a16aea',
-      'hidden': 'hidden_f6639d',
-      'iconsContainer': 'iconsContainer_a16aea',
-      'iconsCenter': 'iconsCenter_a16aea',
-      'placeholder': 'placeholder_a16aea',
-      'dropdownIcon': 'dropdownIcon_a16aea',
-      'noResults': 'noResults_a16aea',
-      'loading': 'loading_a16aea',
-      'loadingSpinner': 'loadingSpinner_a16aea',
-      'searchableSelect': 'searchableSelect_a16aea',
-      'prefix': 'prefix_a16aea',
-      'suffix': 'suffix_a16aea',
-      'content': 'content_a16aea',
-      'optionPillWrapper': 'optionPillWrapper_f6639d',
-      'noScrollbar': 'noScrollbar_a16aea',
-      'multiSelectCheck': 'multiSelectCheck_a16aea',
+      'listBox': 'listBox__2e223',
+      'listBoxItem': 'listBoxItem__2e223',
     ),
 
     // Click on the emoji, sticker or gif within the chatbar
