@@ -18,9 +18,6 @@
 #{c(popouts dropdown option)} {
   border-radius: 8px;
   margin: 0 8px;
-  &:hover {
-    background: cv('color.hover');
-  }
   &[aria-selected='true'] {
     background: cv('color.main');
     &:not(#{c(popouts dropdown option)}#{c(popouts dropdown multi)}) {
