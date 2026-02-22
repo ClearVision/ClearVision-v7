@@ -3,7 +3,7 @@
 // SPOTIFY CONTROLS
 :is(#{c(main themeLight)}, #{c(main themeDark)}) {
   #vc-spotify-player {
-    background: transparent;
+    background: transparent !important;
   }
 }
 
