@@ -298,3 +298,6 @@
   --custom-poll-style-vote-percentage: hsl(from var(--hsl-main-color) h s l/.2);
   --custom-poll-style-border: var(--hsl-main-color);
 }
+#{c(embeds poll answerSelectionIcon)} path {
+  fill: cv('color.main');
+}
