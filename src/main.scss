@@ -45,10 +45,10 @@ $calc: h calc(#{$sf} * s) l / alpha; // avoid repetition
   --hsl-streaming-color: hsl(from var(--streaming-color) #{$calc});
   --hsl-offline-color: hsl(from var(--offline-color) #{$calc});
 
-  --hsl-channel-normal: var(--channel-normal);
-  --hsl-channel-muted: var(--channel-muted); 
-  --hsl-channel-hover: var(--channel-hover);
-  --hsl-channel-selected: var(--channel-selected);
+  --hsl-channel-normal: var(--channel-normal, var(--channels-default));
+  --hsl-channel-muted: var(--channel-muted, var(--text-muted)); 
+  --hsl-channel-hover: var(--channel-hover, var(--channels-default));
+  --hsl-channel-selected: var(--channel-selected, var(--text-strong));
   --hsl-channel-selected-bg: var(--channel-selected-bg);
   --hsl-channel-unread: var(--channel-unread);
   --hsl-channel-unread-hover: var(--channel-unread-hover);
@@ -58,8 +58,7 @@ $calc: h calc(#{$sf} * s) l / alpha; // avoid repetition
   --font-display: var(--main-font);
   --font-code: var(--code-font);
 
-  --focus-primary: var(--focus-color);
-
+  --focus-primary: hsl(from var(--focus-color) #{$calc});
   // other stuff that the theme sets
 
   // THESE VARIABLES ARE TO BE EDITED BY THE END USER

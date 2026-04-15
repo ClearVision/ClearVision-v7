@@ -2519,11 +2519,11 @@ $classes: (
 
     // video quest modal
     'video': (
-      'root': 'modalRoot__8fb25',
-      'background': 'modalBg__8fb25',
-      'body': 'modalBody__8fb25',
-      'content': 'modalContent__8fb25',
-      'footer': 'contentFooter__8fb25',
+      'root': 'modalRoot_e40371',
+      'background': 'modalBg_e40371',
+      'body': 'modalBody_e40371',
+      'content': 'modalContent_e40371',
+      'footer': 'contentFooter_e40371',
     ),
   ),
 
@@ -3584,6 +3584,9 @@ $classes: (
         'connectionsOverlay': 'overlay__3b260',
         'connectionsList': 'list__3b260',
         'connectionsDivider': 'divider__3b260',
+
+        'footer': 'footer__272c7',
+        'footerButton': 'footerButton__272c7',
       ),
 
       // Popoout: click on user in chat or member list
@@ -3705,12 +3708,12 @@ $classes: (
     'contentHeader': 'contentHeader_e9e3ed',
 
     'account': (
-      'profileCard': 'accountProfileCard__1fed1',
-      'avatar': 'avatar__1fed1',
-      'badgeList': 'badgeList__1fed1',
-      'fieldBackground': 'background__1fed1',
-      'fieldList': 'fieldList__1fed1',
-      'field': 'field__1fed1',
+      'profileCard': 'accountProfileCard_a27e58',
+      'avatar': 'avatar_a27e58',
+      'badgeList': 'badgeList_a27e58',
+      'fieldBackground': 'background_a27e58',
+      'fieldList': 'fieldList_a27e58',
+      'field': 'field_a27e58',
       'security': 'userSettingsSecurity__2666b',
 
       'standing': (
@@ -4966,6 +4969,11 @@ $classes: (
       'popout': 'popover_d6f39b',
       'streamPreview': 'previewContainer__0489e',
     ),
+
+    // click on role name in chat
+    'rolePopout': (
+      'popout': 'rolePopout__75297',
+    )
   ),
 
   'modals': (

@@ -37,3 +37,8 @@
 #{c(popouts vcPreview streamPreview)} {
   background: transparent;
 }
+
+// ROLE POPOUT
+#{c(popouts rolePopout popout)} {
+  background: cv('shading.popout');
+}
