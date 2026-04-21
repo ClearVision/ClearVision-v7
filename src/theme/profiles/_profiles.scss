@@ -147,6 +147,6 @@
     background: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.3));
   }
 }
-#{c(profile sidebar footerButton)}::after {
+#{c(profile sidebar footerButton)} {
   background: transparent;
 }
