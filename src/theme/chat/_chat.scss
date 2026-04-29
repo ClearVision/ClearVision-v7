@@ -40,7 +40,8 @@
 }
 
 // TOOLBAR
-#{c(chat buttonsWrapper)} {
+#{c(chat buttonsWrapper)},
+#{c(chat popover)}#{c(chat popover)} {
   background-color: cv('shading.popout');
   border-color: cv('shading.popout');
   box-shadow: none;
