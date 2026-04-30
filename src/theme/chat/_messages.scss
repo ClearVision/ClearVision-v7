@@ -182,6 +182,11 @@
   }
 }
 
+#{c(chat gifFavoriteButton)} {
+  background: cv('shading.popout');
+  transform: translateY(-40px);
+}
+
 // MEDIA
 #{c(embeds media audioWrapper)} {
   background: cv('shading.card');
