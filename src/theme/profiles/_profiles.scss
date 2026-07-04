@@ -150,11 +150,14 @@
 }
 
 // DM SIDE PROFILE
-#{c(profile userSidebar)} {
+#{c(profile outer)}#{c(profile userSidebar)} {
   &:not(#{c(profile customTheme)}) {
     background: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.3));
   }
 }
 #{c(profile sidebar footerButton)} {
+  background: transparent;
+}
+#{c(profile sidebar aside)} {
   background: transparent;
 }

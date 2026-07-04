@@ -3428,7 +3428,7 @@ $classes: (
       'userPopout': 'user-profile-popout',
       'userModal': 'user-profile-modal' 'user-profile-modal-v2',
       // bots still on v1 profile
-      'userSidebar': 'user-profile-sidebar',
+      'userSidebar': 'user-profile-sidebar-redesign', // you don't have to tell us you redesign it discord.....
       'overlay': 'overlay_c0bea0',
       'outer': 'outer_c0bea0',
       'inner': 'inner_c0bea0',
@@ -3582,6 +3582,9 @@ $classes: (
       // Go to the DMs of someone while your screen is larger than
       // 1132px wide and you've not disabled the panel via header
       'sidebar': (
+        // new background layer discord added under sidebar
+        'aside': 'aside_f58343',
+
         'body': 'body_b32ca4',
         'bodyOverlay': 'overlay_b32ca4',
         // used over "about me/member since" container

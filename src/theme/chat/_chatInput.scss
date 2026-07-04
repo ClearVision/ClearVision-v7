@@ -64,3 +64,8 @@
     border-top-color: cv('shading.popout');
   }
 }
+
+// REMOVE THE WEIRD SHADING OF CHAT INPUT
+#{c(chatForm formWithLoadedChatInput)}:before {
+  content: none;
+}
