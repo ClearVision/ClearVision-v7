@@ -16,6 +16,7 @@
       background: cv('bg.popout.img') cv('bg.popout.pos')/cv('bg.popout.size') no-repeat;
       background-attachment: cv('bg.popout.attach');
       filter: cv('bg.popout.filter');
+      border-radius: inherit;
       z-index: -1;
     }
   }
@@ -30,6 +31,7 @@
       background: cv('bg.modal.img') cv('bg.modal.pos')/cv('bg.modal.size') no-repeat;
       background-attachment: cv('bg.modal.attach');
       filter: cv('bg.modal.filter');
+      border-radius: inherit;
       z-index: -1;
     }
   }

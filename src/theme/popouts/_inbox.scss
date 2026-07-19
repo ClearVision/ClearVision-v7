@@ -8,33 +8,17 @@
 #{c(popouts inbox header)} {
   background: transparent;
 }
+#{c(popouts inbox messageBox)} {
+  background: cv('shading.cardAlt');
+}
 #{c(popouts inbox channelHeader)} {
-  background: hsl(from cv('color.main') h s l/.8);
+  background: cv('shading.popout');
   padding-left: 20px;
   padding-right: 6px;
-  border-radius: 8px;
-}
-#{c(popouts inbox guildIcon)} {
-  background-color: cv('shading.card');
 }
 #{c(popouts inbox emptyIcon)} {
   background: cv('color.main');
   color: var(--interactive-icon-active);
-}
-#{c(popouts inbox jumpButton)} {
-  background: cv('color.main');
-  border: none;
-  &:hover {
-    background: cv('color.hover');
-  }
-}
-
-// FOR YOU
-#{c(popouts inbox forYou bodyContainer)} {
-  background: transparent;
-}
-#{c(popouts inbox forYou maskBackground)} {
-  background: cv('color.main') !important;
 }
 
 // UNREAD
@@ -45,20 +29,5 @@
   background: cv('color.main');
   color: cv('icon.strong');
 }
-#{c(popouts inbox unread messages)} {
-  background: cv('shading.card');
-  border: none;
-}
-#{c(popouts inbox unread collapseButton)} {
-  left: 0;
-}
 
 // MENTIONS
-#{c(popouts inbox mentions container)} {
-  margin-left: 16px;
-}
-#{c(popouts inbox mentions messageContainer)} {
-  background: cv('shading.card');
-  border: none;
-  margin: 0;
-}

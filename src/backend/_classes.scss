@@ -1528,8 +1528,11 @@ $classes: (
   ),
 
   'pagesLoading': (
+    'guildSidebar': 'guildSidebar__1add6',
     'page': 'page__1add6',
     'header': 'header__1add6',
+    'channel': 'channel__1add6',
+
   ),
 
   // browse channels/channels and roles
@@ -3390,24 +3393,11 @@ $classes: (
     ),
   ),
   'tooltips': (
-    'tooltip': 'tooltip_c36707',
-    'disablePointerEvents': 'tooltipDisablePointerEvents_c36707',
-    'content': 'tooltipContent_c36707',
-    'contentAllowOverflow': 'tooltipContentAllowOverflow_c36707',
-    'top': 'tooltipTop_c36707',
-    'right': 'tooltipRight_c36707',
-    'bottom': 'tooltipBottom_c36707',
-    'left': 'tooltipLeft_c36707',
-    'center': 'tooltipCenter_c36707',
-    'pointer': 'tooltipPointer_c36707',
-
-    'primary': 'tooltipPrimary_c36707',
-    'black': 'tooltipBlack_c36707',
-    'grey': 'tooltipGrey_c36707',
-    'brand': 'tooltipBrand_c36707',
-    'red': 'tooltipRed_c36707',
-    'green': 'tooltipGreen_c36707',
-    'yellow': 'tooltipYellow_c36707',
+    'tooltip': 'tooltip_fa450d',
+    'caretIcon': 'caretIcon_fa450d',
+    'caretFill': 'caretFill_fa450d',
+    'caretStroke': 'caretStroke_fa450d',
+    'content': 'tooltipContent_fa450d',
 
     // different css lines
     'stageListenerPill': 'stageListenerPill_b1f768',
@@ -4830,20 +4820,20 @@ $classes: (
     ),
 
     'pins': (
-      'popout': 'messagesPopoutWrap_e8b59c',
-      'header': 'header_e8b59c',
-      'titleContainer': 'titleContainer_e8b59c',
-      'messages': 'messagesPopout_e8b59c',
-      'messageGroup': 'messageGroupWrapper_e8b59c',
-      'messageCozy': 'messageGroupCozy_e8b59c',
-      'actionButtons': 'actionButtons_e8b59c',
-      'buttonContainer': 'buttonContainer_e8b59c',
+      'popout': 'messagesPopoutWrap__432f4',
+      'header': 'header__432f4',
+      'titleContainer': 'titleContainer__432f4',
+      'messages': 'messagesPopout__432f4',
+      'messageGroup': 'messageGroupWrapper__432f4',
+      'messageCozy': 'messageGroupCozy__432f4',
+      'actionButtons': 'actionButtons__432f4',
+      'buttonContainer': 'buttonContainer__432f4',
 
       // no pins
-      'emptyPlaceholder': 'emptyPlaceholder_e8b59c',
-      'emptyImage': 'image_e8b59c',
-      'emptyBody': 'body_e8b59c',
-      'footer': 'footer_e8b59c',
+      'emptyPlaceholder': 'emptyPlaceholder__432f4',
+      'emptyImage': 'image__432f4',
+      'emptyBody': 'body__432f4',
+      'footer': 'footer__432f4',
       'block': 'block__30cbe',
       // discord put this on the rules for some reason? lots of inline
       'protip': 'pro__30cbe',
@@ -4858,18 +4848,16 @@ $classes: (
       'tabBar': 'tabBar_ab6641',
       'tab': 'tab_ab6641',
       'controls': 'controls_ab6641',
-      'channelHeader': 'channelHeader__35a7e',
-      'guildIcon': 'guildIcon__35a7e',
-      'dmIcon': 'dmIcon__35a7e',
-      'channelNameSection': 'channelNameSection__35a7e',
-      'channelNameHeader': 'channelNameHeader__35a7e',
-      'channelName': 'channelName__35a7e',
-      'channelNameSpan': 'channelNameSpan__35a7e',
-      'subtextContainer': 'subtextContainer__35a7e',
-      'subtext': 'subtext__35a7e',
-      'guildName': 'guildName__35a7e',
-      'jumpButton': 'jumpButton_ed0c8c',
-      'jumpButtonText': 'text_ed0c8c',
+
+      'messageBox': 'box_a86e6c',
+      'channelHeader': 'channelHeader__996b5',
+      'guildIcon': 'icon__996b5',
+      'dmIcon': 'dmIcon__996b5',
+      'channelNameSection': 'channelNameSection__996b5',
+      'channelNameHeading': 'channelNameHeading__996b5',
+      'channelNameSpan': 'channelNameSpan__996b5',
+      'guildName': 'guildName__996b5',
+      
       'emptyContainer': 'container_d404a3',
       'emptyIconContainer': 'iconContainer_d404a3',
       'emptyIcon': 'icon_d404a3',
@@ -4880,21 +4868,8 @@ $classes: (
       // inline color
       'friendRequestsButton': 'friendRequestsButton__523aa',
 
-      'forYou': (
-        'bodyContainer': 'container__0f711',
-        'avatarContainer': 'container_db811b',
-        'avatarMask': 'mask_db811b',
-        'imageContainer': 'imageContainer_db811b',
-        'image': 'image_db811b',
-        'maskBackground': 'maskBackground_db811b',
-        'maskIcon': 'maskIcon_db811b',
-      ),
       'mentions': (
         'scroller': 'scroller__95796',
-        'container': 'container__95796',
-        'messageContainer': 'messageContainer__95796',
-        'message': 'message__95796',
-        'scrollingFooterWrap': 'scrollingFooterWrap_e8b59c',
       ),
 
       'unread': (
@@ -4902,20 +4877,7 @@ $classes: (
         'tutorial': 'tutorial__2692d',
         // "Stay up to date with the latest messages"
         'tutorialIcon': 'tutorialIcon__2692d',
-        'channel': 'channel__427f0',
-        'mentionBadge': 'badge__35a7e',
-        'collapseButton': 'collapseButton__35a7e',
-        'collapsed': 'collapsed__35a7e',
-        'messages': 'messages__1ccd1',
-        'messageContainer': 'messageContainer__1ccd1',
-        'jumpButton': 'jumpButton__1ccd1',
-        'message': 'message__1ccd1',
-        'divider': 'divider__1ccd1',
-
-        // Click the "mark inbox as read" button and another modal pops up
-        'markAll': (
-          'content': 'content__1688d',
-        ),
+        'mentionBadge': 'badge__996b5',
       ),
     ),
 

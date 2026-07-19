@@ -1,21 +1,12 @@
 @use 'backend' as *;
 
-#{c(tooltips primary)} {
+#{c(tooltips tooltip)} {
   background-color: cv('shading.popout');
   border: none;
-  #{c(tooltips pointer)} {
-    border-top-color: cv('shading.popout');
-    &::before,
-    &::after {
-      display: none;
-    }
-  }
 }
 
-#{c(tooltips brand)} {
-  background-color: cv('color.main');
-  border: none;
-  #{c(tooltips pointer)} {
-    border-top-color: cv('color.main');
+#{c(tooltips caretIcon)} {
+  #{c(tooltips caretFill)} {
+    fill: cv('shading.popout');
   }
 }

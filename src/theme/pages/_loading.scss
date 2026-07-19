@@ -4,6 +4,6 @@
   background-color: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.4));
   border: none;
 }
-#{c(pagesLoading header)} {
+#{c(pagesLoading guildSidebar)}, #{c(pagesLoading header)}, #{c(pagesLoading channel)} {
   background: none;
 }
