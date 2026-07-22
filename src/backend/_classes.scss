@@ -4842,42 +4842,36 @@ $classes: (
     ),
 
     'inbox': (
-      'popout': 'recentMentionsPopout__95796',
-      'container': 'container_fc561d',
-      'header': 'header_ab6641',
-      'tabBar': 'tabBar_ab6641',
-      'tab': 'tab_ab6641',
-      'controls': 'controls_ab6641',
+      'popout': 'container__8cb2e',
+      'header': 'header__06f80',
+      'controls': 'controls__06f80',
+      'tabBar': 'tabBar__06f80',
+      'tab': 'tab__06f80',
 
-      'messageBox': 'box_a86e6c',
-      'channelHeader': 'channelHeader__996b5',
-      'guildIcon': 'icon__996b5',
-      'dmIcon': 'dmIcon__996b5',
-      'channelNameSection': 'channelNameSection__996b5',
-      'channelNameHeading': 'channelNameHeading__996b5',
-      'channelNameSpan': 'channelNameSpan__996b5',
-      'guildName': 'guildName__996b5',
       
-      'emptyContainer': 'container_d404a3',
-      'emptyIconContainer': 'iconContainer_d404a3',
-      'emptyIcon': 'icon_d404a3',
-      'emptyStars': 'stars_d404a3',
-      'emptyHeader': 'header_d404a3',
-      'emptyProtip': 'protip_d404a3',
-
-      // inline color
-      'friendRequestsButton': 'friendRequestsButton__523aa',
+      'scroller': 'scroller__376cb',
+      'messageBox': 'box__376cb',
+      'channelHeader': 'channelHeader__5d903',
+      'guildIcon': 'icon__5d903',
+      'channelNameSection': 'channelNameSection__5d903',
+      'channelNameHeading': 'channelNameHeading__5d903',
+      'channelNameSpan': 'channelNameSpan__5d903',
+      'guildName': 'guildName__5d903',
+      
+      'emptyContainer': 'container__319e1',
+      'emptyIconContainer': 'iconContainer__319e1',
+      'emptyIcon': 'icon__319e1',
+      'emptyStars': 'stars__319e1',
+      'emptyHeader': 'header__319e1',
+      'emptyProtip': 'protip__319e1',
 
       'mentions': (
-        'scroller': 'scroller__95796',
       ),
 
       'unread': (
-        'scroller': 'scroller__2692d',
-        'tutorial': 'tutorial__2692d',
+        'tutorial': 'tutorial_d15d9e',
         // "Stay up to date with the latest messages"
-        'tutorialIcon': 'tutorialIcon__2692d',
-        'mentionBadge': 'badge__996b5',
+        'tutorialIcon': 'tutorialIcon_d15d9e',
       ),
     ),
 
