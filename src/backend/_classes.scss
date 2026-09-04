@@ -3634,15 +3634,15 @@ $classes: (
     'card': (
       // These are likely all over the app but are best found in settings.
       // Some things labelled "card_" aren't from here and are instead unique to that area.
-      'card': 'card__73069',
-      'primary': 'cardPrimary__73069',
-      'outline': 'outline__73069',
-      'editable': 'editable__73069',
+      'card': 'card_b5dd01',
+      'primary': 'cardPrimary_b5dd01',
+      'outline': 'outline_b5dd01',
+      'editable': 'editable_b5dd01',
 
-      'brand': 'cardBrand__73069',
-      'danger': 'cardDanger__73069',
-      'success': 'cardSuccess__73069',
-      'warning': 'cardWarning__73069',
+      'brand': 'cardBrand_b5dd01',
+      'danger': 'cardDanger_b5dd01',
+      'success': 'cardSuccess_b5dd01',
+      'warning': 'cardWarning_b5dd01',
     ),
 
     // registerd games, emoji
@@ -3697,6 +3697,10 @@ $classes: (
   ),
 
   'userSettings': (
+    'outerContainer': 'outerContainer_e44912',
+    'modalContent': 'modalContent_e44912',
+    'modalContentInner': 'modalContentInner_e44912',
+
     'sidebar': (
       'sidebar': 'sidebar__409aa',
       'fixedContent': 'fixedContent__409aa', // profile and search
@@ -3786,15 +3790,15 @@ $classes: (
     ),
 
     'contentSocial': (
-      'blockedCard': 'card__5cea9',
-      'blockedHeader': 'header__5cea9',
-      'blockedUserList': 'usersList__5cea9',
-      'blockedRow': 'row__5cea9',
-      'blockedLastRow': 'lastRow__5cea9',
+      'blockedCard': 'card_a72ffc',
+      'blockedHeader': 'header_a72ffc',
+      'blockedUserList': 'usersList_a72ffc',
+      'blockedRow': 'row_a72ffc',
+      'blockedLastRow': 'lastRow_a72ffc',
 
       'games': (
-        'emptyContainer': 'emptyContainer_de8069',
-        'emptyText': 'noGamesConnectedText_de8069',
+        'emptyContainer': 'emptyContainer__88a04',
+        'emptyText': 'noGamesConnectedText__88a04',
       ),
     ),
 
@@ -3855,10 +3859,10 @@ $classes: (
     'nitro': (
       // no nitro
       'giftButton': 'giftButton__82222',
-      'perkCard': 'perkCard_b62c4e',
-      'footerWrapper': 'wrapper__70f7f',
-      'footerWrapperBase': 'innerWrapperBase__70f7f',
-      'footerSubButton': 'subButton__70f7f',
+      'perkCard': 'perkCard_e6430c',
+      'footerWrapper': 'wrapper__553fd',
+      'footerWrapperBase': 'innerWrapperBase__553fd',
+      'footerSubButton': 'subButton__553fd',
 
       // with nitro
       'premiumtierCard': 'tierCard_a45ed3',
@@ -3974,10 +3978,10 @@ $classes: (
       'recorderContainer': 'recorderContainer__2636e',
       'keybindDisabled': 'containerDisabled__2636e',
       'keybindRecording': 'recording__2636e',
-      'removeButton': 'removeKeybind__740f2',
-      'default': 'defaultKeybind__740f2',
-      'defaultgroup': 'defaultKeybindGroup__740f2',
-      'shortcutGroup': 'defaultKeybindShortcutGroup__740f2',
+      'removeButton': 'removeKeybind_f82450',
+      'default': 'defaultKeybind_f82450',
+      'defaultgroup': 'defaultKeybindGroup_f82450',
+      'shortcutGroup': 'defaultKeybindShortcutGroup_f82450',
     ),
 
     'activityPrivacy': (
@@ -3989,18 +3993,18 @@ $classes: (
     ),
 
     'games': (
-      'notDetected': 'notDetected_cc46f0',
-      'nowPlaying': 'nowPlaying_cc46f0',
-      'gameName': 'gameName_cc46f0',
-      'gameNameInput': 'gameNameInput_cc46f0',
-      'gameLastPlayed': 'gameNameLastPlayed_cc46f0',
-      'overlayToggleIcon': 'toggleIcon_cc46f0',
-      'overlayToggleIconOn': 'toggleIconOn_cc46f0',
-      'overlayToggleIconOff': 'toggleIconOff_cc46f0',
-      'overlayToggleIconFill': 'fill_cc46f0',
-      'game': 'game_cc46f0',
-      'removeGame': 'removeGame_cc46f0',
-      'addGamePopout': 'addGamePopout_cc46f0',
+      'notDetected': 'notDetected_b53c4e',
+      'nowPlaying': 'nowPlaying_b53c4e',
+      'gameName': 'gameName_b53c4e',
+      'gameNameInput': 'gameNameInput_b53c4e',
+      'gameLastPlayed': 'gameNameLastPlayed_b53c4e',
+      'overlayToggleIcon': 'toggleIcon_b53c4e',
+      'overlayToggleIconOn': 'toggleIconOn_b53c4e',
+      'overlayToggleIconOff': 'toggleIconOff_b53c4e',
+      'overlayToggleIconFill': 'fill_b53c4e',
+      'game': 'game_b53c4e',
+      'removeGame': 'removeGame_b53c4e',
+      'addGamePopout': 'addGamePopout_b53c4e',
     ),
 
     'overlay': (

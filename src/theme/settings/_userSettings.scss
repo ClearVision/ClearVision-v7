@@ -1,5 +1,9 @@
 @use 'backend' as *;
 
+#{c(userSettings modalContentInner)} {
+  background: none;
+}
+
 // SIDEBAR
 #{c(userSettings sidebar fixedContent)}::after {
   display: none;
