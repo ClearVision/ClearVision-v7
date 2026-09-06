@@ -7,68 +7,17 @@
   background: transparent;
   border: none;
 }
-#{c(nitro mainPageScroller)},
-#{c(nitro allPerksScroller)} {
+#{c(nitro scroller)} {
   background: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.4));
-}
-#{c(nitro mainPageScroller)} {
-  right: 0;
-  transition: all 0.75s ease-in-out;
-  &:has(+ #{c(nitro allPerksScrollerOpen)}) {
-    right: 100%; // avoid them overlaying each other
-  }
 }
 
 // CARD
 #{c(nitro card)},
-#{c(nitro giftContainer)} {
+#{c(nitro planCard)} {
   background: cv('shading.card');
-}
-:is(#{c(main imagesLight)}, #{c(main imagesDark)}) {
-  #{c(nitro giftTextContainer)} {
-    background: none;
-  }
-}
-#{c(nitro giftButton)} {
-  background: transparent;
-}
-// CARD HOVER
-#{c(nitro cardDescription)} {
-  background: cv('shading.popout');
-}
-
-// BUTTONS
-#{c(nitro seePerksButton)} {
-  background: cv('shading.card');
-  border: none;
-}
-#{c(nitro backButton)} {
-  background: cv('color.main');
-  &:hover {
-    background: cv('color.hover');
-  }
-}
-
-// SIDE SCROLLER
-:is(#{c(main themeDark)}, #{c(main themeLight)}) {
-  #{c(nitro arrows)} {
-    background: cv('shading.card');
-    &:hover {
-      background: cv('color.hover');
-    }
-  }
-  #{c(nitro arrowInactive)} {
-    background: cv('shading.card');
-  }
-}
-#{c(nitro progressBar)} {
-  background: cv('shading.card');
-}
-#{c(nitro progressDotSelected)} {
-  background: cv('color.main');
 }
 
 // FOOTER
-#{c(nitro footerInnerWrapper)} {
+#{c(nitro footerButtonContainer)} {
   background: cv('shading.popout');
 }

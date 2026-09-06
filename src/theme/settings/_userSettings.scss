@@ -5,6 +5,9 @@
 }
 
 // SIDEBAR
+#{c(userSettings sidebar sidebar)} {
+  background: none;
+}
 #{c(userSettings sidebar fixedContent)}::after {
   display: none;
 }

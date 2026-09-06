@@ -2121,29 +2121,18 @@ $classes: (
   'nitro': (
       'store': 'applicationStore_f07d62',
       'wrapper': 'homeWrapper__0920e',
-      'mainPageScroller': 'mainPageScroller_ca1a02',
-      'allPerksScroller': 'allPerksScroller_ca1a02',
-      'allPerksScrollerOpen': 'open_ca1a02',
+      'scroller': 'scroller__02f2d',
+      'container': 'container__02f2d',
+      'containerBackground': 'containerBackground__02f2d',
 
-      'card': 'card_b5493b',
-      'cardDescription': 'cardDescription_b5493b',
+      'card': 'container_a62383',
+      'cardBackgroundColor': 'backgroundColor__53b4c',
 
-      'seePerksButton': 'seeAllPerksButton_ca1a02',
+      'planCard': 'card_c19a92',
+      // pick your plan
 
-      'gift': 'giftNitro_ca1a02',
-      'giftContainer': 'container_da4aee',
-      'giftTextContainer': 'textContainer_da4aee',
-      'giftButton': 'giftCardButton_da4aee',
-      // only appears without nitro
-      'footerInnerWrapper': 'innerWrapper_c511e4',
-      // all perks page
-      'backButton': 'backButton_b9abc5',
-      'arrows': 'leftArrow__3cf14' 'rightArrow__3cf14',
-      'arrowInactive': 'inactiveArrow__3cf14',
-      'arrowIcon': 'arrowIcon__3cf14',
-      'progressBar': 'cardProgressBar__3cf14',
-      'progressDot': 'dot__3cf14',
-      'progressDotSelected': 'selectedDot__3cf14',
+      'footerWrapper': 'wrapper__17be2',
+      'footerButtonContainer': 'buttonContainer__17be2',
     ),
 
   'shop': (
@@ -3953,8 +3942,7 @@ $classes: (
     ),
 
     'accessability': (
-      'preview': 'preview__5d148',
-      'previewMessage': 'previewMessage__5d148',
+      'preview': 'preview__6b741',
     ),
 
     'voice': (
