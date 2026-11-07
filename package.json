@@ -14,6 +14,7 @@
     "build-u": "sass src:public-unminified --load-path=src --style=expanded --no-source-map && postcss public-unminified/*.css -d public-unminified/ -u autoprefixer --no-map",
     "build-m": "sass src:public --load-path=src --style=compressed --no-source-map && postcss public/*.css -d public/ -u autoprefixer --no-map",
     "build-dist": "sass dist:. --load-path=src --style=expanded --no-source-map",
+    "build-addons": "sass addons-src:Addons --load-path=src --style=expanded --no-source-map",
     "format": "prettier --write ."
   },
   "devDependencies": {

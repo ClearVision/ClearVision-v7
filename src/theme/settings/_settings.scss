@@ -22,12 +22,10 @@
 
 // CARD
 #{c(settings card primary)} {
-  &,
-  &#{c(settings card editable)} {
-    --__card-accent-color: var(--hsl-card-shading);
-    background: cv('shading.card');
-    border-color: transparent;    
-  }
+  --__card-background-color: var(--hsl-card-shading);
+  --__card-border-color: transparent;
+  background: cv('shading.card');
+  border-color: transparent;
 }
 #{c(settings card card)} {
   a {

@@ -1,0 +1,161 @@
+@use 'backend/classes' as *;
+
+/**
+ * @name ClearVision Add-on: Gradients
+ * @author ClearVision Team
+ * @version 2.0.0
+ * @description Gradient add-on for ClearVision v7, make sure this is added first!
+ * @source https://github.com/ClearVision/Addons
+ * @website https://clearvision.github.io
+ * @invite 2fKpjAR
+ */
+
+/*add the contents of the root below into the root of of your theme file or copy the entire root below into the bottom of your theme
+
+:root {
+	--gradient-color1: var(--main-color);
+	--gradient-color2: var(--hover-color);
+	--gradient-direction: 130deg;
+}
+
+*/
+
+/* ### Gradients for Clearvision v7 by Nyx ### */
+:root {
+  /* Gradients */
+  --gradient-color1: var(--main-color); /* primary color [default: var(--main-color) */
+  --gradient-color2: var(--hover-color); /* secondary color [default: var(--hover-color) */
+  --gradient-direction: 130deg; /* angle of gradient [default: 130deg] */
+}
+
+$gradient: linear-gradient(var(--gradient-direction), var(--gradient-color1), var(--gradient-color2));
+$dark: ':is(#{c(main themeDark)}, #{c(main themeDarker)}, #{c(main themeMidnight)})';
+
+// -- BGs --
+// BD
+.bd-toast,
+// Channels
+#{c(sidebar server channels link)}::before,
+#{c(sidebar server channels dragAfter)}::before,
+#{c(sidebar server channels dragAfter)}::after,
+#{c(sidebar server channels dragBefore)}::before,
+#{c(sidebar server channels dragBefore)}::after,
+#{c(sidebar server channels userOver)}::after,
+// Indicators
+#{c(sidebar server unreadBar old unread)}::after,
+#{c(sidebar server unreadBar old mention)}::after,
+// DMs
+#{c(sidebar private channels)} #{c(sidebar private channel)} #{c(sidebar private interactive)}#{c(sidebar private selected)}::before,
+// Special Channels
+#{c(membersPage actionButton)},
+// BARS
+// New Unreads bar
+#{c(sidebar server unreadBar bar)},
+// New Message Bar
+#{c(chat bar newMessages)},
+// Jump to Present
+#{c(chat bar jumpToPresent)}:hover,
+// HasMore
+#{c(chatForm hasMore)}:hover,
+// Text Autocomplete
+[aria-selected='true']#{c(popouts autocomplete clickable)} #{c(popouts autocomplete base)},
+[aria-disabled='false']#{c(popouts autocomplete clickable)} #{c(popouts autocomplete base)}:hover,
+// Badges
+#{c(badges number)},
+#{c(badges text)},
+// Buttons
+#{c(button lookFilled)}#{c(button colorBrand)},
+#{c(button lookFilled)}#{c(button colorGreen)},
+#{c(button lookFilled)}#{c(button colorPrimary)},
+#{c(button new primary)},
+// Sliders
+#{c(slider slider)} #{c(slider barFill)},
+// Tooltip
+#{$dark} #{c(tooltips legacyTooltip)}#{c(tooltips legacyTooltipBrand)},
+// Servers
+#{c(guildList pillItem)},
+#{c(guildList iconBadge)}#{c(guildList participating)},
+#{c(guildList bottomButton)}#{c(guildList bottomButtonSelected)},
+// Server Settings
+#{c(guildSettings roles defaultPermsContainer)},
+// Search Bar
+#{c(header searchFilter)},
+#{c(header searchAnswer)},
+// Upload attachment
+#{c(chatForm uploadProgressBar)},
+// Media player
+#{c(media barGrabber)},
+#{c(media barProgress)},
+#{c(media barProgress)}::before,
+#{c(media barProgress)}::after,
+#{c(media bubble)},
+// Soundboard
+#{c(popouts soundboard picker)} #{c(popouts soundboard sound button button)},
+#{c(popouts soundboard picker)} #{c(popouts soundboard categoryIcon)}#{c(popouts soundboard categorySelected)},
+// Forums
+#{c(forums upload uploadIcon)},
+// Gif Picker
+#{c(popouts expressionPicker gif content)} #{c(popouts expressionPicker gif favoritesFade)}::after,
+#{c(popouts expressionPicker gif content)} #{c(popouts expressionPicker gif result)}[style*='background-color:'],
+// Group invite
+#{c(searchbar settings tag)},
+// Friend request button
+#{c(sidebar private friendRequestsButton)},
+// Sidebar
+#{c(tab item)}#{c(tab selected)}::after,
+#{c(sidebar server channels wrapper)}#{c(sidebar server channels selected)} #{c(sidebar server channels link)}::before,
+#{c(guildList iconWrapper)}#{c(guildList selected)} #{c(guildList homeWrapper)},
+#{c(guildList mention mention)},
+#{c(slider mini)} #{c(slider barFill)},
+#{c(notice colorBrand)},
+#{c(header tabBar)} #{c(header addFriend)},
+#{c(chat replying)}::before,
+#{c(chat ephemeral)}::before,
+#{c(embeds poll checkboxSelected)},
+#{c(settings card brand)} {
+  background: $gradient !important;
+}
+
+// -- TEXT --
+// Members list
+#{c(memberList members)} #{c(memberList group)}:not([style*='color: rgb'], #MemberCount h3) span,
+// Category names
+#{c(sidebar sidebar)} #{c(sidebar server category container)} #{c(sidebar server category wrapper)} #{c(sidebar server category name)} #{c(sidebar server category nameText)},
+// DMs
+#{c(sidebar private channels)} #{c(sidebar private headerContainer)} #{c(sidebar private headerText)},
+// Settings
+#{c(tab headerText)} {
+  background-image: $gradient !important;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+}
+
+// -- Spines --
+#{c(memberList members)} #{c(memberList group)}:not([style*='color: rgb']),
+#{c(sidebar sidebar)} #{c(sidebar server category container)} #{c(sidebar server category wrapper)} #{c(sidebar server category name)},
+#{c(sidebar private channels)} #{c(sidebar private headerContainer)} #{c(sidebar private headerText)},
+#{c(settings sidebar)} #{c(tab header)} {
+  &::before {
+    background: linear-gradient(to left, var(--gradient-color1) 50%, transparent) !important;
+  }
+  &::after {
+    background: linear-gradient(to right, var(--gradient-color1) 50%, transparent) !important;
+  }
+}
+
+// Remove borders on pings
+#{c(badges number)},
+#{c(badges text)} {
+  box-shadow: none !important;
+}
+
+#{c(media barWrapper)},
+#{c(media barProgress)},
+#{c(media barBuffer)} {
+  border-radius: 3px;
+}
+#{c(media fakeEdges)}::before,
+#{c(media fakeEdges)}::after {
+  content: unset;
+}

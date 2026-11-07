@@ -1,0 +1,110 @@
+@use 'backend/classes' as *;
+
+/**
+ * @name ClearVision Add-on: Server Size
+ * @author ClearVision Team
+ * @version 2.0.0
+ * @description Server Size add-on for ClearVision v7, make sure this is added first!
+ * @source https://github.com/ClearVision/Addons
+ * @website https://clearvision.github.io
+ * @invite 2fKpjAR
+ */
+
+/*add the contents of the root below into the root of of your theme file or copy the entire root below into the bottom of your theme
+
+:root {
+  --server-size: 48px;
+}
+
+*/
+
+/* ### Server Size for Clearvision v7 by Nyx ### */
+:root {
+  --server-size: 48px;
+}
+
+$size: var(--server-size);
+$native: var(--cv-guildbar-native);
+$scaled: 'var(--server-size) / var(--cv-guildbar-native)';
+
+:root {
+  --cv-guildbar-native: 40;
+}
+.refresh-fast-follow-avatars:is(.density-cozy, .density-default) {
+  --cv-guildbar-native: 44;
+}
+
+:root,
+.refresh-fast-follow-avatars {
+  --guildbar-avatar-size: #{$size} !important;
+  --guildbar-folder-size: calc(#{$size} * 1.2) !important;
+}
+
+/*actual server icon*/
+#{c(guildList serverWrapper)}:has(> #{c(guildList serverWrapperSVGShift)}) {
+  width: $size !important;
+  height: $size !important;
+}
+#{c(guildList serverWrapper)}:has(> #{c(guildList serverWrapperSVG)}:not(#{c(guildList serverWrapperSVGShift)})) {
+  width: var(--guildbar-folder-size) !important;
+  height: var(--guildbar-folder-size) !important;
+}
+.refresh-fast-follow-avatars #{c(guildList serverWrapper)}:has(> #{c(guildList serverWrapperSVG)}:not(#{c(guildList serverWrapperSVGShift)})) {
+  width: var(--guildbar-avatar-size) !important;
+  height: var(--guildbar-avatar-size) !important;
+}
+#{c(guildList serverWrapperSVG)}#{c(guildList serverWrapperSVGShift)} {
+  width: calc(#{$size} * (#{$native} + 8) / #{$native});
+  height: calc(#{$size} * (#{$native} + 8) / #{$native});
+  top: calc(#{$size} * -4 / #{$native});
+  inset-inline-start: calc(#{$size} * -4 / #{$native});
+}
+#{c(guildList serverWrapperSVG)}:not(#{c(guildList serverWrapperSVGShift)}) {
+  width: 100%;
+  height: 100%;
+}
+#{c(guildList serverWrapperSVG)} foreignObject {
+  --guildbar-avatar-size: calc(#{$native} * 1px);
+  --guildbar-folder-size: calc((#{$native} + 8) * 1px);
+}
+
+/*UNREAD/SELECTED INDICATOR*/
+/*wrapper*/
+#{c(guildList pillWrapper)} {
+  width: calc(#{$size} / 5);
+}
+/*actual color*/
+#{c(guildList listItem)} #{c(guildList pillItem)} {
+  width: calc(#{$size} / 5);
+  height: calc(#{$size} / 5);
+  margin-inline-start: calc(#{$size} / -10);
+  &#{c(guildList pillHovered)} {
+    height: calc(#{$size} / 2);
+  }
+  /*currently selected*/
+  &#{c(guildList pillSelected)} {
+    height: $size;
+  }
+}
+
+/*the folder bg height lol*/
+#{c(guildList folder)}#{c(guildList folderExpanded)} #{c(guildList folderGuildsList)}[style*='height'] {
+  height: auto !important;
+}
+
+/*ping icon*/
+#{c(guildList listItem)} :is(#{c(guildList lowerBadge)}, #{c(guildList upperBadge)}) {
+  #{c(badges base)} {
+    min-width: calc(16px * #{$scaled});
+    height: calc(16px * #{$scaled});
+    min-height: calc(16px * #{$scaled});
+    font-size: calc(12px * #{$scaled});
+  }
+  #{c(guildList iconBadge)} {
+    width: calc(16px * #{$scaled});
+  }
+  /*keep it round because border-radius 8 only works when the width is 16 lol*/
+  #{c(badges baseShapeRound)} {
+    border-radius: 100%;
+  }
+}
