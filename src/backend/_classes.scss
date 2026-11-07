@@ -258,7 +258,6 @@ $classes: (
     'mobileAppAsidePanelWrapper': 'mobileAppAsidePanelWrapper_YRXZu0',
     'notAppAsidePanel': 'notAppAsidePanel_YRXZu0',
     'mobileApp': 'mobileApp_YRXZu0',
-    'allowsScrolling': 'allowsScrolling_bd26cc',
 
     'appInner': 'app_QbT-Jy',
     // this one shakes
@@ -272,7 +271,6 @@ $classes: (
     'appLayers': 'layers_Fd0FEH',
 
     'backdrop': 'backdrop_UQqFnR',
-    'backdropWithLayer': 'withLayer__78332',
 
     // Themes
     'themeLight': 'theme-light',
@@ -412,7 +410,6 @@ $classes: (
     'fill': 'outerRadioFill_oJuRbG',
     'dot': 'innerDotRadio_oJuRbG',
     // text
-    'label': 'label__64e61',
   ),
 
   'slider': (
@@ -457,13 +454,11 @@ $classes: (
     // I strongly advise against using these classes.
     // Yes, there really are 10 different classes in the complete css class scrape as of 2024-09-19.
     // I would've put a generator function of sorts in but find+replace tool wouldn't have found that
-    'code': 'code_cf4812',
     'fontScaling': 'fontScaling_RAOoio',
-    'eyebrow':'eyebrow_cf4812',
     'display': (
-      'sm': 'display-sm_RAOoio' 'display-sm_a8af02' 'display-sm__4ed1a' 'display-sm_a39fe9' 'display-sm_aabef9' 'display-sm_c23051' 'display-sm_RAOoio' 'display-sm_b717a1' 'display-sm_df8943' 'display-sm_ec1c2d',
-      'md': 'display-md_RAOoio' 'display-md_a8af02' 'display-md__4ed1a' 'display-md_a39fe9' 'display-md_aabef9' 'display-md_c23051' 'display-md_RAOoio' 'display-md_b717a1' 'display-md_df8943' 'display-md_ec1c2d',
-      'lg': 'display-lg_RAOoio' 'display-lg_a8af02' 'display-lg__4ed1a' 'display-lg_a39fe9' 'display-lg_aabef9' 'display-lg_c23051' 'display-lg_RAOoio' 'display-lg_b717a1' 'display-lg_df8943' 'display-lg_ec1c2d',
+      'sm': 'display-sm_RAOoio' 'display-sm_RAOoio',
+      'md': 'display-md_RAOoio' 'display-md_RAOoio',
+      'lg': 'display-lg_RAOoio' 'display-lg_RAOoio',
     ),
     'heading': (
       'sm': (
@@ -706,14 +701,11 @@ $classes: (
     // There's a bit of overlap with "stage". feel free to jump down to there.
     // gradients use stage. more video stuff would be under stage too.
     'wrapper': 'wrapper_hbKzX7',
-    'noChat': 'noChat_cb9592',
     'minimum': 'minimum_cb9592',
     'normal': 'normal_frsBab',
     // used when videos are enabled
     'container': 'callContainer_hbKzX7',
     'root': 'root_rTsZa_',
-    'idle': 'idle_bfe55a',
-    // applied when screen sharing and not hovered, hides controls (and children of)
     'pulseGradient': 'pulseGradient_BUFBam',
     // seen in empty vc
     'voiceCallWrapper': 'voiceCallWrapper_QKgWuD',
@@ -743,14 +735,7 @@ $classes: (
 
     'quickSelect': 'quickSelect_ohxi6x',
     // for region
-    'quickSelectLabel': 'quickSelectLabel_ebaca5',
-    'quickSelectClick': 'quickSelectClick_ebaca5',
-    'quickSelectValue': 'quickSelectValue_ebaca5',
-    'quickSelectArrow': 'quickSelectArrow_ebaca5',
     'quickSelectPopout': 'quickSelectPopout_ebaca5',
-    'quickSelectPopoutScroll': 'quickSelectPopoutScroll_ebaca5',
-    'quickSelectScroller': 'quickSelectScroller_ebaca5',
-    'quickSelectPopoutOption': 'quickSelectPopoutOption_ebaca5',
 
     'participantsButton': 'participantsButton_1uD6uZ',
 
@@ -782,16 +767,11 @@ $classes: (
     // Grid view only
     'gridRow': 'row_xFRALB',
     'gridTile': 'tile_xFRALB',
-    'gridNoVerticalMargin': 'noVerticalMargin_d6271c',
-    // paired with videoTile, can't describe usage
-    'gridNoHorizontalMargin': 'noHorizontalMargin_d6271c',
-    // paired with videoTile, used on last tile of row
     'gridTileSizer': 'tileSizer_xFRALB',
 
     'tileWrapper': 'wrapper_7NOr2f',
     'tile': 'tile_7NOr2f',
     // contains flex properties
-    'tileIdle': 'idle__2f4f7',
     'tileBackground': 'tile_JPP66i',
     // despite being on the same element as tile, contains background color
     'tileChild': 'tileChild_7NOr2f',
@@ -804,9 +784,6 @@ $classes: (
     'streamQualityIndicator': 'streamQualityIndicator__be5Bx',
     'liveIndicator': 'liveIndicator_7NOr2f',
     'liveIndicatorChild': 'liveIndicator__be5Bx',
-    'liveLarge': 'liveLarge_a7acae',
-    'liveShapeRound': 'liveShapeRound_a7acae',
-    'tileOverlay': 'overlay_ba4b17',
     'tileOverlayTitle': 'overlayTitle_7NOr2f',
     'tileOverlayTitleText': 'overlayTitleText_7NOr2f',
     'tileStatus': 'status_7NOr2f',
@@ -820,9 +797,7 @@ $classes: (
     'tileBorder': 'border_7NOr2f',
     'tileSpeaking': 'speaking__2f4f7',
     'streamBackground': 'root_eYyGVJ',
-    'liveQualityIndicator': 'liveQualityIndicator__30845',
     'lowQualityWarningIcon': 'warningIcon_0_PsGx',
-    'watchStreamButton': 'cta_a3a802',
 
     'channelChatWrapper': 'channelChatWrapper_hbKzX7',
     // side chat
@@ -855,14 +830,10 @@ $classes: (
     // controlSection (either top or bottom)
     'controlsParticipants': 'participants_BzZ9Uo',
     // used as header
-    'raisedHandButtonContainer': 'raisedHandButtonContainer_cb3dd1',
-    // used again as child of self??
     'raisedHandIcon': 'raisedHandIcon_0zxwb-',
     // paired with above when above is child of self
     // within bottom, 3 children all same classes and inline except middle is `flex: 1 1 auto;`, rest are `flex: 0 1 50%;`
     // from left to right...
-    'iconButton': 'iconButton__7b3e8',
-    // has a min-width media display none, button color has max width one
     'iconButtonLineReset': 'lineHeightReset_K9Xq13',
     // child, also used for participants button
     // "leftTrayIcon": "",
@@ -883,9 +854,6 @@ $classes: (
     'avControls': 'avControls_Z_HbQM',
     // mic, parent to contextMenuContainer + unmaksed
     'leaveStageButton': 'primaryButtonColor_Z_HbQM',
-    'buttonWithTextInnerContainer': 'buttonWithTextInnerContainer_fcb27c',
-    'buttonWithTextIcon': 'buttonWithTextIcon_fcb27c',
-    'buttonSpacing': 'buttonSpacing_fcb27c',
 
     'participants': 'participants_BzZ9Uo',
     // children usually are tileContainer and tileBaseContainer
@@ -902,7 +870,6 @@ $classes: (
     // child to callContainer, sibling to sidebarVisible only if this is open
     'requestToSpeakContainer': 'container_s7QiTL',
     'rtsHeaderContainer': 'headerContainer_s7QiTL',
-    'rtsHeaderTitle': 'headerTitle_f7ece4',
     'rtsHeaderClose': 'headerClose_jo3GZE',
 
     'rtsContentContainer': 'contentContainer_s7QiTL',
@@ -1042,7 +1009,6 @@ $classes: (
     'allowedAvatars': 'avatars_88IrSD',
     'allowedRole': 'role_88IrSD',
     // element kind button
-    'allowedRoleInner': 'role_fa0dd2',
     'allowedRoleInner2': 'role_p3g15p',
     // paired with above
     'allowedRoleColor': 'roleColor_B2Cjs2',
@@ -1126,29 +1092,19 @@ $classes: (
       'reactionBtn': 'reactionBtn_MmKct8',
       'active': 'active_MmKct8',
       'visible': 'visible_MmKct8',
-      'forceShow': 'forceShow__23977',
       'icon': 'icon_MmKct8',
       'hideEmoji': 'hideEmoji_quI2qP',
       'reaction': 'reaction_MmKct8',
       'me': 'reactionMe__23977',
-      'readOnly': 'reactionReadOnly__23977',
       'inner': 'reactionInner_MmKct8',
       'count': 'reactionCount_MmKct8',
       'remaining': 'remainingReactions_MmKct8',
       'tooltip': (
         'tooltip': 'reactionTooltip_5l5ajC', // Not sure if other also changed...
-        'emoji': 'reactionTooltipEmoji_b49891',
-        'text': 'reactionTooltipText_b49891',
-        'inner': 'reactionTooltipInner_b49891',
         'button': 'reactionEmojiDetailsClickable_d5cd2d',
       ),
       'burst': (
         'glow': 'burstGlow_MmKct8',
-        'inner': 'burstReactionTooltipInner_b49891',
-        'message': 'burstReactionTooltipMessage_b49891',
-        'prompt': 'burstReactionTooltipPrompt_b49891',
-        'nitroIcon': 'burstReactionTooltipNitroIcon_b49891',
-        'upsellCta': 'burstReactionTooltipUpsellCta_b49891',
       ),
     ),
 
@@ -1199,7 +1155,6 @@ $classes: (
       'chatInput': 'chatInput_fXYEi6'
     ),
 
-    'postTitle': 'forumPostTitle_f75fb0',
 
     'mainCard': 'mainCard_BkGrJJ',
     'cardCollapsed': 'collapsed_owUmX8',
@@ -1224,7 +1179,6 @@ $classes: (
 
         'dropdownPopoutContainer': 'container_medo7F',
         // on own line. click "Sort & View"
-        'dropdownPopoutContainerClearText': 'clearText_f8b2d2',
 
         // same line as ^
         'divider': 'divider_BkGrJJ',
@@ -1360,7 +1314,6 @@ $classes: (
         'postTitleText': 'postTitleText_SOY5H6',
         'newBadgeWrapper': 'newBadgeWrapper_SOY5H6',
         'newBadge': 'newBadge_SOY5H6',
-        'inTagsRow': 'inTagsRow_faa96b',
         'typing': 'typing_SOY5H6',
         'typingUsers': 'typingUsers_SOY5H6',
         'messageCountBox': 'messageCountBox_SOY5H6',
@@ -1383,12 +1336,9 @@ $classes: (
       'icon': 'icon_UNkajC',
       'active': 'active_UNkajC',
       'visible': 'visible_UNkajC',
-      'forceShow': 'forceShow_f8896c',
       'hideEmoji': 'hideEmoji_quI2qP',
 
       'reaction': 'reaction_UNkajC',
-      'shakeReaction': 'shakeReaction_f8896c',
-      'readOnly': 'reactionReadOnly_f8896c',
       'count': 'reactionCount_UNkajC',
       'me': 'reactionMe_f8896c',
       'inner': 'reactionInner_UNkajC',
@@ -1546,7 +1496,6 @@ $classes: (
           // page container
           'tabBar': 'tabBar_xTP3zy',
           'tabBarItem': 'tabBarItem_xTP3zy',
-          'newBadge': 'newBadge__0b563',
         ),
 
       'container': 'container_xTP3zy',
@@ -1646,10 +1595,6 @@ $classes: (
     // for some reason it's in the same line as a bunch of text shit. despite that some of the elements aren't using those classes???
     'loaderBar': 'loaderBar_-blG2T',
     'loaderContainer': 'loaderContainer_-blG2T',
-    'horizatonalScroller': 'horizatonalScroller__09a38',
-    // dunno why there's a typo in the class name
-    // similar to class above except different set of text stuff. also not using these classes.
-    // Same set
     'searchHeader': 'searchHeader_JVBo8P',
     'searchHeaderContainer': 'searchHeaderContainer_JVBo8P',
     'searchInput': 'searchInput_JVBo8P',
@@ -1854,12 +1799,8 @@ $classes: (
       'textContainer': 'textContainer_BOOBu-',
       'codeView': 'codeView_BOOBu-',
       'footer': 'footer_BOOBu-',
-      'toggleExpand': 'toggleExpandSection__4d95d',
       'openFullPreview': 'openFullPreviewSection_BOOBu-',
       'attachmentName': 'attachmentName_RIbQ1J',
-      'attachmentSize': 'formattedSize__4d95d',
-      'downloadButton': 'downloadButton__4d95d',
-      'codeIcon': 'codeIcon__4d95d',
       'languageSelectorPopout': 'languageSelector_BOOBu-',
 
       'modal': (
@@ -1901,8 +1842,6 @@ $classes: (
       'embedVertical': 'embedVertical_mVuBLJ',
       'media': 'media_lS7BT7',
       'mediaHorizontal': 'mediaHorizontal_lS7BT7',
-      'invalidPoop': 'invalidPoop__857bf',
-      'invalidPoopHorizontal': 'invalidPoopHorizontal__857bf',
       'description': 'description_lS7BT7',
       'title': 'title_lS7BT7',
       'tagline': 'tagline_lS7BT7',
@@ -2106,8 +2045,6 @@ $classes: (
     'itemCardOuter': 'outer_ERB-Vv',
     'voiceSectionIconWrapper': 'voiceSectionIconWrapper_o3hXTo',
     'partyMemberOverflow': 'partyMemberOverflow_xNY7wt',
-    'live': 'live_a7acae',
-    // "LIVE" icon of sorts in voice channel
     'multipleIconWrapper': 'multipleIconWrapper_o3hXTo',
     // guess
     'multipleIcon': 'multipleIcon_o3hXTo',
@@ -2183,7 +2120,6 @@ $classes: (
     'filterThemeToggled': 'themeToggled_sO1rm5',
 
     // preview
-    'previewModal': 'modalContent_c50f62',
     'previewInfo': 'collectibleInfoContainer_c50f62',
     'chatPreview': 'chatPreview_5JXgdm',
     'mockInput': 'mockInput_5JXgdm',
@@ -2240,7 +2176,6 @@ $classes: (
           'container': 'trailing_3zSH5d',
           // inbox icon
           // for the help link, target #{c(topBar trailing container)}>a[href="https://support.discord.com"]
-          'button': 'button__85643',
 
           // child icons. css has a rule for .visualRefresh .button svg {} -- despite that svg having a class lol
           // windows buttons have different classes compared to before. see os > windows for the old classes.
@@ -2264,13 +2199,9 @@ $classes: (
     'channelIconWrapper': 'iconWrapper_ybUK7Z',
     'iconWrapper': 'iconWrapper_ybUK7Z',
     'updateDownloadingCloud': 'cloud_tYuRNZ',
-    'updateDownloadingIcon': 'downloadArrow__49676',
-    'updateIconForeground': 'updateIconForeground__49676',
     'icon': 'icon_ybUK7Z',
     'iconClickable': 'clickable_ybUK7Z',
     'title': 'title_ybUK7Z',
-    'spacer': 'spacer__488b1',
-    // no nick nor channel desc, has zero width
     'dot': 'dot_ybUK7Z',
     // space between channel name and description
     'akaBadge': 'akaBadge_AAMT29',
@@ -2279,16 +2210,12 @@ $classes: (
     'iconSelected': 'selected_ybUK7Z',
     'search': 'search_bWCaDq',
     // contains margin
-    'searchInner': 'search__97492',
-    // gets open applied to it
-    'searchOpen': 'open__97492',
     'searchBar': 'searchBar__97492',
     'searchFilter': 'searchFilter_tknKcK',
     'searchAnswer': 'searchAnswer_tknKcK',
     'iconBadge': 'iconBadge_ybUK7Z',
     'topic': 'topic_pVbL3l',
     'topicExpandable': 'expandable_pVbL3l',
-    'avatars': 'avatars__488b1',
     'avatar': 'avatar_z_gUBg',
     // on same line as chat-$suffix
     'tabBar': 'tabBar_zrUwGA',
@@ -2403,7 +2330,6 @@ $classes: (
     'members': 'members_86es0b',
     'group': 'membersGroup_86es0b',
 
-    'activityHeader': 'header__095fe',
     'activityContainer': 'container_g7esM5',
     'activityContainerSelected': 'selected_g7esM5',
     'activityPopoutWrapper': 'popoutContentWrapper_R0WNX5',
@@ -2494,8 +2420,6 @@ $classes: (
     // idfk
     'colorSpotify': 'colorSpotify_Q02kKo',
     // i don't use Spotify so can't check :)
-    'colorPlayStation': 'colorPlayStation_Q02kKo',
-    // same as Spotify
     'colorBrand': 'colorBrand_Q02kKo',
     // view server as role
     'colorCustom': 'colorCustom_Q02kKo',
@@ -2524,7 +2448,6 @@ $classes: (
       'background': 'modalBg_hFq1lM',
       'body': 'modalBody_hFq1lM',
       'content': 'modalContent_hFq1lM',
-      'footer': 'contentFooter_e40371',
     ),
   ),
 
@@ -2544,7 +2467,6 @@ $classes: (
     'addButton': 'addButton_nie4FD',
     'addButtonIcon': 'addButtonIcon_nie4FD',
     'icon': 'roleIcon_nie4FD',
-    'expandButton': 'expandButton_fccfdf',
     'collapseButton': 'collapseButton_EpdO4n',
 
     // Show role colours next to names
@@ -2613,13 +2535,7 @@ $classes: (
   'searchbar': (
     'container': 'container_a45028',
     // For actual search bar; formally (incorrectly) used for entire container
-    'medium': 'medium_a45028',
-    'inner': 'inner_a45028',
-    // appears to be used for both a wrapper and <input>
     'iconLayout': 'iconLayout_v966Ys',
-    'iconContainer': 'iconContainer_a45028',
-    'iconVisible': 'visible_a45028',
-    'iconClear': 'clear_a45028',
 
     'settings': (
       // needs .visual-refresh
@@ -2639,7 +2555,6 @@ $classes: (
       'iconLayout': 'iconLayout_v966Ys',
       'iconContainer': 'iconContainer_isqatr',
       'icon': 'icon_isqatr',
-      'iconVisible': 'visible_fea832',
       'iconClear': 'clear_isqatr',
 
       'small': 'small_isqatr',
@@ -2662,16 +2577,9 @@ $classes: (
     'listItemWrapper': 'listItemWrapper_tQErD4',
     // seems to be only on home, add new and discovery
     'listItem': 'listItem_rwEpIL',
-    'listItemTooltip': 'listItemTooltip__90d72',
-    // tooltip obviously, used when hovering over anything in server list
-    'listItemTooltipFolder': 'listItemTooltip_dfb2f8',
-    // for folders, home, add server, discover
     'serverSeparator': 'guildSeparator_3WHVfy',
     'placeholderMask': 'placeholderMask_OkKLIP',
     'placeholderInner': 'dragInner_OkKLIP',
-    'pillHome': 'pill__1f388',
-    // pill for home
-    'pill': 'pill_e5445c',
     'pillDiscover': 'pill__5bc7e',
     'pillWrapper': 'wrapper__o8_Xq',
     'pillItem': 'item__o8_Xq',
@@ -2684,7 +2592,6 @@ $classes: (
     'serverWrapperSVG': 'svg_hqZPsU',
     'serverWrapperSVGShift': 'shiftSVG_hqZPsU',
     // holds defs, mask and foreignObject
-    'serverWrapperSimple': 'wrapperSimple_cc5dd2',
     'iconWrapper': 'wrapper_JJ-hgR',
     'homeWrapper': 'childWrapper_JJ-hgR',
     'acronym': 'acronym_JJ-hgR',
@@ -2723,7 +2630,6 @@ $classes: (
     // green thing when dragging
     // more drag classes - unsure about usage other than drag stuff because cant freeze in time
     'dragWrapper': 'wrapper_nL08_v',
-    'dragCenterTargetTooltip': 'centerTargetTooltip_d144f8',
     'dragAutoPointerEvents': 'autoPointerEvents_nL08_v',
     'dragFolderEndWrapper': 'folderEndWrapper_nL08_v',
     'dragWrapperOver': 'wrapperOver_nL08_v',
@@ -2947,7 +2853,6 @@ $classes: (
 
             // unknown, appears with same suffix
             'containerUserOver': 'containerUserOver_Wx6SnQ',
-            'disableClick': 'disableClick_a08117',
             'dismissButton': 'dismissButton_yOdhm_',
             'dismiss': 'dismiss_yOdhm_',
             'voiceChannelsButtonRefresh': 'refreshVoiceChannelsButton_yOdhm_',
@@ -3071,8 +2976,6 @@ $classes: (
                 'overlap': 'overlap_YUoOxm',
                 // for collapsed/hide names
                 'clickable': 'clickable_YUoOxm',
-                'selected': 'selected__07f91',
-                // click a user
                 'userSmall': 'userSmall_YUoOxm',
 
                 'userContent': 'content_YUoOxm',
@@ -3100,16 +3003,9 @@ $classes: (
                 'userLarge': 'userLarge_YUoOxm',
                 'avatarLarge': 'avatarLarge_ks3kJR',
                 'clanTagBadgeContainer': 'clanTagBadgeContainer_d80634',
-                'clanTagBadge': 'clanTagBadge_d80634',
-                'iconTooltipContainer': 'iconTooltipContainer_d80634',
-                'iconTooltip': 'iconTooltip_d80634',
                 'iconPriortySpeaker': 'iconPriortySpeaker_YUoOxm',
                 // discord typo lol
-                'strikethrough': 'strikethrough__07f91',
-                'selfHangStatus': 'selfHangStatus_d80634',
                 'clanTag': 'clanTag_YUoOxm',
-                'isOverlay': 'isOverlay__07f91',
-                'liveIcon': 'liveIcon_d80634',
                 'iconPriortySpeakerSpeaking': 'iconPriortySpeakerSpeaking_YUoOxm',
                 // discord typo lol
                 'disabled': 'disabled_YUoOxm',
@@ -3125,11 +3021,8 @@ $classes: (
 
       // Non-voice stuff
       'container': 'container_g6VwXp',
-      'avatarWrapper': 'avatarWrapper__37e49',
-      // contains avatar, username, nickname and status
       'avatar': 'avatar_g6VwXp',
       'nameTag': 'nameTag_g6VwXp',
-      'canCopy': 'canCopy__37e49',
       'titleContainer': 'panelTitleContainer_g6VwXp',
       // holds nickname
       'username': 'title_1hp6hz',
@@ -3190,7 +3083,6 @@ $classes: (
 
           // There's a row of buttons in this panel. These are not to be confused with the "noise suppression" and "disconnect" buttons.
           'actionButtons': (
-            'experiment': 'experimentButton_e131a9',
             'actionButtons': 'actionButtons_9U6LUN',
             'button': 'button_9U6LUN',
             'color': 'buttonColor_9U6LUN',
@@ -3220,17 +3112,13 @@ $classes: (
         'noiseCancellation': (
           'popout': 'noiseCancellationPopout_9U6LUN',
           // click the noise suppression button
-          'tooltip': 'noiseCancellationTooltip_e131a9',
-          // hover over the noise suppression button
           'krispLogo': 'krispLogo_9U6LUN',
           // in NC popout; parent is clickable to https://api.krisp.ai/v2/resource/link/discord
           'krispLink': 'krispLink_9U6LUN',
           // in NC popout; clickable to a support article from discord
-          'micTestButton': 'micTestButton_e131a9',
         ),
 
         // other classes that idk too much about
-        'hotspot': 'hotspot_e131a9',
         'customStatusContainer': 'customStatusContainer__emG3x',
         'voiceUsers': 'voiceUsers_9U6LUN',
         'withText': 'withText_9U6LUN',
@@ -3238,11 +3126,8 @@ $classes: (
         'voicePanelIntroductionWrapper': 'voicePanelIntroductionWrapper_9U6LUN',
         'voicePanelIntroductionHeader': 'voicePanelIntroductionHeader_9U6LUN',
         'voicePanelIntroductionText': 'voicePanelIntroductionText_9U6LUN',
-        'voicePanelIntroductionButton': 'voicePanelIntroductionButton_e131a9',
         'viewAsRolesWarning': 'viewAsRolesWarning_9U6LUN',
         'viewAsRolesWarningText': 'viewAsRolesWarningText_9U6LUN',
-        // appears as child of viewAsRolesWarning
-        'viewAsRolesWarningButton': 'viewAsRolesWarningButton_e131a9',
         // appears as child of viewAsRolesWarning
       ),
 
@@ -3285,8 +3170,6 @@ $classes: (
       // Buttons such as "mute", "deafen" and "settings".
       'buttons': (
         'buttons': 'buttons_g6VwXp',
-        'micButtonParent': 'micButtonParent__37e49',
-        // why is this separate ffs
         'button': 'button_Y-8oZW',
         // the actual button
         'enabled': 'enabled_Y-8oZW',
@@ -3323,7 +3206,6 @@ $classes: (
       'quest': (
         'wrapper': 'wrapper_jdr5pz',
         'contentWrapper': 'contentWrapper_jdr5pz',
-        'contentWrapperAccepted': 'contentWrapperAccepted__0d616',
         'contentWrapperExpanded': 'contentWrapperExpanded_jdr5pz',
 
         'contentInteractable': 'contentInteractable__24e2c',
@@ -3342,14 +3224,6 @@ $classes: (
     'communityInfoPill': 'communityInfoPill_XH4OpX',
     'communityInfoIcon': 'communityIcon_XH4OpX',
 
-    'boostContainer': 'container_eff079',
-    'boostTextArea': 'textArea_eff079',
-    'boostGoalTextContainer': 'goalTextContainer_eff079',
-    'boostGoalText': 'goalText_eff079',
-    'boostProgressFraction': 'progressFraction_eff079',
-    'boostBar': 'bar_eff079',
-    'boostProgressBar': 'progressBar_eff079',
-    // boost background
     'boostProgressBarContainer': 'progressBarContainer_5cFAmt',
 
     'loadingAnimationContainer': 'container_SeV6PM',
@@ -3368,13 +3242,6 @@ $classes: (
         // better name: "bannerUpsellNotice"
         // On a server with less than 7 boosts (not boost level 2): "Want this server to feel unique? Unlock custom server banenrs with # more boosts."
         'notice': 'channelNotice_hVh8FI',
-        'close': 'close__4c43d',
-        'closeIcon': 'closeIcon__4c43d',
-        'title': 'title__4c43d',
-        'message': 'message__4c43d',
-        'btn': 'btn__4c43d',
-        'imageContainer': 'imageContainer__4c43d',
-        'image': 'image__4c43d',
       ),
     'eventNotice': (
       'notice': 'channelNotice_hVh8FI',
@@ -3441,20 +3308,12 @@ $classes: (
       'banner': (
         'banner': 'banner_s9bWOi',
         'gifTag': 'gifTag_vNEdYY',
-        'mask': 'mask__68edb',
       ),
 
       // shared between modal+panel+popout+status+settings>profile
       // container also holds badges, notes button
       'username': (
-        'container': 'container__63ed3',
-        'clickableUsername': 'clickableUsername__63ed3',
-        'nickname': 'nickname__63ed3',
         'userTagUsername': 'userTagUsername_C2XpHA',
-        'nicknameIcons': 'nicknameIcons__63ed3',
-        'usernameRow': 'usernameRow__63ed3',     
-        'usernameContainer': 'container__63ed3',
-        'tags': 'tags__63ed3',
         'userTag': 'userTag_I0dgbG',
         'pronouns': 'pronouns_C2XpHA',
         'userTagDiscriminator': 'userTagDiscriminator_C2XpHA',
@@ -3484,10 +3343,6 @@ $classes: (
 
       'button': (
         // edit profile button not included
-        'themeColor': 'themeColor_fb7f94',
-        'primary': 'primary_fb7f94',
-        'secondary': 'secondary_fb7f94',
-        'inner': 'buttonInner_fb7f94',
       ),
 
       // actually used on the modal!
@@ -3617,7 +3472,6 @@ $classes: (
     'sidebarRegion': 'sidebarRegion_jnk11m',
     'sidebarRegionScroller': 'sidebarRegionScroller_jnk11m',
     'sidebar': 'sidebar_jnk11m',
-    'sidebarSocialLinks': 'socialLinks__7df54',
     'sidebarInfo': 'info_C_Rpm7',
 
     'customScroller': 'customScroller_jnk11m',
@@ -3724,12 +3578,9 @@ $classes: (
 
     'account': (
       'profileCard': 'accountProfileCard_a9178b',
-      'avatar': 'avatar_a9178b',
       'badgeList': 'badgeList_JZRLB9',
       'fieldBackground': 'background_a9178b',
       'fieldList': 'fieldList_a27e58',
-      'field': 'field_a27e58',
-      'security': 'userSettingsSecurity__2666b',
 
       'standing': (
         'container': 'container_v0Hfhf',
@@ -3743,7 +3594,6 @@ $classes: (
     'profiles': (
       'bioTextAreaContainer': 'bioTextAreaContainer_agtm70',
       'bioTextArea': 'bioTextArea_agtm70',
-      'profileContainer': 'container_ba7f98',
 
       'lockIcon': 'iconBadge_JJ37Ii',
 
@@ -3765,24 +3615,17 @@ $classes: (
         'gridItemSelected': 'selected_hxzEt-',
         'preview': 'decorationPreview_lCPrts',
         'previewSmall': 'smallDecorationPreviewsContainer_lCPrts',
-        'previewUpsell': 'shopPreviewContainer__51743',
         'previewUpsellBanner': 'shopPreviewBanner__51743',
       ),
 
       'nameplate': (
-        'inventoryControls': 'inventoryControls__6980e',
         'inventoryControlsButton': 'inventoryControlsButton__6980e',
         'inventoryControlsSelected': 'selected__6980e',
-        'nameplateItem': 'nameplateItem__6980e',
-        'nameplateItemOverlay': 'nameplateItemOverlay__6980e',
       ),
 
       'effect': (
         'gridItem': 'effectGridItem_b4019a',
         'gridItemSelected': 'selected_b4019a',
-        'description': 'effectDescriptionNoGradient__92e52',
-        'descriptionUpsell': 'effectDescriptionBorderWithGradient__92e52',
-        'descriptionContainer': 'effectDescriptionContainer__92e52',
       ),
 
       'premiumBackground': 'premiumBackground_qIotUB',
@@ -3803,7 +3646,7 @@ $classes: (
     ),
 
     'family': (
-      'containers': 'container_IQWzzZ' 'container_lb1Q8G' 'container__5b321',
+      'containers': 'container_IQWzzZ' 'container_lb1Q8G',
       'box': 'box_qCRz2b',
       'circle': 'circle_lb1Q8G',
       'iconContainer': 'iconContainer_qUlUyR',
@@ -3817,29 +3660,17 @@ $classes: (
       'detailsContainer': 'appDetailsContainer__50a54',
       'detailsSection': 'appDetailsSection__50a54',      
       'permission': 'permission_L0tkeR',
-      'permissionCheck': 'permissionCheckmark__50a54',
       'actionMenuButton': 'actionMenuButton_d84e0f',
     ),
 
     'devices': (
-      'description': 'description__803f2',
-      'sessions': 'sessions__803f2',
-      'session': 'session__803f2',
-      'sessionCurrent': 'currentSession__803f2',
       'sessionIcon': 'sessionIcon__803f2',
-      'sessionInfo': 'sessionInfo__803f2',
-      'sessionInfoRow': 'sessionInfoRow__803f2',
-      'sessionMoreButton': 'sessionMoreButton__803f2',
-      'sessionsLegacy': 'legacySession__803f2',
-      'sessionsLogOutAllButton': 'logOutAllButton__803f2',
     ),
 
     'connections': (
       'connectTopContainer': 'container_VhFsFg',
       'connectionsContainer': 'connectionsContainer_yX-kzH',
       'accountButtonInner': 'accountButtonInner_yX-kzH',
-      'accountWrapper': 'accountAddWrapper_c7f964',
-      'accountWrapperInner': 'accountAddInner_c7f964',
 
       // click the rightward chevron ">"
       'modal': (
@@ -3880,14 +3711,10 @@ $classes: (
     ),
 
     'boost': (
-      'headerWave': 'wave__8e08c',
       'guildContainer': 'guildContainer__5dba5',
       'appliedBoostContainer': 'appliedBoostContainer_ceb06a',
       'boostContainer': 'boostContainer_ceb06a',
-      'boostContainerInner': 'boostInnerContainer_ceb06a',
 
-      'recognitionCard': 'boosterRecognitionCard__744ff',
-      'FAQ': 'faq__744ff',
 
       'transerSelectGuild': 'selectGuild_9g3egx',
       'transerSelectGuildIcon': 'selectGuildIcon_9g3egx',
@@ -3922,9 +3749,7 @@ $classes: (
     ),
 
     'appearance': (
-      'preview': 'preview__3e443',
 
-      'themesBasicSelectors': 'basicThemeSelectors_fbfab6',
       'themesSelectorContainer': 'themeSelectionContainer_IhyaN_',
       'themesSelection': 'themeSelection_IhyaN_',
       'themesDefault': 'defaultThemeSelection_IhyaN_',
@@ -3943,8 +3768,6 @@ $classes: (
       'themesHeadings': 'headings_QF5mJe',
       'themesTitle': 'title_QF5mJe',
       'themesPremiumIcon': 'premiumIcon_QF5mJe',
-      'themesNitroWheel': 'nitroWheel_c5f0dc',
-      // ON OWN LINE; ALSO APPEARS UNDER SERVER PROFILES
       'themesTryItOutButton': 'tryItOutButtons_A7cGXu',
 
       'selectedCircle': 'selectionCircle_IhyaN_',
@@ -3962,7 +3785,6 @@ $classes: (
       'notchesGray': 'gray_0EQxEk',
       'notchprogress': 'progress_0EQxEk',
       'sensitivityBar': 'sliderBar_d-Ihb0',
-      'sensitivitySpeaking': 'speaking_ac7648',
 
       'soundButton': 'soundButtonSettingContainer_VACzzt',
 
@@ -4087,7 +3909,6 @@ $classes: (
 
     'members': (
       'header': 'header_mg3aTC',
-      'bannerContainer': 'bannerContainer__71cd5',
       'maintableContainer': 'mainTableContainer_mg3aTC',
     ),
 
@@ -4111,7 +3932,6 @@ $classes: (
         // view server as role
         'notice': 'notice_INrZ8n',
         'button': 'button_INrZ8n',
-        'backbutton': 'backButton_c9e42f',
         'dropdown': 'container_V7nUkK',
       ),
     ),
@@ -4358,7 +4178,6 @@ $classes: (
       // change status for easiest
       'submenu': 'submenu_M3qk4j',
 
-      'hintContainer': 'hintContainer_c1e9c4',
 
       // this is the remove custom status thing
       'groupLabel': 'groupLabel_M3qk4j',
@@ -4373,17 +4192,9 @@ $classes: (
       'quickReactionButton': 'button_Qi4I4L',
 
       // Change status
-      'mainStatusIcon': 'mainStatusIcon_ad5fac',
-      'statusItem': 'statusItem_af7fb7',
-      // within submenu
       'statusMask': 'mask_PlwcO5',
       'status': 'status_PlwcO5',
       // inline background color
-      'statusicon': 'icon_af7fb7',
-      // >foreignObject>div has inline style
-      'statusText': 'status_af7fb7',
-      // contains text
-      'statusDescription': 'description_af7fb7',
 
       // used with do not disturb and invis
       'accountSwitcher': (
@@ -4401,7 +4212,6 @@ $classes: (
 
     // Be in a private call, change region
     'regionSelect': (
-      'popout': 'regionSelectPopout__5621e',
     ),
 
     // Click the in-chat search bar in header
@@ -4556,19 +4366,8 @@ $classes: (
 
           // only named so as it's the dumb preview thing that begs for the user to buy nitro
           'nonNitroBlocker': (
-            'wrapper': 'wrapper__97f37',
-            'banner': 'banner__97f37',
-            // video, with autoplay in the tag.
-            'hasTrialOffer': 'hasTrialOffer__97f37',
-            'content': 'content__97f37',
-            'header': 'header__97f37',
-            'headerText': 'headerText__97f37',
-            'subheaderText': 'subheaderText__97f37',
-            'ctaActionWrapper': 'ctaActionWrapper__97f37',
           ),
 
-          'upsellContainer': 'upsellContainer_a3bc57',
-          // "Unlock these emojis with Nitro" shows up when reacting
         ),
       ),
 
@@ -4577,7 +4376,6 @@ $classes: (
         'container': 'container_rfDq2B',
         // has ID on it
         'header': 'header_rfDq2B',
-        'searchBar': 'searchBar_fed6d3',
         'content': 'content_rfDq2B',
         'scroller': 'container_d2GpC2',
         'resultPlaceholder': 'placeholder_H8nOze',
@@ -4591,9 +4389,6 @@ $classes: (
         'endContainer': 'endContainer_H8nOze',
         'results': 'results_H8nOze',
         'noResultsWrapper': 'wrapper_fGpd5-',
-        'sadImage': 'sadImage__29ebd',
-        // search "hentai" or something
-        // shown in favourites when they're empty or something. i used a plugin that allowed for searching and it brought these up.
         'emptyHintCard': 'emptyHintCard_H8nOze',
         'emptyHintFavourite': 'emptyHintFavorite_H8nOze',
         // star
@@ -4641,9 +4436,6 @@ $classes: (
     ),
 
     'stickerSuggestion': (
-      'focused': 'suggestedExpressionFocused_d4ced7',
-      'mask': 'mask_d4ced7',
-      'maskBackground': 'maskBackground_d4ced7',
       'background': 'containerBackground_0fgkqL',
     ),
 
@@ -4711,7 +4503,6 @@ $classes: (
         'container': 'sectionContainer_-SUGNi',
         'header': 'sectionHeader_-SUGNi',
         // class as [aria-expanded="true"|"false"]
-        'notFirstSection': 'notFirstSectionHeader__61424',
         'content': 'sectionHeaderContent_-SUGNi',
         'title': 'sectionTitle_-SUGNi',
         'icon': 'headerIcon_-SUGNi',
@@ -4722,47 +4513,40 @@ $classes: (
         'button': (
           'wrapper': 'soundButtonWrapper_N99eHz',
           'button': 'soundButton_N99eHz' 'soundButtonRefresh__9be63',
-          'interactive': 'soundButtonInteractive_N99eHz' 'soundButtonInteractiveRefresh__9be63',
+          'interactive': 'soundButtonInteractive_N99eHz',
           // :hover on this to show overlay
           'focused': 'focused_N99eHz',
           // arrow keys to navigate work
           'hoverActiveBackground': 'hoverActiveBackground_N99eHz',
           // voice & video choose entrance sound
-          'name': 'soundName_N99eHz' 'soundNameRefresh__9be63',
+          'name': 'soundName_N99eHz',
 
           'overlay': 'buttonOverlay_N99eHz',
           'overlayBackground': 'buttonOverlayBackground_N99eHz',
           // never appears in refresh
-          'overlayActions': 'buttonOverlayActions_N99eHz' 'buttonOverlayActionsRefresh__9be63',
+          'overlayActions': 'buttonOverlayActions_N99eHz',
           'absoluteFill': 'absoluteFill_NemNeq',
           // position absolute; top,left,right,bottom 0
         ),
-        'primaryIcon': 'primaryIcon_N99eHz' 'primaryIconRefresh__9be63',
-        // only on refresh for nitro locked
+        'primaryIcon': 'primaryIcon_N99eHz',
         'lockIcon': 'lockIcon_N99eHz',
         // only on refresh for nitro locked without emoji
         'secondary': (
           // action buttons. "play", "favourite" etc
-          'button': 'secondaryButton_N99eHz' 'secondaryButtonRefresh__9be63',
+          'button': 'secondaryButton_N99eHz',
           'icon': 'secondaryIcon_N99eHz',
           'favourite': 'favoriteIconFavorite_N99eHz',
           // only shows up when sound is favourited
         ),
         'animated': 'animated_N99eHz',
         'playing': 'playing_N99eHz',
-        'previewing': 'previewing__9be63',
-        'info': 'soundInfo_N99eHz' 'soundInfoRefresh__9be63',
+        'info': 'soundInfo_N99eHz',
         'emoji': (
           'hasEmoji': 'hasEmoji_N99eHz',
-          'circle': 'emojiCircle__9be63',
           'emoji': 'emoji_N99eHz',
         ),
         'add': (
-          'button': 'soundAddButton__58c6c' 'soundAddButtonRefresh__58c6c',
-          'info': 'soundAddInfoRefresh__58c6c',
-          // only appears in refresh
-          'icon': 'soundAddIcon__58c6c' 'soundAddIconRefresh__58c6c',
-          'text': 'soundAddText_c06ee5' 'soundAddTextRefresh__58c6c',
+          'text': 'soundAddText_c06ee5',
         ),
       ),
       'nitro': (
@@ -4786,36 +4570,21 @@ $classes: (
         // on section/header. has background
         'rowLocked': 'soundRowNitroLocked_-SUGNi',
         // on row. has background like section/header
-        'premiumDisabled': 'premiumDisabledRefresh__9be63',
 
         // only appears in refresh. on button. hover this also gives emojiCircle background gradient
         'upsell': (
           // floating thing at bottom that shows up when scrolling
           'container': 'upsellContainer_jFJVCQ',
           // has inline style for transform: translateY(0-120%);opacity: 0-1;
-          'shadow': 'upsellContainerShadow__0b69f',
           'innerFloating': 'upsellContainerFloating_jFJVCQ',
           'text': 'upsellText_jFJVCQ',
-          'button': 'upsellButton__0b69f'
         ),
 
         'cta': (
           // large container that appears when clicking sound from outside server without nitro
           // "Express yourself with more sounds"
-          'container': 'container_d829e7',
-          'noParentContainer': 'noParentContainer_d829e7',
-          'close': 'closeButton_d829e7',
-          'contentContainer': 'contentContainer_d829e7',
-          'image': 'image_d829e7',
-          'title': 'title_d829e7',
-          'titleNoSocialProof': 'titleNoSocialProof_d829e7',
-          'body': 'body_d829e7',
 
           // footer equiv
-          'ctaContainer': 'ctaContainer_d829e7',
-          'secondaryCTA': 'secondaryCTA_d829e7',
-          // "View All Nitro Perks"
-            // the right button does not have a dedicated class
         ),
       ),
 
@@ -4908,9 +4677,7 @@ $classes: (
 
         // empty list
         'emptyContainer': 'container_0FCMV2',
-        'emptyIconContainer': 'iconContainer__1b24f',
         'emptyIcon': 'icon__1b24f',
-        'emptyStars': 'stars__1b24f',
         'emptyHeader': 'header_0FCMV2',
         'emptyCreateButton': 'cta_0FCMV2',
 
@@ -4958,8 +4725,6 @@ $classes: (
 
   'modals': (
     'layer': 'layer_C_WHpX',
-    'hidden': 'hidden_bc663c',
-    // best way to get this class is to change banner/avi and click gifs
     'focusLock': 'focusLock__KoJTP',
     'root': 'root__KoJTP' 'container_dvN-MP' /* quickswitcher, external links, server notifs */ ,
     'header': 'header__KoJTP',
@@ -5018,9 +4783,7 @@ $classes: (
 
       // Within modal above, click an event
       'eventinfo': (
-        'tabContainer': 'container__4efb4',
         'banner': 'banner_7pDS2B',
-        'container': 'container__4325e',
       ),
     ),
 
@@ -5089,17 +4852,7 @@ $classes: (
       // whole modal
       'guildSidebar': 'guildSidebar_x3HD6i',
       // sidebar, has background color
-      'guildDescription': 'guildDescription_b962dc',
-      'guildIcon': 'guildIcon_b962dc',
-      'guildIconNoIcon': 'guildIconNoIcon_b962dc',
-      // has background color
-      'guildName': 'guildName_b962dc',
       'emojisContainer': 'emojisContainer_Mio23b',
-      'emoji': 'emoji_b962dc',
-      // the extra +n emoji has an inline style, uses header secondary
-      'onlineCount': 'onlineCount_b962dc',
-      'dot': 'dot_b962dc',
-      'dotOnline': 'dotOnline_b962dc',
       'dotMembers': 'dotMembers_a74b6',
       'divider': 'divider_x3HD6i',
       'modal': 'modal_x3HD6i',
@@ -5107,17 +4860,9 @@ $classes: (
       'sequencer': 'sequencer_x3HD6i',
       'modalContent': 'modalContent_x3HD6i',
       'content': 'content_x3HD6i',
-      'centerContent': 'centerContent_b962dc',
       'closeButton': 'closeButton_x3HD6i',
       'applicationIcon': 'applicationIcon_x3HD6i',
-      'animationAndSparklesContainer': 'animationAndSparklesContainer_b962dc',
-      // within content has an animation, a title and a description
-      'sparkleIcon': 'sparkleIcon_b962dc',
-      'sparkleTop': 'sparkleTop_b962dc',
-      'sparkleBottom': 'sparkleBottom_b962dc',
-      'animation': 'animation_b962dc',
       'header': 'header_x3HD6i',
-      'subheader': 'suheader_bb962d',
       'footer': 'footer_x3HD6i',
       'submitButton': 'submitButton_x3HD6i',
       'formItem': 'formItem_x3HD6i',
@@ -5139,18 +4884,13 @@ $classes: (
     ),
 
     'screenshare': (
-      'root': 'root__7f727',
-      'header': 'header__7f727',
-      'content': 'content__7f727',
       'footer': 'footer__7f727',
-      'footerContent': 'footerContent__7f727',
 
       // selector pills
       'pillContainer': 'pillContainer_I4ubrz',
       'pillItem': 'pillItem_I4ubrz',
       'pillItemSelected': 'pillItemSelected_I4ubrz',
 
-      'source': 'source_febe19',
       'sourcePreviewContainer': 'sourcePreviewContainer_4HfQya',
       'sourcePreview': 'sourcePreview_4HfQya',
       'sourceOverlayCTA': 'sourceOverlayCTA_4HfQya',
@@ -5214,11 +4954,6 @@ $classes: (
     // Time someone out, yes that's really the best way to get these to show up
     // Or you can switch account
     'toasts': (
-      'containerTop': 'containerTop__45edc',
-      // contains z-index and alignment stuff. rule paired with bottom
-      'containerBottom': 'containerBottom__45edc',
-      'toast': 'toast__3fde7',
-      'icon': 'icon__3fde7',
     ),
 
     // Create Group DM
@@ -5226,29 +4961,19 @@ $classes: (
     // Click the plus in the header of the private messages sidebar
     // Alternatively within the DMs of someone, click the person with a plus in the headerbar
     'groupDm': (
-        'popout': 'popout_cba592',
         'searchBar': 'searchBar_Xe75gx',
         'searchBarComponent': 'searchBarComponent_6mnjB2',
-        'subtitleWarning': 'subtitleWarning_cba592',
         'scroller': 'scroller_Xe75gx',
         'mobileToolsContainer': 'mobileToolsContainer_Xe75gx',
         'mobileToolsCloseIcon': 'mobileToolsCloseIcon_Xe75gx',
         'copyInput': 'copyInput_cZux1n',
-        'copyButton': 'copyButton_e6af9c',
         'errorState': 'errorState_zoUCAE',
-        'errorStateIcon': 'errorStateIcon_cba592',
-        'notFriends': 'notFriends_cba592',
         'noFriends': 'noFriends_iMtCVa',
-        'partyFull': 'partyFull_cba592',
         'noResults': 'noResults_Xe75gx',
-        'footer': 'footer_cba592',
         'selectExistingFormHeader': 'selectExistingFormHeader_Xe75gx',
         'confirmChannelItemContainer': 'confirmChannelItemContainer_Xe75gx',
         'confirmChannelName': 'confirmChannelName_Xe75gx',
         'lastActiveTimestamp': 'lastActiveTimestamp_Xe75gx',
-        'confirmInviteScroller': 'confirmInviteScroller_cba592',
-        'subtitle': 'subtitle_cba592',
-        'footerText': 'footerText_cba592',
       ),
 
     // Change your avatar (or banner w/ nitro) or a server's icon
@@ -5371,7 +5096,6 @@ $classes: (
         // While the icons in this list are in order, the html tree order is one-three-two
         // the "uses" comment are other classes on the same element. they're listed all below under "fileTypes"
         'wrapOne': 'wrapOne_TLgD1o',
-        'one': 'one_b78547',
 
         // uses document
         'wrapTwo': 'wrapTwo_TLgD1o',
@@ -5379,7 +5103,6 @@ $classes: (
 
         // uses image
         'wrapThree': 'wrapThree_TLgD1o',
-        'three': 'three_b78547',
 
         // uses code
         'instructions': 'instructions_TLgD1o',
@@ -5405,7 +5128,6 @@ $classes: (
         'ps': 'ps_sBdlOA',
         // This class uses the same image as photoshop. why there's two is anyone's guess
         'spreadsheet': 'spreadsheet_sBdlOA',
-        'webcode': 'wecode_bb7854',
         'audio': 'audio_TLgD1o',
         // This class also has a margin applied to it
         'unknown': 'unknown_sBdlOA',
@@ -5430,17 +5152,10 @@ $classes: (
 
         // Colors use images
         'sparkleWhite': 'sparkleWhite_IXpFcz',
-        'sparkleGrey': 'sparkleGrey_bce2e6',
-        'sparkleBlurple': 'sparkleBlurple_bce2e6',
         'popWhite': 'popWhite_IXpFcz',
-        'popGrey': 'popGrey_bce2e6',
-        'popBlurple': 'popBlurple_bce2e6',
         'lightWhite': 'lightWhite_IXpFcz',
-        'lightGrey': 'lightGrey_bce2e6',
-        'lightBlurple': 'lightBlurple_bce2e6',
         'crossWhite': 'crossWhite_IXpFcz',
         'crossGrey': 'crossGrey_IXpFcz',
-        'crossBlurple': 'crossBlurple_bce2e6',
       ),
 
       // Line 532 of 2022-09-14: https://canary.discord.com/assets/40532.a635ae389e26e316ec3b.css
@@ -5448,10 +5163,8 @@ $classes: (
       'fail': (
         'modal': 'root_PwiJiV',
         'artContainer': 'artContainer_PwiJiV',
-        'artContainerAlign': 'artContainer__8162d',
         'content': 'content_PwiJiV',
         'header': 'header_PwiJiV',
-        'body': 'body__8162d',
         'footer': 'footer_PwiJiV',
         'primaryActions': 'primaryActions_PwiJiV',
 
@@ -5500,7 +5213,6 @@ $classes: (
       'gift': (
         'spinner': 'spinner_V4xidM',
         'header': 'modalHeaderCustomGift_hvcsgP',
-        'giftBox': 'customGiftBox_d50aac',
         'giftBoxSelected': 'customGiftBoxHighlighted_d50aac',
 
         // nitro
@@ -5518,7 +5230,6 @@ $classes: (
         'breadcrumb': 'wrapper_nLdsb1',
         'body': 'body_QfSFaK',
         'table': 'table_Atpnal',
-        'cardPageBody': 'body_b25217',
         'cardInputWrapper': 'cardNumberWrapper_vel7TH',
         'cardInput': 'cardInput_vel7TH',
         'cardInputFocused': 'cardInputFocused_vel7TH',
@@ -6169,8 +5880,6 @@ $classes: (
           // src/channels/panels.scss
           'privateChannelActivityContainer': 'container_5kshUk',
           // src/channels/privateChannels.scss
-          'callInviteButton': 'button_c6e099',
-          // src/chat/call.scss
           'flowerStarIcon': 'icon_tbg0LG',
           // src/??/badge.scss ; as "tooltipHubIcon" src/??/tooltip.scss
           'messageBlockedAction': 'blockedAction_cKojhe',
@@ -6215,10 +5924,6 @@ $classes: (
           'libraryPlayButtonContents': 'playButtonContents_J5NjGG',
           'authModalScopeTimes': 'iconWrapper_cf14a8',
           'connectionDebugPopout': 'container_TP1WMf',
-          'connectionDebugText': 'popoutText_effb26',
-          'connectionDebugTextDetails': 'popoutTextDetails_effb26',
-          'connectionDebugBottom': 'popoutBottom_effb26',
-          'connectionDebugSecured': 'secured_effb26',
           'searchHubHeader': 'searchHeader_RRDnyC',
           'settingsToolsContainer': 'toolsContainer_jnk11m',
           'settingsTools': 'tools_jnk11m',
@@ -6226,9 +5931,6 @@ $classes: (
           'settingsImageUploaderIcon': 'imageUploaderIcon_zIVMHF',
           'settingsAttendeeCTA': 'attendeeCTA_ca5ce6',
           'guildFeatureAvailabilityIndicator': 'availabilityIndicator_C3UYpl',
-          'screenshareSegmentContainer': 'segmentControl_a2de16',
-          'screenshareSegmentControlOption': 'segmentControlOption_a2de16',
-          'myScreenControlOptions': 'interactive__2f4f7',
           'streamStillRunning': 'videoWrapper_7NOr2f',
           'serverWelcomeCards': 'card_rh88Fa',
           'serverInviteTick': 'checkmark_rh88Fa',
@@ -6239,17 +5941,12 @@ $classes: (
           'activeNowPreviewWrapper': 'applicationStreamingPreviewWrapper_o3hXTo',
           'emptyActiveNowText': 'emptyText_-7KzVR',
           'promotedQuestPill': 'promotedTagBackground_4sN7lX',
-          'quickReactButtonFocused': 'focused_f563df',
           'quickReactPremiumUpsell': 'premiumUpsell_aae531',
-          'messagesPopoutThread': 'forumPost__7d15e',
-          'inboxChattingAbout': 'calloutContainer__6fddf',
           'channelThreadPopoutRow': 'row_j5xNzb',
           'channelThreadPopoutMore': 'more_AdrBHW',
           'threadMembersEmptyHeader': 'emptyStateHeader_UPjGEs',
           'threadMembersEmptyIcon': 'emptyStateIcon_UPjGEs',
           'waveButtonDisabled': 'compactButtonDisabled_sFyjfh',
-          'eventIconCircle': 'circle__710ee',
-          'eventNewBadgeText': 'newBadgeText__29021',
           'eventStatusLabel': 'eventStatusLabel_2SWORW',
           'eventIconContainer': 'eventStatusContainer_2SWORW',
           'eventRSVPIcon': 'rsvpIcon_dUw4ZS',
@@ -6279,17 +5976,12 @@ $classes: (
           'chatToolbarIcon': 'icon_hPmUPu',
           'serverShopIntro': 'container_U1qmfF',
           'serverShopSelected': 'selected_GBvv4I',
-          'inboxPopoutPill': 'unread__6fddf',
           'beforeTalkRule': 'termsRow_3mS44o',
-          'clipsUploadModal': 'sizeClip_aa605f',
           'clipsUploadGame': 'gameIcon_-BipLp',
           'clipsInterfaceOptionsModal': 'clipForm_XKaV_y',
           'clipsInterfaceTimeScroller': 'timePillBackground_wUYaqe',
           'clipsInterfacePlayPause': 'playPauseButtonWrapper_wUYaqe',
-          'clipsInterfaceDragHandles': 'dragHandle_f18995',
-          'clipInChatFooter': 'container_b9f75c',
           'subEnabledServers': 'integrationWrapper_yX-kzH',
-          'freeBoost': 'header__99020',
 
           // SORTED AND NEED ALIASES
         ),
