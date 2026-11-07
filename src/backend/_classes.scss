@@ -271,7 +271,7 @@ $classes: (
     'appLayer': 'layer_Fd0FEH',
     'appLayers': 'layers_Fd0FEH',
 
-    'backdrop': 'backdrop__78332',
+    'backdrop': 'backdrop_UQqFnR',
     'backdropWithLayer': 'withLayer__78332',
 
     // Themes
@@ -297,7 +297,7 @@ $classes: (
     'layerContainer': 'layerContainer_VVADeK',
     'container': 'container_pog62O',
     'content': 'content_pog62O',
-    'layer': 'layer_da8173',
+    'layer': 'layer_VVADeK',
     'mediaEngineVideo': 'media-engine-video',
     // class found within JS
     'base': 'base_pog62O',
@@ -314,7 +314,7 @@ $classes: (
     'wanderingCubesItem': 'item_3H5mjG',
     'spinner': 'spinner_3H5mjG',
     'spinnerCircle': 'spinningCircle_3H5mjG',
-    'spinnerCircleInner': 'spinningCircleInner__46696',
+    'spinnerCircleInner': 'spinningCircleInner_3H5mjG',
     'spinnerCirclePath': 'path_3H5mjG',
     'spinnerCirclePath3': 'path3_3H5mjG',
     'spinnerPulsingEllipsisPopout': 'spinner_e90879',
@@ -382,7 +382,7 @@ $classes: (
     'wrapper': 'wrapper_UcGqzv',
 
     'container': 'container_0PLWhS',
-    'input': 'input__0f084',
+    'input': 'input_0PLWhS',
   ),
   'checkbox': (
     // checkboxes
@@ -404,7 +404,7 @@ $classes: (
   ),
 
   'radio': (
-    'groupOption': 'radioGroupOption__64e61',
+    'groupOption': 'radioGroupOption_oJuRbG',
     // dot
     'indicator': 'radioIndicator_oJuRbG',
     'standaloneIndicator': 'standaloneRadioIndicator_oJuRbG',
@@ -420,16 +420,16 @@ $classes: (
     'mini': 'mini_p3RiOL',
     'bar': 'bar_p3RiOL',
     'barFill': 'barFill_p3RiOL',
-    'grabber': 'grabber_a562c8',
-    'disabled': 'disabled_a562c8',
+    'grabber': 'grabber_p3RiOL',
+    'disabled': 'disabled_p3RiOL',
     'track': 'track_p3RiOL',
-    'mark': 'mark_a562c8',
-    'markAbove': 'markAbove_a562c8',
+    'mark': 'mark_p3RiOL',
+    'markAbove': 'markAbove_p3RiOL',
     'markBelow': 'markBelow_p3RiOL',
-    'markValue': 'markValue_a562c8',
-    'markDash': 'markDash_a562c8',
-    'markDashSimple': 'markDashSimple_a562c8',
-    'defaultValue': 'defaultValue_a562c8',
+    'markValue': 'markValue_p3RiOL',
+    'markDash': 'markDash_p3RiOL',
+    'markDashSimple': 'markDashSimple_p3RiOL',
+    'defaultValue': 'defaultValue_p3RiOL',
   ),
 
   'pagination': (  
@@ -437,9 +437,9 @@ $classes: (
     // found in search and shop (browse)  
     'pageControlContainer': 'pageControlContainer_0MrDiE',
     'pageControl': 'pageControl_0MrDiE',
-    'pageButton': 'pageButton_c15210',
+    'pageButton': 'pageButton_0MrDiE',
     'activeButton': 'activeButton_0MrDiE',
-    'endButton': 'endButton_c15210',
+    'endButton': 'endButton_0MrDiE',
   ),
 
   'text': (
@@ -461,9 +461,9 @@ $classes: (
     'fontScaling': 'fontScaling_RAOoio',
     'eyebrow':'eyebrow_cf4812',
     'display': (
-      'sm': 'display-sm_RAOoio' 'display-sm_a8af02' 'display-sm__4ed1a' 'display-sm_a39fe9' 'display-sm_aabef9' 'display-sm_c23051' 'display-sm_cf4812' 'display-sm_b717a1' 'display-sm_df8943' 'display-sm_ec1c2d',
-      'md': 'display-md_RAOoio' 'display-md_a8af02' 'display-md__4ed1a' 'display-md_a39fe9' 'display-md_aabef9' 'display-md_c23051' 'display-md_cf4812' 'display-md_b717a1' 'display-md_df8943' 'display-md_ec1c2d',
-      'lg': 'display-lg_RAOoio' 'display-lg_a8af02' 'display-lg__4ed1a' 'display-lg_a39fe9' 'display-lg_aabef9' 'display-lg_c23051' 'display-lg_cf4812' 'display-lg_b717a1' 'display-lg_df8943' 'display-lg_ec1c2d',
+      'sm': 'display-sm_RAOoio' 'display-sm_a8af02' 'display-sm__4ed1a' 'display-sm_a39fe9' 'display-sm_aabef9' 'display-sm_c23051' 'display-sm_RAOoio' 'display-sm_b717a1' 'display-sm_df8943' 'display-sm_ec1c2d',
+      'md': 'display-md_RAOoio' 'display-md_a8af02' 'display-md__4ed1a' 'display-md_a39fe9' 'display-md_aabef9' 'display-md_c23051' 'display-md_RAOoio' 'display-md_b717a1' 'display-md_df8943' 'display-md_ec1c2d',
+      'lg': 'display-lg_RAOoio' 'display-lg_a8af02' 'display-lg__4ed1a' 'display-lg_a39fe9' 'display-lg_aabef9' 'display-lg_c23051' 'display-lg_RAOoio' 'display-lg_b717a1' 'display-lg_df8943' 'display-lg_ec1c2d',
     ),
     'heading': (
       'sm': (
@@ -572,7 +572,7 @@ $classes: (
   ),
   'badges': (
     'base': 'base_lMvXrQ',
-    'number': 'numberBadge__463b7',
+    'number': 'numberBadge_lMvXrQ',
     'text': 'textBadge__463b7',
   ),
   'login': (
@@ -580,8 +580,8 @@ $classes: (
     // seemingly a parent class for the whole thing
     'artwork': 'artwork__dBQf7',
     'loggingIn': 'loggingIn_bdd070',
-    'logo': 'logo_eb4069',
-    'splashBackground': 'splashBackground__742a4',
+    'logo': 'logo__dBQf7',
+    'splashBackground': 'splashBackground_xknnko',
 
     'authBox': 'authBox_rN1Ls3',
     // paired up with a dark mode and the next class
@@ -589,11 +589,11 @@ $classes: (
     // ...even with a thin screen this pops up
     // appears when adding acc while logged in
     'mainLoginContainer': 'mainLoginContainer_qDi699',
-    'header': 'header__1d5fc',
+    'header': 'header_8bJOD9',
     'title': 'title_rN1Ls3',
     'qrCodeOverlay': 'qrCodeOverlay_DzIB9D',
     
-    'accountsList': 'list__920b8',
+    'accountsList': 'list_xu8B3s',
   ),
   'os': (
     'win': 'platform-win',
@@ -638,7 +638,7 @@ $classes: (
     // DO NOT FORGET TO UPDATE MIXINS FILE IF UPDATING THIS CLASS
     'lookFilled': 'lookFilled_9OQtot',
     'lookOutlined': 'lookOutlined_9OQtot',
-    'lookLink': 'lookLink__201d5',
+    'lookLink': 'lookLink_9OQtot',
     'lookBlank': 'lookBlank_9OQtot',
     // no combos with colors
     'spinner': 'spinner_9OQtot',
@@ -650,15 +650,15 @@ $classes: (
 
     // shiny buttons are on a different line to the others
     'shinyButton': 'shinyButton_yZrVKb',
-    'shineDefault': 'shineDefault__6a443',
+    'shineDefault': 'shineDefault_yZrVKb',
     'shineContainer': 'shineContainer_yZrVKb',
     'buttonShine': 'buttonShine_yZrVKb',
-    'shine': 'shine__6a443',
+    'shine': 'shine_yZrVKb',
     'onlyShineOnHover': 'onlyShineOnHover_yZrVKb',
-    'shineSmall': 'shineSmall__6a443',
+    'shineSmall': 'shineSmall_yZrVKb',
     'shinePaused': 'shinePaused_yZrVKb',
-    'shineInnerDefault': 'shineInnerDefault__6a443',
-    'shineInnerSmall': 'shineInnerSmall__6a443',
+    'shineInnerDefault': 'shineInnerDefault_yZrVKb',
+    'shineInnerSmall': 'shineInnerSmall_yZrVKb',
 
     // sizes
     'sizeTiny': 'sizeTiny_9OQtot',
@@ -710,7 +710,7 @@ $classes: (
     'normal': 'normal_frsBab',
     // used when videos are enabled
     'container': 'callContainer_hbKzX7',
-    'root': 'root_bfe55a',
+    'root': 'root_rTsZa_',
     'idle': 'idle_bfe55a',
     // applied when screen sharing and not hovered, hides controls (and children of)
     'pulseGradient': 'pulseGradient_BUFBam',
@@ -719,16 +719,16 @@ $classes: (
     // paired with rootChild
     'transition': 'transition__P3YRS',
     'participant': 'participant__P3YRS',
-    'spriteWrapper': 'spriteWrapper_c8dbe9',
+    'spriteWrapper': 'spriteWrapper__P3YRS',
     // this to crossWhite seem to relate to the little animation when leaving a call
     'sprite': 'sprite_SjG8Ug',
 
     'videoControls': 'videoControls_rTsZa_',
-    'controlSection': 'controlSection_bfe55a',
+    'controlSection': 'controlSection_rTsZa_',
     // both top and bottom are paired with this depending on location
     'topControls': 'topControls_qOjco6',
     // contains header and region selector
-    'headerWrapper': 'headerWrapper_cb9592',
+    'headerWrapper': 'headerWrapper_hbKzX7',
 
     'subtitleContainer': 'subtitleContainer_neq5ug',
     'headerBar': 'headerBar_neq5ug',
@@ -754,14 +754,14 @@ $classes: (
     'participantsButton': 'participantsButton_1uD6uZ',
 
     'bottomControls': 'bottomControls_rTsZa_',
-    'eventPromptsContainer': 'eventPromptsContainer__1405b',
+    'eventPromptsContainer': 'eventPromptsContainer_9bvEB0',
     'buttonsWrapper': 'wrapper_9bvEB0',
     'buttonSection': 'buttonSection_9bvEB0',
     'fauxDisabled': 'fauxDisabled_GMwJaT',
     // used when camera isn't plugged in
-    'contextMenuContainer': 'contextMenuContainer_f1ceac',
+    'contextMenuContainer': 'contextMenuContainer_K9Xq13',
     // contains the little drop arrow, display none'd when discord is tiny thin see unmasked
-    'contextMenuNub': 'contextMenuNub_f1ceac',
+    'contextMenuNub': 'contextMenuNub_K9Xq13',
     // said drop down arrow
     'contextMenuCaret': 'contextMenuCaret_K9Xq13',
     // the ^ symbol
@@ -779,41 +779,41 @@ $classes: (
     'disconnect': 'disconnect_K9Xq13',
 
     // Grid view only
-    'gridRow': 'row_d6271c',
-    'gridTile': 'tile_d6271c',
+    'gridRow': 'row_xFRALB',
+    'gridTile': 'tile_xFRALB',
     'gridNoVerticalMargin': 'noVerticalMargin_d6271c',
     // paired with videoTile, can't describe usage
     'gridNoHorizontalMargin': 'noHorizontalMargin_d6271c',
     // paired with videoTile, used on last tile of row
-    'gridTileSizer': 'tileSizer_d6271c',
+    'gridTileSizer': 'tileSizer_xFRALB',
 
     'tileWrapper': 'wrapper_7NOr2f',
-    'tile': 'tile__2f4f7',
+    'tile': 'tile_7NOr2f',
     // contains flex properties
     'tileIdle': 'idle__2f4f7',
     'tileBackground': 'tile_JPP66i',
     // despite being on the same element as tile, contains background color
-    'tileChild': 'tileChild__2f4f7',
+    'tileChild': 'tileChild_7NOr2f',
     // haha fuck you not actually on the same class as the four above
-    'tileContent': 'content__2f4f7',
+    'tileContent': 'content_7NOr2f',
     'tileUserBackground': 'background_SZIJT_',
     // has inline style background applied to it
     'tileAvatarWrapper': 'avatarWrapper_SZIJT_',
-    'tileIndicators': 'indicators__2f4f7',
-    'streamQualityIndicator': 'streamQualityIndicator__30845',
-    'liveIndicator': 'liveIndicator__2f4f7',
-    'liveIndicatorChild': 'liveIndicator__30845',
+    'tileIndicators': 'indicators_7NOr2f',
+    'streamQualityIndicator': 'streamQualityIndicator__be5Bx',
+    'liveIndicator': 'liveIndicator_7NOr2f',
+    'liveIndicatorChild': 'liveIndicator__be5Bx',
     'liveLarge': 'liveLarge_a7acae',
     'liveShapeRound': 'liveShapeRound_a7acae',
     'tileOverlay': 'overlay_ba4b17',
-    'tileOverlayTitle': 'overlayTitle__2f4f7',
+    'tileOverlayTitle': 'overlayTitle_7NOr2f',
     'tileOverlayTitleText': 'overlayTitleText_7NOr2f',
-    'tileStatus': 'status__2f4f7',
+    'tileStatus': 'status_7NOr2f',
     'tileVideo': 'video_rfWwnu',
     'tileVideoContain': 'videoContain_rfWwnu',
     'tileVideoPreview': 'previewWrapper_rfWwnu',
 
-    'leftTrayIcon': 'leftTrayIcon_cb9592',
+    'leftTrayIcon': 'leftTrayIcon_hbKzX7',
     'rightTrayIcon': 'rightTrayIcon_ScIiLS',
 
     'tileBorder': 'border_7NOr2f',
@@ -835,11 +835,11 @@ $classes: (
     'sidebarVisible': 'sidebarVisible_DwQMm_',
     // same, relates to raised hand
     // child being call root, children of scroller, call videoControls, some other classes without suffixes
-    'scroller': 'scroller__56ccd',
+    'scroller': 'scroller_TDs_DU',
     // child
     // children being div no class, headerContainer, rowContainer, divider, roleContainer, participants, spacer
     'headerContainer': 'container_EZ4ivi',
-    'rowContainer': 'rowContainer__8a920',
+    'rowContainer': 'rowContainer_tcT0Iw',
     // child of everywhere content
     'spaceBetweenTiles': 'spaceBetweenTiles_aPe7vI',
     // child, children of tileOuter (see call)
@@ -849,14 +849,14 @@ $classes: (
     // videoControls, children being gradientContainer+gradientBottom, controlSection[top, bottom]
     'gradientContainer': 'gradientContainer_NnWqs2',
     // child
-    'gradientBottom': 'gradientBottom_bfe55a',
-    'gradientTop': 'gradientTop_bfe55a',
+    'gradientBottom': 'gradientBottom_rTsZa_',
+    'gradientTop': 'gradientTop_rTsZa_',
     // controlSection (either top or bottom)
     'controlsParticipants': 'participants_BzZ9Uo',
     // used as header
     'raisedHandButtonContainer': 'raisedHandButtonContainer_cb3dd1',
     // used again as child of self??
-    'raisedHandIcon': 'raisedHandIcon__15cd2',
+    'raisedHandIcon': 'raisedHandIcon_0zxwb-',
     // paired with above when above is child of self
     // within bottom, 3 children all same classes and inline except middle is `flex: 1 1 auto;`, rest are `flex: 0 1 50%;`
     // from left to right...
@@ -870,29 +870,29 @@ $classes: (
     // middle child
     'containerColumn': 'containerColumn_Z_HbQM',
     // two children - event prompts and buttonRow
-    'eventPrompts': 'eventPrompts_fcb27c',
+    'eventPrompts': 'eventPrompts_Z_HbQM',
     'openStageContainer': 'container__B7Y3X',
-    'openStagePulse': 'pulse__6b38f',
-    'openStageIcon': 'icon__6b38f',
+    'openStagePulse': 'pulse__B7Y3X',
+    'openStageIcon': 'icon__B7Y3X',
     // inline background color green
-    'openStageTextContainer': 'textContainer__6b38f',
+    'openStageTextContainer': 'textContainer__B7Y3X',
     'openStageCaret': 'caret__B7Y3X',
-    'eventPromptsSeparator': 'separator_fcb27c',
-    'buttonRow': 'container_fcb27c',
-    'avControls': 'avControls_fcb27c',
+    'eventPromptsSeparator': 'separator_Z_HbQM',
+    'buttonRow': 'container_Z_HbQM',
+    'avControls': 'avControls_Z_HbQM',
     // mic, parent to contextMenuContainer + unmaksed
-    'leaveStageButton': 'primaryButtonColor_fcb27c',
+    'leaveStageButton': 'primaryButtonColor_Z_HbQM',
     'buttonWithTextInnerContainer': 'buttonWithTextInnerContainer_fcb27c',
     'buttonWithTextIcon': 'buttonWithTextIcon_fcb27c',
     'buttonSpacing': 'buttonSpacing_fcb27c',
 
     'participants': 'participants_BzZ9Uo',
     // children usually are tileContainer and tileBaseContainer
-    'tileBaseContainer': 'tileBaseContainer__71eb2',
+    'tileBaseContainer': 'tileBaseContainer_4cz-WN',
     'tileContainer': 'tileContainer_3BuwBT',
     'avatarContainer': 'avatarContainer_4cz-WN',
     'avatar': 'avatar_4cz-WN',
-    'textContainer': 'textContainer__71eb2',
+    'textContainer': 'textContainer_4cz-WN',
     'text': 'text_4cz-WN',
 
     // what a useful class name i hope you can memorize this list.
@@ -900,20 +900,20 @@ $classes: (
 
     // child to callContainer, sibling to sidebarVisible only if this is open
     'requestToSpeakContainer': 'container_s7QiTL',
-    'rtsHeaderContainer': 'headerContainer__664ff',
+    'rtsHeaderContainer': 'headerContainer_s7QiTL',
     'rtsHeaderTitle': 'headerTitle_f7ece4',
     'rtsHeaderClose': 'headerClose_jo3GZE',
 
-    'rtsContentContainer': 'contentContainer__664ff',
+    'rtsContentContainer': 'contentContainer_s7QiTL',
 
-    'rtsListTitle': 'listTitle__664ff',
-    'rtsEmptyStateContainer': 'emptyStateContainer__664ff',
+    'rtsListTitle': 'listTitle_s7QiTL',
+    'rtsEmptyStateContainer': 'emptyStateContainer_s7QiTL',
     'rtsEmptyImage': 'container_EZ4ivi',
     // children of this aren't listed here.
-    'rtsEmptyStateTitle': 'emptyStateTitle__664ff',
+    'rtsEmptyStateTitle': 'emptyStateTitle_s7QiTL',
     'rtsEmptyStateBody': 'emptyStateBody_UWRh5Q',
     'rtsParticipantsRowContainer': 'participantRowContainer_s7QiTL',
-    'rtsParticipantMemberContainer': 'participantMemberContainer__664ff',
+    'rtsParticipantMemberContainer': 'participantMemberContainer_s7QiTL',
     'rtsParticipantAvatar': 'participantAvatar_fWPGCD',
     'rtsParticipantTextContainer': 'participantTextContainer_s7QiTL',
     'rtsParticipantName': 'participantName_ScIiLS',
@@ -942,9 +942,9 @@ $classes: (
     'noChat': 'noChat_z_gUBg',
     'chatContent': 'content_z_gUBg',
     'messagesWrapper': 'messagesWrapper_UU236g',
-    'chatScroller': 'scroller__36d07',
-    'chatScrollerInner': 'scrollerInner__36d07',
-    'scrollerSpacer': 'scrollerSpacer__36d07',
+    'chatScroller': 'scroller_8AE1Qq',
+    'chatScrollerInner': 'scrollerInner_8AE1Qq',
+    'scrollerSpacer': 'scrollerSpacer_8AE1Qq',
     // placed at bottom of message list
     'chatGradientBase': 'chatGradientBase_8AE1Qq',
     // typing... bar
@@ -961,22 +961,22 @@ $classes: (
     'chatHeaderBar': 'chatHeaderBar_rsucr8',
     // This channel is not on your channel list.
    
-    'messageDivider': 'divider__5126c',
+    'messageDivider': 'divider_SY_P2T',
     'backgroundFlash': 'backgroundFlash_SY_P2T',
-    'messageListItem': 'messageListItem__5126c',
-    'messageGroupStart': 'groupStart__5126c',
-    'cozyMessage': 'cozyMessage__5126c',
-    'message': 'message__5126c',
+    'messageListItem': 'messageListItem_SY_P2T',
+    'messageGroupStart': 'groupStart_SY_P2T',
+    'cozyMessage': 'cozyMessage_SY_P2T',
+    'message': 'message_SY_P2T',
     'messageWrapper': 'wrapper_2i8Bfm',
     'markup': 'markup_ku1OHH',
     'markupInlineFormat': 'inlineFormat_ku1OHH',
     'codeInline': 'inline',
     'codeActions': 'codeActions_ku1OHH',
-    'replying': 'replying__5126c',
+    'replying': 'replying_SY_P2T',
     'hasThread': 'hasThread_2i8Bfm',
-    'mentioned': 'mentioned__5126c',
+    'mentioned': 'mentioned_SY_P2T',
     'mentionWrapper': 'wrapper_NDaLCQ',
-    'messageSelected': 'selected__5126c',
+    'messageSelected': 'selected_SY_P2T',
     'buttons': 'buttons_SY_P2T',
     'popover': 'popover_DpHsW6', // Discord added this 29.4.2026 urgh.... technically it's the same as 'buttonWrapper'
     'buttonsWrapper': 'wrapper_Z0MHyc',
@@ -994,30 +994,30 @@ $classes: (
     ),
 
     'bar': (
-      'newMessages': 'newMessagesBar__0f481',
-      'jumpToPresent': 'jumpToPresentBar__0f481',
-      'messagesError': 'messagesErrorBar__0f481',
+      'newMessages': 'newMessagesBar_j9Vvzj',
+      'jumpToPresent': 'jumpToPresentBar_j9Vvzj',
+      'messagesError': 'messagesErrorBar_j9Vvzj',
     ),
 
     // also applies to blocked
     'followWrapper': 'wrapper_ST_Y69',
-    'followImage': 'image__44df5',
+    'followImage': 'image_ST_Y69',
     'followAnimation': 'animation_ST_Y69',
     'followText': 'text_ST_Y69',
-    'followTitle': 'title__44df5',
+    'followTitle': 'title_ST_Y69',
     'followButton': 'button_ST_Y69',
     'followButtonContainer': 'buttonContainer_ST_Y69',
-    'followCountdown': 'countdown__44df5',
+    'followCountdown': 'countdown_ST_Y69',
 
     'blockedSystemMessage': 'blockedSystemMessage_cKojhe',
-    'systemMessageContent': 'content__235ca',
+    'systemMessageContent': 'content_bLMKT5',
 
     'chatHeader': 'container_w6h4R2',
-    'chatHeaderH1': 'header__00de6',
+    'chatHeaderH1': 'header_w6h4R2',
     // h1
-    'chatHeaderDesc': 'description__00de6',
-    'emptyChannelIcon': 'emptyChannelIcon__00de6',
-    'chatHeaderMembers': 'members__1ee8c',
+    'chatHeaderDesc': 'description_w6h4R2',
+    'emptyChannelIcon': 'emptyChannelIcon_w6h4R2',
+    'chatHeaderMembers': 'members_88IrSD',
 
     'replied': (
       'message': 'repliedMessage_2i8Bfm',
@@ -1039,19 +1039,19 @@ $classes: (
     ),
 
     'allowedAvatars': 'avatars_88IrSD',
-    'allowedRole': 'role__1ee8c',
+    'allowedRole': 'role_88IrSD',
     // element kind button
     'allowedRoleInner': 'role_fa0dd2',
-    'allowedRoleInner2': 'role_b4b2c3',
+    'allowedRoleInner2': 'role_p3g15p',
     // paired with above
     'allowedRoleColor': 'roleColor_B2Cjs2',
 
     'messageContents': 'contents_2i8Bfm',
     'messageAttachmentsContainer': 'container_YUQhib',
-    'nonMediaAttachmentsContainer': 'nonVisualMediaItemContainer_f4758a',
-    'nonMediaAttachmentItem': 'nonVisualMediaItem_f4758a',
+    'nonMediaAttachmentsContainer': 'nonVisualMediaItemContainer_idVBIj',
+    'nonMediaAttachmentItem': 'nonVisualMediaItem_idVBIj',
     'chatAvatar': 'avatar_2i8Bfm',
-    'chatIconContainer': 'iconContainer__235ca',
+    'chatIconContainer': 'iconContainer_bLMKT5',
     // usually used for pinned message, welcome message and kicked from gc stuff
     'chatHeaderUsername': 'header_2i8Bfm',
     'chatHeaderText': 'headerText_2i8Bfm',
@@ -1075,7 +1075,7 @@ $classes: (
       'hidden': 'hidden_0_7_Rr',
       'container': 'spoilerContainer_0_7_Rr',
       'innerContainer': 'spoilerInnerContainer_0_7_Rr',
-      'warning': 'spoilerWarning__299eb',
+      'warning': 'spoilerWarning_0_7_Rr',
       'explicitContentWarning': 'explicitContentWarning_0_7_Rr',
       'markdownContent': 'spoilerMarkdownContent_0_7_Rr',
       'obscuredTextContent': 'obscuredTextContent_0_7_Rr',
@@ -1106,36 +1106,36 @@ $classes: (
     // send wave sticker
     'welcomeCTA': 'welcomeCTA_eZQ1Gc',
 
-    'ephemeral': 'ephemeral__5126c',
-    'ephemeralAccessories': 'ephemeralAccessories_b7ab2c',
-    'ephemeralMessage': 'ephemeralMessage__124d2',
-    'ephemeralIcon': 'icon__124d2',
+    'ephemeral': 'ephemeral_SY_P2T',
+    'ephemeralAccessories': 'ephemeralAccessories_REFxkR',
+    'ephemeralMessage': 'ephemeralMessage_fipv3s',
+    'ephemeralIcon': 'icon_fipv3s',
 
     'automodMessage': 'automodMessage_SY_P2T',
     'automodBlockedNoticeContainer': 'blockedNoticeContainer_REFxkR',
-    'automodShield': 'shieldIcon_b7ab2c',
+    'automodShield': 'shieldIcon_REFxkR',
 
     'layerWrapper': 'chatLayerWrapper_FrbQJp',
 
-    'operations': 'operations_bab751',
+    'operations': 'operations_h_zE4S',
     // editing bottom text
 
     'reactions': (
       'reactions': 'reactions_LuYMto',
-      'reactionBtn': 'reactionBtn__23977',
+      'reactionBtn': 'reactionBtn_MmKct8',
       'active': 'active_MmKct8',
       'visible': 'visible_MmKct8',
       'forceShow': 'forceShow__23977',
-      'icon': 'icon__23977',
+      'icon': 'icon_MmKct8',
       'hideEmoji': 'hideEmoji_quI2qP',
-      'reaction': 'reaction__23977',
+      'reaction': 'reaction_MmKct8',
       'me': 'reactionMe__23977',
       'readOnly': 'reactionReadOnly__23977',
-      'inner': 'reactionInner__23977',
-      'count': 'reactionCount__23977',
-      'remaining': 'remainingReactions__23977',
+      'inner': 'reactionInner_MmKct8',
+      'count': 'reactionCount_MmKct8',
+      'remaining': 'remainingReactions_MmKct8',
       'tooltip': (
-        'tooltip': 'reactionTooltip_bbcccb', // Not sure if other also changed...
+        'tooltip': 'reactionTooltip_5l5ajC', // Not sure if other also changed...
         'emoji': 'reactionTooltipEmoji_b49891',
         'text': 'reactionTooltipText_b49891',
         'inner': 'reactionTooltipInner_b49891',
@@ -1154,23 +1154,23 @@ $classes: (
     'publish': (
       // post in announcements channel
       'container': 'bumpBox_Na9MuQ',
-      'icon': 'icon_cacd02',
-      'tagline': 'tagline_cacd02',
+      'icon': 'icon_Na9MuQ',
+      'tagline': 'tagline_Na9MuQ',
       'closeIcon': 'closeIcon_Na9MuQ',
-      'hidePermanently': 'hidePermanently_cacd02',
+      'hidePermanently': 'hidePermanently_Na9MuQ',
     ),
   ),
   'pages': (
     // tags (used in forums and home)
     'tags': (
-        'pill': 'pill_a2c9e8',
+        'pill': 'pill_snX-u4',
         'clickable': 'clickable_snX-u4',
         'selected': 'selected_a2c9e8',
-        'disabled': 'disabled_a2c9e8',
+        'disabled': 'disabled_snX-u4',
         'emoji': 'emoji_VoYXI5',
         'small': 'small_snX-u4',
         'close': 'close_snX-u4',
-        'tooltipPill': 'tooltipPill_a2c9e8',
+        'tooltipPill': 'tooltipPill_snX-u4',
       ),
   ),
 
@@ -1209,7 +1209,7 @@ $classes: (
     'textArea': 'channelTextArea_owUmX8',
     'textAreaInner': 'channelTextAreaInner_owUmX8',
 
-    'title': 'title_d9be46',
+    'title': 'title_owUmX8',
     'tagsContainer': 'tagsContainer_owUmX8',
     'moreTagsButton': 'tagsButton_owUmX8',
 
@@ -1368,7 +1368,7 @@ $classes: (
         'hasRead': 'hasRead_SOY5H6',
         'newMessageCount': 'newMessageCount_SOY5H6',
         'updateReactionButton': 'updateReactionButton_SOY5H6',
-        'timestampTooltip': 'timestampTooltip_faa96b',
+        'timestampTooltip': 'timestampTooltip_SOY5H6',
         'blockedMessage': 'blockedMessage_SOY5H6',
         'withNewBadgeOverflow': 'withNewBadgeOverflow_SOY5H6',
       ),
@@ -1378,22 +1378,22 @@ $classes: (
 
     'reaction': (
       'reactions': 'reactions_LuYMto',
-      'reactionBtn': 'reactionBtn_f8896c',
-      'icon': 'icon_f8896c',
+      'reactionBtn': 'reactionBtn_UNkajC',
+      'icon': 'icon_UNkajC',
       'active': 'active_UNkajC',
       'visible': 'visible_UNkajC',
       'forceShow': 'forceShow_f8896c',
       'hideEmoji': 'hideEmoji_quI2qP',
 
-      'reaction': 'reaction_f8896c',
+      'reaction': 'reaction_UNkajC',
       'shakeReaction': 'shakeReaction_f8896c',
       'readOnly': 'reactionReadOnly_f8896c',
-      'count': 'reactionCount_f8896c',
+      'count': 'reactionCount_UNkajC',
       'me': 'reactionMe_f8896c',
-      'inner': 'reactionInner_f8896c',
-      'remainingReactions': 'remainingReactions_f8896c',
+      'inner': 'reactionInner_UNkajC',
+      'remainingReactions': 'remainingReactions_UNkajC',
 
-      'premiumIcon': 'premiumIcon_f8896c',
+      'premiumIcon': 'premiumIcon_UNkajC',
       'sparkles': 'sparkles_QF5mJe',
     ),
 
@@ -1455,20 +1455,20 @@ $classes: (
     // post has been opened, this is the chat
     'chat': (
         'scrollerContent': 'scrollerContent_8AE1Qq',
-        'divider': 'divider_ee23ac',
+        'divider': 'divider_hHhMrs',
         // follows topBar as a sibling
         // post header containing title, icon, tags, etc
         'header': (
             'container': 'container_Wp3SYH',
-            'iconWrapper': 'iconWrapper__7e6bb',
-            'icon': 'icon__7e6bb',
-            'header': 'header__7e6bb',
+            'iconWrapper': 'iconWrapper_Wp3SYH',
+            'icon': 'icon_Wp3SYH',
+            'header': 'header_Wp3SYH',
           ),
         // Contains Follow, Share and if possible, a reaction
         'bar': (
             'container': 'container_HeWz1C',
-            'header': 'header__34c2c',
-            'reactButtons': 'reactButtons__34c2c',
+            'header': 'header_HeWz1C',
+            'reactButtons': 'reactButtons_HeWz1C',
             'addReactButton': 'addReactButton_HeWz1C',
             'reactions': 'reactions_LuYMto',
             'buttons': 'buttons_HeWz1C',
@@ -1476,19 +1476,19 @@ $classes: (
       ),
   ),
   'thread': (
-    'jump': 'jump__5126c',
-    'resizeHandle': 'resizeHandle__01ae2',
+    'jump': 'jump_SY_P2T',
+    'resizeHandle': 'resizeHandle_FrbQJp',
     'chatTarget': 'chatTarget_FrbQJp',
     // background of sorts
     'container': 'container_FrbQJp',
     'floating': 'floating_z264eY',
     'notFloating': 'notFloating_FrbQJp',
     'chat': 'chat_f8LWmr',
-    'iconWrapper': 'iconWrapper__54b20',
-    'icon': 'icon__54b20',
+    'iconWrapper': 'iconWrapper_ii8eNV',
+    'icon': 'icon_ii8eNV',
     'header': 'chatHeaderBar_By_-nl',
     // usually contains "this thread is/was archived.../locked"
-    'subtitle': 'subtitle__54b20',
+    'subtitle': 'subtitle_ii8eNV',
 
     // usually contains "started by..."
     // these are for when creating a thread
@@ -1505,12 +1505,12 @@ $classes: (
     'titleInner': 'headerBarInner_MG-lb3',
     'container': 'homeContainer_MG-lb3',
 
-    'header': 'header__553a5',
-    'headerArtWrapper': 'headerArtWrapper__553a5',
-    'headerArt': 'headerArt__553a5',
-    'headerArtPlaceholder': 'headerArtPlaceholder__553a5',
-    'guildIcon': 'headerIcon__553a5',
-    'guildName': 'headerName__553a5',
+    'header': 'header_lqGeMc',
+    'headerArtWrapper': 'headerArtWrapper_lqGeMc',
+    'headerArt': 'headerArt_lqGeMc',
+    'headerArtPlaceholder': 'headerArtPlaceholder_lqGeMc',
+    'guildIcon': 'headerIcon_lqGeMc',
+    'guildName': 'headerName_lqGeMc',
 
     'mainContent': 'mainContent_MG-lb3',
     'content': 'container_Qo6EL-',
@@ -1521,7 +1521,7 @@ $classes: (
     'rowMedia': 'media_Qo6EL-',
 
     'sidebar': 'sidebar_MG-lb3',
-    'profileContainer': 'container_dca174',
+    'profileContainer': 'container_Xweo-z',
     'profileBanner': 'banner_Xweo-z',
     'profileAvatarContainer': 'avatarContainer_Xweo-z',
     'profileAvatarWrapper': 'avatarWrapper_Xweo-z',
@@ -1561,8 +1561,8 @@ $classes: (
           'tip': 'tip_oQmK1h',
         ),
 
-        'pageBody': 'pageBody__41ed7',
-        'pageHeader': 'header__41ed7',
+        'pageBody': 'pageBody_fTKmdS',
+        'pageHeader': 'header_fTKmdS',
         'browser': 'browser_fTKmdS',
         'scrollerInner': 'scrollerInner_kU9idL',
 
@@ -1635,9 +1635,9 @@ $classes: (
 
   // document.URL in console contains /member-safety
   'membersPage': (
-    'page': 'page_c791b2',
-    'header': 'header_c791b2',
-    'container': 'container_c791b2',
+    'page': 'page_zjGJlN',
+    'header': 'header_zjGJlN',
+    'container': 'container_zjGJlN',
 
     'tableContainer': 'mainTableContainer_-blG2T',
 
@@ -1701,7 +1701,7 @@ $classes: (
     'stackedBars': 'stackedBars_2x8-Qn',
     // also has background
     'stackedAttachedBar': 'stackedAttachedBar_bdf0de',
-    'innerDisabled': 'innerDisabled__74017',
+    'innerDisabled': 'innerDisabled_2x8-Qn',
     // paired with inner
     'scrollableContainer': 'scrollableContainer_2x8-Qn',
     'inner': 'inner_2x8-Qn',
@@ -1715,7 +1715,7 @@ $classes: (
     'attachButtonInner': 'attachButtonInner_7TM4SO',
     'attachButtonPlus': 'attachButtonPlus_7TM4SO',
     'textArea': 'textArea_2x8-Qn',
-    'textAreaDisabled': 'textAreaDisabled__74017',
+    'textAreaDisabled': 'textAreaDisabled_2x8-Qn',
     'textAreaSlate': 'textAreaSlate_2x8-Qn',
     'placeholder': 'placeholder_SHcSVi',
     // phantom text usually saying "Message $channel/$user"
@@ -1753,7 +1753,7 @@ $classes: (
 
     'typingBase': 'base_U9Tvvz',
     'typing': 'typing_U9Tvvz',
-    'typingText': 'text_b88801',
+    'typingText': 'text_U9Tvvz',
     'typingDots': 'dots_C1dbpS',
     'typingDotsThemed': 'themed_C1dbpS',
 
@@ -1780,16 +1780,16 @@ $classes: (
 
     'container': 'container_I4BhVZ',
 
-    'header': 'headerBar__8a7fc',
+    'header': 'headerBar_Y0eJLL',
     'headerOverlay': 'overlay_Y0eJLL',
     'headerBackdrop': 'backdrop_Y0eJLL',
 
     // search page header
-    'headerRelative': 'relative__8a7fc',
-    'headerIconButton': 'iconButton__8a7fc',
+    'headerRelative': 'relative_Y0eJLL',
+    'headerIconButton': 'iconButton_Y0eJLL',
 
     'search': 'search__1ac1c',
-    'searchBar': 'searchBar__1ac1c',
+    'searchBar': 'searchBar_B1ffsk',
     'scroller': 'scroller_jkJlMe',
     'bannerContainer': 'container_-6JdM0',
     'bannerContent': 'content_-6JdM0',
@@ -1814,8 +1814,8 @@ $classes: (
       'cardDetails': 'guildDetails_BTjcfU',
       'cardTitle': 'title_BTjcfU',
       'cardMemberDetails': 'memberDetails_BTjcfU',
-      'onlineDot': 'presenceCountDot__4cb8a',
-      'countDot': 'memberCountDot__4cb8a',
+      'onlineDot': 'presenceCountDot_BTjcfU',
+      'countDot': 'memberCountDot_BTjcfU',
       'searchContainer': 'container_pI94My',
       'searchNoResult': 'container_OA1iZR',
     ),
@@ -1869,47 +1869,47 @@ $classes: (
 
     'invite': (
       'wrapper': 'wrapper_jsxF_b',
-      'destinationExpired': 'inviteDestinationExpired_d5f3cd',
-      'serverIcon': 'guildIcon_d5f3cd',
+      'destinationExpired': 'inviteDestinationExpired_jsxF_b',
+      'serverIcon': 'guildIcon_jsxF_b',
       'serverIconImage': 'guildIconImage_s97CBE',
-      'serverIconExpired': 'guildIconExpired_d5f3cd',
-      'resolvingBackground': 'resolvingBackground_d5f3cd',
+      'serverIconExpired': 'guildIconExpired_jsxF_b',
+      'resolvingBackground': 'resolvingBackground_jsxF_b',
       'splash': 'inviteSplash_4hnqn0',
-      'splashImage': 'inviteSplashImage_d5f3cd',
-      'splashImageLoaded': 'inviteSplashImageLoaded_d5f3cd',
-      'guildInfo': 'guildInfo_d5f3cd',
-      'guildName': 'guildName_d5f3cd',
-      'guildDetail': 'guildDetail_d5f3cd',
+      'splashImage': 'inviteSplashImage_jsxF_b',
+      'splashImageLoaded': 'inviteSplashImageLoaded_jsxF_b',
+      'guildInfo': 'guildInfo_jsxF_b',
+      'guildName': 'guildName_jsxF_b',
+      'guildDetail': 'guildDetail_jsxF_b',
       // expired invite
-      'status': 'status_d5f3cd',
-      'statusOnline': 'statusOnline_d5f3cd',
-      'statusOffline': 'statusOffline_d5f3cd',
+      'status': 'status_jsxF_b',
+      'statusOnline': 'statusOnline_jsxF_b',
+      'statusOffline': 'statusOffline_jsxF_b',
       'button': 'button_jsxF_b',
 
       // guild invite embed
       'guildInviteContainer' :'guildInviteContainer__083ae',
-      'guildInviteFooter': 'footerContent__083ae',
+      'guildInviteFooter': 'footerContent_fknPy8',
     ),
 
     'gift': (
       'codeContainer': 'giftCodeContainer_YUQhib',
-      'tile': 'tile__72090',
-      'tileHorizontal': 'tileHorizontal__72090',
-      'embedHorizontal': 'embedHorizontal_a8b53f',
-      'embedVertical': 'embedVertical_a8b53f',
-      'media': 'media__72090',
-      'mediaHorizontal': 'mediaHorizontal__72090',
+      'tile': 'tile_lS7BT7',
+      'tileHorizontal': 'tileHorizontal_lS7BT7',
+      'embedHorizontal': 'embedHorizontal_mVuBLJ',
+      'embedVertical': 'embedVertical_mVuBLJ',
+      'media': 'media_lS7BT7',
+      'mediaHorizontal': 'mediaHorizontal_lS7BT7',
       'invalidPoop': 'invalidPoop__857bf',
       'invalidPoopHorizontal': 'invalidPoopHorizontal__857bf',
-      'description': 'description__72090',
-      'title': 'title__72090',
-      'tagline': 'tagline__72090',
+      'description': 'description_lS7BT7',
+      'title': 'title_lS7BT7',
+      'tagline': 'tagline_lS7BT7',
       'actions': 'actions_lS7BT7',
     ),
 
     'threadSpine': 'spine_reDhww',
-    'threadContainer': 'container__9271d',
-    'threadCTA': 'cta__9271d',
+    'threadContainer': 'container_g2fiji',
+    'threadCTA': 'cta_g2fiji',
 
     'voiceMessage': (
       // all on same line
@@ -1939,7 +1939,7 @@ $classes: (
       'controlIcon': 'controlIcon_FJ99sr',
       'metadataDownload': 'metadataDownload_FJ99sr',
       'metadataIcon': 'metadataIcon_FJ99sr',
-      'metadataSize': 'metadataSize_cf09d8',
+      'metadataSize': 'metadataSize_FJ99sr',
       'durationWrapper': 'durationTimeWrapper_FJ99sr',
       'durationDisplay': 'durationTimeDisplay_FJ99sr',
       'durationSeparator': 'durationTimeSeparator_FJ99sr',
@@ -1947,9 +1947,9 @@ $classes: (
 
     'hoverButton': (
       // download audio/video and edit image button
-      'group': 'hoverButtonGroup__06ab4',
+      'group': 'hoverButtonGroup_n2rO26',
       'button': 'hoverButton_lhtWWR',
-      'downloadIcon': 'downloadHoverButtonIcon__6c706',
+      'downloadIcon': 'downloadHoverButtonIcon_BwHv05',
     ),
 
     'poll': (
@@ -1959,13 +1959,13 @@ $classes: (
       'container': 'container_HOJNvw',
       'bottomBar': 'bottomBar_HOJNvw',
       // contains detailsText and usually secondary action
-      'detailsText': 'detailsText__0be77',
-      'header': 'header__0be77',
+      'detailsText': 'detailsText_HOJNvw',
+      'header': 'header_HOJNvw',
       'prompt': 'prompt_pHGfKY',
-      'question': 'question__0be77',
+      'question': 'question_HOJNvw',
       // child to header, also contains default color (header primary), font scaling, text md medium and default color (text normal; overwritten)
       'secondaryAction': 'secondaryAction_PwiJiV',
-      'tertiaryAction': 'tertiaryAction__0be77',
+      'tertiaryAction': 'tertiaryAction_HOJNvw',
 
       // answers seem to be in their own group for some reason
       'answer': 'answer_D4-WfD',
@@ -1981,32 +1981,32 @@ $classes: (
       'currentlyVoting': 'currentlyVoting__4c520',
       'emoji': 'emoji_D4-WfD',
       // optional emoji that gets placed before label
-      'label': 'label__4c520',
+      'label': 'label_D4-WfD',
       'selected': 'selected__4c520',     
       'votePercentageBar': 'votePercentageBar_D4-WfD',
       // a span with style width: $percentage%. has background color -- THIS IS USED ON ANSWERS WITHOUT VOTES [style:"width: 0%;"]
       'votesData': 'votesData_D4-WfD',
 
-      'radioBackground': 'radioBackground_f4f0eb',
-      'radioForeground': 'radioForeground_f4f0eb',
+      'radioBackground': 'radioBackground_SZxRc8',
+      'radioForeground': 'radioForeground_SZxRc8',
       // one choice
       'checkbox': 'checkbox_SZxRc8',
       'checkboxSelected': 'checkboxSelected_SZxRc8',
       // multiple choices
 
       // how answers are themed seems to be in some classes
-      'normalStylesDefault': 'normalStylesDefault_a1443c',
-      'normalStylesImageOnlyAnswers': 'normalStylesImageOnlyAnswers_a1443c',
+      'normalStylesDefault': 'normalStylesDefault_JVBjO_',
+      'normalStylesImageOnlyAnswers': 'normalStylesImageOnlyAnswers_JVBjO_',
       'victorStyles': 'victorStyles_JVBjO_',
       'votedStyles': 'votedStyles_JVBjO_',
 
       // poll finished small embed
       'finished': (
-        'container': 'container_f69538',
-        'embed': 'embed_f69538',
+        'container': 'container_D5ZFqQ',
+        'embed': 'embed_D5ZFqQ',
         'containerWithImage': 'containerWithImage_D5ZFqQ',
-        'imageContainer': 'imageContainer_f69538',
-        'description': 'description_f69538',
+        'imageContainer': 'imageContainer_D5ZFqQ',
+        'description': 'description_D5ZFqQ',
         'victorAnswer': 'victorAnswer_D5ZFqQ',
         'victorAnswerText': 'victorAnswerText_D5ZFqQ',
         'victorIcon': 'victorAnswer_D5ZFqQ',
@@ -2017,9 +2017,9 @@ $classes: (
       'card': 'embedCard_bbJCi7',
       'selected': 'selected__44492',
       'footerContainer': 'footerContainer_bbJCi7',
-      'action': 'footerAction__44492',
-      'actionIcon': 'footerIcon__44492',
-      'dot': 'dot__44492',
+      'action': 'footerAction_bbJCi7',
+      'actionIcon': 'footerIcon_bbJCi7',
+      'dot': 'dot_bbJCi7',
     ),
   ),
   // heavily related to embeds
@@ -2027,13 +2027,13 @@ $classes: (
       'barInteraction': 'mediaBarInteraction_s1cr3c',
       'barInteractionDragging': 'mediaBarInteractionDragging_s1cr3c',
       // hover required for grabber
-      'barWrapper': 'mediaBarWrapper_b26b79',
+      'barWrapper': 'mediaBarWrapper_s1cr3c',
       // needs before + after
       'barBuffer': 'buffer_s1cr3c',
       // needs before + after, secondary color
-      'barPreview': 'mediaBarPreview_b26b79',
+      'barPreview': 'mediaBarPreview_s1cr3c',
       // needs before + after
-      'barProgress': 'mediaBarProgress_b26b79',
+      'barProgress': 'mediaBarProgress_s1cr3c',
       // needs before + after, primary color
       'barGrabber': 'mediaBarGrabber_s1cr3c',
       // primary color
@@ -2120,7 +2120,7 @@ $classes: (
   // home nitro
   'nitro': (
       'store': 'applicationStore_6U3jXZ',
-      'wrapper': 'homeWrapper__0920e',
+      'wrapper': 'homeWrapper_8iSxT3',
       'scroller': 'scroller_0fgkqL',
       'container': 'container_0fgkqL',
       'containerBackground': 'containerBackground_0fgkqL',
@@ -2138,7 +2138,7 @@ $classes: (
   'shop': (
     'shop': 'shop_Mqg79R',
     'scroll': 'shopScroll_4Qm5zV',
-    'header': 'headerBar__80679',
+    'header': 'headerBar_ViLURN',
     'tab': 'tab__354ec',
     
     // featured
@@ -2155,7 +2155,7 @@ $classes: (
     'loadingCardSkeleton': 'productSkeletonCardContainer_kIZjPZ',
     'loadingCardSkeletonAnimation': 'pulseAnimation_kIZjPZ',
     'loadingCardContent': 'productSkeletonContent_kIZjPZ',
-    'loadingCardText': 'productSkeletonText_e4f643',
+    'loadingCardText': 'productSkeletonText_kIZjPZ',
     'loadingFeaturedSkeleton': 'featuredBlockSkeleton_XBXDcd',
     'loadingFeaturedLogo': 'featuredBlockSkeletonLogo_XBXDcd',
 
@@ -2190,7 +2190,7 @@ $classes: (
   ),
 
   'boost': (
-    'scroller': 'scroller__6fd0e',
+    'scroller': 'scroller_cO774m',
     'headerWave': 'headerWave__1dfae',
     'bodyWave': 'bodyWave__1dfae',
     'topPerksCard': 'topPerksCard__3add8',
@@ -2271,7 +2271,7 @@ $classes: (
     'dot': 'dot_ybUK7Z',
     // space between channel name and description
     'akaBadge': 'akaBadge_AAMT29',
-    'input': 'input__4f074',
+    'input': 'input_CJLDJI',
     'toolbar': 'toolbar_ybUK7Z',
     'iconSelected': 'selected_ybUK7Z',
     'search': 'search_bWCaDq',
@@ -2280,8 +2280,8 @@ $classes: (
     // gets open applied to it
     'searchOpen': 'open__97492',
     'searchBar': 'searchBar__97492',
-    'searchFilter': 'searchFilter_bd8186',
-    'searchAnswer': 'searchAnswer_bd8186',
+    'searchFilter': 'searchFilter_tknKcK',
+    'searchAnswer': 'searchAnswer_tknKcK',
     'iconBadge': 'iconBadge_ybUK7Z',
     'topic': 'topic_pVbL3l',
     'topicExpandable': 'expandable_pVbL3l',
@@ -2371,21 +2371,21 @@ $classes: (
       'dim': 'dim_dMUH0f',
     ),
   'loading': (
-    'container': 'container_a2f514',
+    'container': 'container_oDjP9R',
     'ready': 'ready_oDjP9R',
     'content': 'content_oDjP9R',
     'problems': (
       'problems': 'problems_oDjP9R',
       'slideIn': 'slideIn_oDjP9R',
       'text': 'problemsText_oDjP9R',
-      'links': 'links_a2f514',
-      'statusLink': 'statusLink_a2f514',
+      'links': 'links_oDjP9R',
+      'statusLink': 'statusLink_oDjP9R',
       'twitterLink': 'twitterLink_oDjP9R',
       'linkIcon': 'icon_oDjP9R',
     ),
-    'contentBase': 'contentBase_a2f514',
+    'contentBase': 'contentBase_oDjP9R',
     'text': 'text_oDjP9R',
-    'title': 'title_a2f514',
+    'title': 'title_oDjP9R',
     'tipTitle': 'tipTitle_oDjP9R',
     'tip': 'tip_oDjP9R',
     'keybind': 'keybind_oDjP9R',
@@ -2422,7 +2422,7 @@ $classes: (
     'avatar': 'avatar_J1Adu_',
     'contentName': 'content_J1Adu_',
     'ownerIcon': 'ownerIcon_V0jlC3',
-    'name': 'name__91a9d',
+    'name': 'name_J1Adu_',
     'nameContainer': 'nameContainer_Wo4EpK',
     'usernameInner': 'username_Wo4EpK',
     'offline': 'offline_Iy0c7A',
@@ -2448,11 +2448,11 @@ $classes: (
     'sectionTitle': 'sectionTitle_nMe-a6',
     'selected': 'selected_nMe-a6',
     'siblingSelected': 'siblingSelected_nMe-a6',
-    'messageRequestCoachmark': 'messageRequestCoachmark_f391e3',
+    'messageRequestCoachmark': 'messageRequestCoachmark_nMe-a6',
     'titleDivider': 'titleDivider_nMe-a6',
-    'clearAllButton': 'clearAllButton_f391e3',
+    'clearAllButton': 'clearAllButton_nMe-a6',
 
-    'item': 'messageRequestItem_abb9ad',
+    'item': 'messageRequestItem_rRxPBT',
     'active': 'active_rRxPBT',
 
     'emptyStateContainer': 'emptyStateContainer_0O5PEW',
@@ -2506,14 +2506,14 @@ $classes: (
   ),
 
   'quests': (
-    'tab': 'tab__26669',
-    'tabSelected': 'selected__26669',
+    'tab': 'tab_fgRQ5j',
+    'tabSelected': 'selected_fgRQ5j',
 
-    'tileContainer': 'container_cec934',
-    'tile': 'questTile__60f82',
-    'tileContent': 'container__956c6',
-    'tileDescription': 'rewardDescriptionContainer__956c6',
-    'tileQuestName': 'questName__956c6',
+    'tileContainer': 'container_bvFqCe',
+    'tile': 'questTile_e8rJ7m',
+    'tileContent': 'container_clpvxq',
+    'tileDescription': 'rewardDescriptionContainer_clpvxq',
+    'tileQuestName': 'questName_clpvxq',
 
     // video quest modal
     'video': (
@@ -2528,65 +2528,65 @@ $classes: (
   // These appear to be shared between profile popout and server settings. likely used elsewhere too.
   // DOES NOT APPLY TO TOP OF CHAT CHANNEL AREA.
   'role': (
-    'root': 'root__48c1c',
+    'root': 'root_nie4FD',
     'role': 'role_dfa8b6',
     'removeButton': 'roleRemoveButton_dfa8b6',
     'removeIcon': 'roleRemoveIcon_dfa8b6',
-    'circle': 'roleCircle__4f569',
+    'circle': 'roleCircle_7RsUnm',
     'flowerStar': 'roleFlowerStar_YEKbw3',
-    'verifiedIcon': 'roleVerifiedIcon__48c1c',
-    'name': 'roleName__48c1c',
-    'nameOverflow': 'roleNameOverflow__48c1c',
+    'verifiedIcon': 'roleVerifiedIcon_nie4FD',
+    'name': 'roleName_nie4FD',
+    'nameOverflow': 'roleNameOverflow_nie4FD',
     'actionButton': 'actionButton_nie4FD',
     'addButton': 'addButton_nie4FD',
     'addButtonIcon': 'addButtonIcon_nie4FD',
-    'icon': 'roleIcon__48c1c',
+    'icon': 'roleIcon_nie4FD',
     'expandButton': 'expandButton_fccfdf',
     'collapseButton': 'collapseButton_EpdO4n',
 
     // Show role colours next to names
     'svg': 'svg_7RsUnm',
     'background': 'background_7RsUnm',
-    'dot': 'dot__4f569',
-    'dotBorderColor': 'dotBorderColor__4f569',
+    'dot': 'dot_7RsUnm',
+    'dotBorderColor': 'dotBorderColor_7RsUnm',
     'dotBorderBase': 'dotBorderBase_7RsUnm',
 
     // add roles
     'add': (
       'popout': 'container_aQ9i70',
-      'list': 'list__97e86',
-      'item': 'item__97e86',
+      'list': 'list_YIHpnz',
+      'item': 'item_YIHpnz',
     ),
   ),
   'scroller': (
     // There's two because pain.
-    'base': 'scrollerBase__99f8c' 'scrollerBase_d125d2',
-    'thin': 'thin__99f8c' 'thin_d125d2',
+    'base': 'scrollerBase_JFqgFB' 'scrollerBase_tqapBM',
+    'thin': 'thin_JFqgFB' 'thin_tqapBM',
     // channel sidebar
-    'auto': 'auto_JFqgFB' 'auto_d125d2',
+    'auto': 'auto_JFqgFB' 'auto_tqapBM',
     // "default"
-    'none': 'none_d125d2',
+    'none': 'none_tqapBM',
     // server list
-    'fade': 'fade_JFqgFB' 'fade_d125d2',
+    'fade': 'fade_JFqgFB' 'fade_tqapBM',
     // channel sidebar (show on hover)
-    'scrolling': 'scrolling_JFqgFB' 'scrolling_d125d2',
-    'disableScrollAnchor': 'disableScrollAnchor_tqapBM' 'disableScrollAnchor_d125d2',
-    'content': 'content_JFqgFB' 'content_d125d2',
+    'scrolling': 'scrolling_JFqgFB' 'scrolling_tqapBM',
+    'disableScrollAnchor': 'disableScrollAnchor_tqapBM' 'disableScrollAnchor_tqapBM',
+    'content': 'content_JFqgFB' 'content_tqapBM',
     // USED EVERYWHERE AS A CHILD CLASS TO BASE.
-    'managedReactiveScroller': 'managedReactiveScroller_tqapBM' 'managedReactiveScroller_d125d2',
+    'managedReactiveScroller': 'managedReactiveScroller_tqapBM' 'managedReactiveScroller_tqapBM',
     'pointerCover': 'pointerCover_tqapBM',
     // disables inputs by the looks of it. seems to be a child of content on SOME scrollers
     'customTheme': 'customTheme_tqapBM',
     // idk where this is used
   ),
   'search': (
-    'wrap': 'searchResultsWrap_a98f3b',
+    'wrap': 'searchResultsWrap_QHVbp3',
 
-    'header': 'searchHeader_ae7890',
+    'header': 'searchHeader_DAJqRF',
     'results': 'totalResults_DAJqRF',
     'modeAndFilter': 'searchModeAndFiltersContainer_DAJqRF',
 
-    'scroller': 'scroller_a98f3b',
+    'scroller': 'scroller_QHVbp3',
 
     'resultsGroup': 'searchResultGroup_3Zk3yP',
     'channelNameContainer': 'channelNameContainer_3Zk3yP',
@@ -2599,10 +2599,10 @@ $classes: (
     'jumpButtonContainer': 'buttonsContainer_N3Anbl',
     'jumpButton': 'button_N3Anbl',
 
-    'emptyResultsWrap': 'emptyResultsWrap_a98f3b',
-    'emptyResultsContent': 'emptyResultsContent_a98f3b',
-    'noResultsImage': 'noResultsImage_a98f3b',
-    'emptyResultsText': 'emptyResultsText_a98f3b',
+    'emptyResultsWrap': 'emptyResultsWrap_QHVbp3',
+    'emptyResultsContent': 'emptyResultsContent_QHVbp3',
+    'noResultsImage': 'noResultsImage_QHVbp3',
+    'emptyResultsText': 'emptyResultsText_QHVbp3',
     'noResults': 'noResults_a98f3b',
     'noResultsAlt': 'alt_2i8Bfm',
   ),
@@ -2690,7 +2690,7 @@ $classes: (
     'bottomButtonContainer': 'tutorialContainer_rwEpIL',
     'bottomButton': 'circleIconButton_g8YUxD',
     'bottomButtonSelected': 'selected_g8YUxD',
-    'bottomButtonDisabled': 'disabled__5bc7e',
+    'bottomButtonDisabled': 'disabled_g8YUxD',
     'bottomButtonIcon': 'circleIcon_g8YUxD',
     'lowerBadge': 'lowerBadge_hqZPsU',
     'upperBadge': 'upperBadge_hqZPsU',
@@ -2730,7 +2730,7 @@ $classes: (
       'hidden': 'hidden_oJAkDB',
       'active': 'active_oJAkDB',
       'unread': 'unreadMentionsBar_5dqHTG',
-      'mention': 'mention__3b95d',
+      'mention': 'mention_oJAkDB',
       'text': 'text_oJAkDB',
     ),
   ),
@@ -2786,7 +2786,7 @@ $classes: (
         'content': 'content_TBNqol',
         // holds the name, activity and status
         'nameAndDecorators': 'nameAndDecorators_TBNqol',
-        'name': 'name__20a53',
+        'name': 'name_TBNqol',
 
         // username/group name. appears for friends+nitro+shop
         'subtextLayout': 'subText_TBNqol',
@@ -2805,11 +2805,11 @@ $classes: (
         'loadingEmpty': 'empty_Bce46W',
         // you'll quickly see it when you reload on the friends list
         // These have color and background attached to them. Use these instead of channelInteractive.
-        'interactiveBG': 'interactive_bf202d',
+        'interactiveBG': 'interactive_nl_k3a',
         // has :hover+:focus-within and :active
         'mutedBG': 'muted_nl_k3a',
         // takes priority over interactive
-        'selectedBG': 'selected_bf202d',
+        'selectedBG': 'selected_nl_k3a',
         // takes priority over muted
       ),
 
@@ -2819,8 +2819,8 @@ $classes: (
         // Header button containing server name, arrow and other stuff. These do not disappear from HTML tree when scrolling channel list
         'header': (
             'container': 'container_XH4OpX',
-            'clickable': 'clickable_f37cb1',
-            'selected': 'selected_f37cb1',
+            'clickable': 'clickable_XH4OpX',
+            'selected': 'selected_XH4OpX',
             // click it!
             'hasBanner': 'hasBanner_XH4OpX',
             'bannerVisible': 'bannerVisible_XH4OpX',
@@ -2831,7 +2831,7 @@ $classes: (
             'headerContent': 'headerContent_XH4OpX',
             'primaryInfo': 'primaryInfo_XH4OpX',
 
-            'guildIconV2Container': 'guildIconV2Container__85d16',
+            'guildIconV2Container': 'guildIconV2Container_DV_ZH5',
             // holds a flower star thing
             'guildBadge': 'guildBadge_DV_ZH5',
 
@@ -2889,7 +2889,7 @@ $classes: (
               'active': 'active_oJAkDB',
               // it appears ig?
               'unread': 'unread_oJAkDB',
-              'mention': 'mention__3b95d',
+              'mention': 'mention_oJAkDB',
               // ping!
               'text': 'text_oJAkDB',
               'icon': 'icon_edf32f',
@@ -3002,8 +3002,8 @@ $classes: (
 
             // holds extra icons. settings, invite, open chat, voice limits
             // UNRELATED TO THE ICON ON LEFT. THESE ARE FOR THE EXTRA ICONS. "Edit Channel", "Create Invite", etc.
-            'iconItem': 'iconItem_c69b6d',
-            'iconBase': 'iconBase_c69b6d',
+            'iconItem': 'iconItem_Wx6SnQ',
+            'iconBase': 'iconBase_Wx6SnQ',
             'iconChannelInfo': 'iconNoChannelInfo_Wx6SnQ',
 
             // appears on "Edit Channel", "Create Invite"
@@ -3045,28 +3045,28 @@ $classes: (
             // mainly for when you're in voice.
             'voice': (
                 // these do something? they seem kinda generic weirdly enough.
-                'listGeneric': 'list_c3cd7d',
+                'listGeneric': 'list_6Du7S1',
                 // listGeneric because it *SEEMS* generic
                 'collapsed': 'collapsed_6Du7S1',
                 'withGuildIcon': 'withGuildIcon_6Du7S1',
                 'disableInteraction': 'disableInteraction_cXmH6r',
 
-                'list': 'list__07f91',
-                'listDefault': 'listDefault__07f91',
-                'listCollapse': 'listCollapse__07f91',
+                'list': 'list_YUoOxm',
+                'listDefault': 'listDefault_YUoOxm',
+                'listCollapse': 'listCollapse_YUoOxm',
 
                 'userDraggable': 'draggable_dzgIu6',
 
                 // for users that are draggable
                 'user': 'voiceUser_ieJ4Sq',
-                'overlap': 'overlap__07f91',
+                'overlap': 'overlap_YUoOxm',
                 // for collapsed/hide names
                 'clickable': 'clickable_YUoOxm',
                 'selected': 'selected__07f91',
                 // click a user
                 'userSmall': 'userSmall_YUoOxm',
 
-                'userContent': 'content__07f91',
+                'userContent': 'content_YUoOxm',
 
                 'userAvatar': 'userAvatar_wc8r43',
                 // appears to be related to stage audience stuff
@@ -3078,10 +3078,10 @@ $classes: (
                 'username': 'username_YUoOxm',
                 'usernameSpeaking': 'usernameSpeaking_YUoOxm',
 
-                'icons': 'icons__07f91',
-                'iconsGroup': 'iconGroup__07f91',
-                'icon': 'icon__07f91',
-                'iconServer': 'iconServer__07f91',
+                'icons': 'icons_YUoOxm',
+                'iconsGroup': 'iconGroup_YUoOxm',
+                'icon': 'icon_YUoOxm',
+                'iconServer': 'iconServer_YUoOxm',
                 // server muted
 
                 'avatarContainer': 'avatarContainer_YUoOxm',
@@ -3094,16 +3094,16 @@ $classes: (
                 'clanTagBadge': 'clanTagBadge_d80634',
                 'iconTooltipContainer': 'iconTooltipContainer_d80634',
                 'iconTooltip': 'iconTooltip_d80634',
-                'iconPriortySpeaker': 'iconPriortySpeaker__07f91',
+                'iconPriortySpeaker': 'iconPriortySpeaker_YUoOxm',
                 // discord typo lol
                 'strikethrough': 'strikethrough__07f91',
                 'selfHangStatus': 'selfHangStatus_d80634',
                 'clanTag': 'clanTag_YUoOxm',
                 'isOverlay': 'isOverlay__07f91',
                 'liveIcon': 'liveIcon_d80634',
-                'iconPriortySpeakerSpeaking': 'iconPriortySpeakerSpeaking__07f91',
+                'iconPriortySpeakerSpeaking': 'iconPriortySpeakerSpeaking_YUoOxm',
                 // discord typo lol
-                'disabled': 'disabled__07f91',
+                'disabled': 'disabled_YUoOxm',
                 'guestSuffix': 'guestSuffix_YUoOxm'
               ),
           ),
@@ -3156,10 +3156,10 @@ $classes: (
             'status': 'rtcConnectionStatus_4LJE6I',
 
             // within labelWrapper
-            'label': 'rtcConnectionStatusLabel__06d62',
-            'connected': 'rtcConnectionStatusConnected__06d62',
-            'connecting': 'rtcConnectionStatusConnecting__06d62',
-            'error': 'rtcConnectionStatusError__06d62',
+            'label': 'rtcConnectionStatusLabel_4LJE6I',
+            'connected': 'rtcConnectionStatusConnected_4LJE6I',
+            'connecting': 'rtcConnectionStatusConnecting_4LJE6I',
+            'error': 'rtcConnectionStatusError_4LJE6I',
 
             // likely how good the connection is; these apply color to pingForeground
             'fine': 'rtcConnectionQualityFine_4LJE6I',
@@ -3260,14 +3260,14 @@ $classes: (
         'panelButtonContainer': 'panelButtonContainer_IZv9tE',
         // buttons use #{c(sidebar server panel buttons button)}.
         // other classes that i don't know where they're used
-        'dropsBadgeWrapper': 'dropsBadgeWrapper__5dec7',
+        'dropsBadgeWrapper': 'dropsBadgeWrapper_8eCwJY',
         // likely relates to quest stuff
-        'dropsBadge': 'dropsBadge__5dec7',
-        'liveIndicator': 'liveIndicator__5dec7',
+        'dropsBadge': 'dropsBadge_8eCwJY',
+        'liveIndicator': 'liveIndicator_8eCwJY',
         // appears as child of gameWrapper
-        'sparkleContainer': 'sparkleContainer__5dec7',
+        'sparkleContainer': 'sparkleContainer_8eCwJY',
         'sparkles': 'sparkles_QF5mJe',
-        'infoWithDrops': 'infoWithDrops__5dec7',
+        'infoWithDrops': 'infoWithDrops_8eCwJY',
         'channel': 'channel_8eCwJY',
         'perksDemoContainer': 'perksDemoContainer_8eCwJY',
         'perksDemoText': 'perksDemoText_8eCwJY',
@@ -3358,7 +3358,7 @@ $classes: (
     'upsellNotice': (
         // better name: "bannerUpsellNotice"
         // On a server with less than 7 boosts (not boost level 2): "Want this server to feel unique? Unlock custom server banenrs with # more boosts."
-        'notice': 'channelNotice__4c43d',
+        'notice': 'channelNotice_hVh8FI',
         'close': 'close__4c43d',
         'closeIcon': 'closeIcon__4c43d',
         'title': 'title__4c43d',
@@ -3420,7 +3420,7 @@ $classes: (
         'inner': 'inner_rmCN9_',
 
         // hover over own status
-        'tooltip': 'tooltip__4e35b',
+        'tooltip': 'tooltip_ZDdyhE',
         'tooltipContent': 'tooltipContent_ZDdyhE',
         'caretIcon': 'caretIcon_ZDdyhE',
         'caretFill': 'caretFill_ZDdyhE',
@@ -3429,7 +3429,7 @@ $classes: (
       // Banners are in their own line. The SVG Wrapper is in its own line.
       'banner': (
         'banner': 'banner_s9bWOi',
-        'gifTag': 'gifTag__68edb',
+        'gifTag': 'gifTag_vNEdYY',
         'mask': 'mask__68edb',
       ),
 
@@ -3439,15 +3439,15 @@ $classes: (
         'container': 'container__63ed3',
         'clickableUsername': 'clickableUsername__63ed3',
         'nickname': 'nickname__63ed3',
-        'userTagUsername': 'userTagUsername__63ed3',
+        'userTagUsername': 'userTagUsername_C2XpHA',
         'nicknameIcons': 'nicknameIcons__63ed3',
         'usernameRow': 'usernameRow__63ed3',     
         'usernameContainer': 'container__63ed3',
         'tags': 'tags__63ed3',
         'userTag': 'userTag_I0dgbG',
-        'pronouns': 'pronouns__63ed3',
-        'userTagDiscriminator': 'userTagDiscriminator__63ed3',
-        'dotSpacer': 'dotSpacer__63ed3',     
+        'pronouns': 'pronouns_C2XpHA',
+        'userTagDiscriminator': 'userTagDiscriminator_C2XpHA',
+        'dotSpacer': 'dotSpacer_C2XpHA',
       ),
 
       // shared between modal+panel+popout (not self)+status
@@ -3508,17 +3508,17 @@ $classes: (
         'barInSingleLine': 'barInSingleLine_5Hv024',
         'singleLineContainer': 'singleLineContainer_5Hv024',
 
-        'themed': 'themed_c8b06d',
+        'themed': 'themed_5Hv024',
 
-        'text': 'text_c8b06d',
+        'text': 'text_5Hv024',
         'textLeft': 'textLeft_2E0EiK',
-        'textRight': 'textRight_c8b06d',
-        'textLeftInSingleLine': 'textLeftInSingleLine_c8b06d',
+        'textRight': 'textRight_5Hv024',
+        'textLeftInSingleLine': 'textLeftInSingleLine_5Hv024',
       ),
 
       // Modal: right click on user in same spots and click "View Profile"
       'modal': (
-        'root': 'root__9c3be',
+        'root': 'root_ZhNJfE',
         'bgImage': 'backgroundImage_s3DB6Y', // nitro profiles only
         'profile': 'profile_s3DB6Y',
         'profileHeader': 'profileHeader_s3DB6Y',
@@ -3551,10 +3551,10 @@ $classes: (
 
         'listScroller': 'listScroller_6X8yxV',
         'empty': 'empty_6X8yxV',
-        'emptyIcon': 'emptyIcon__9d78f',
-        'emptyIconFriends': 'emptyIconFriends__9d78f',
-        'emptyIconGuilds': 'emptyIconGuilds__9d78f',
-        'emptyIconStreamerMode': 'emptyIconStreamerMode__9d78f',
+        'emptyIcon': 'emptyIcon_6X8yxV',
+        'emptyIconFriends': 'emptyIconFriends_6X8yxV',
+        'emptyIconGuilds': 'emptyIconGuilds_6X8yxV',
+        'emptyIconStreamerMode': 'emptyIconStreamerMode_6X8yxV',
         'emptyText': 'emptyText_6X8yxV',
           
         'noteTextarea': 'textarea_1mgvSC',
@@ -3607,7 +3607,7 @@ $classes: (
     'sidebarRegionScroller': 'sidebarRegionScroller_jnk11m',
     'sidebar': 'sidebar_jnk11m',
     'sidebarSocialLinks': 'socialLinks__7df54',
-    'sidebarInfo': 'info__2debe',
+    'sidebarInfo': 'info_C_Rpm7',
 
     'customScroller': 'customScroller_jnk11m',
 
@@ -3618,7 +3618,7 @@ $classes: (
     'contentColumnWide': 'contentColumnWide_jnk11m',
     
     'noticeRegion': 'noticeRegion_jnk11m',
-    'noticeContainer': 'container__9a9f9',
+    'noticeContainer': 'container_aTnRjo',
 
     'card': (
       // These are likely all over the app but are best found in settings.
@@ -3660,8 +3660,8 @@ $classes: (
     ),
 
     // used in a few places, i'm not entirely sure what's different about it
-    'premiumFeatureBorder': 'premiumFeatureBorder__65c15',
-    'featureBorder': 'featureBorder__65c15',
+    'premiumFeatureBorder': 'premiumFeatureBorder_qIotUB',
+    'featureBorder': 'featureBorder_qIotUB',
     'featureBackground': 'background_qIotUB',
 
     'marginReset': 'marginReset_cWXVcV',
@@ -3675,7 +3675,7 @@ $classes: (
     'marginBottom8': 'marginBottom8_cWXVcV',
     'marginBottom20': 'marginBottom20_cWXVcV',
     'marginBottom40': 'marginBottom40_cWXVcV',
-    'marginBottom60': 'marginBottom60_fd297e',
+    'marginBottom60': 'marginBottom60_cWXVcV',
     'marginLeft8': 'marginLeft8_cWXVcV',
 
     'closeButtonContainer': 'container_e76OBR',
@@ -3750,8 +3750,8 @@ $classes: (
       ),
 
       'decoration': (
-        'gridItem': 'decorationGridItem_dfa67d',
-        'gridItemSelected': 'selected_dfa67d',
+        'gridItem': 'decorationGridItem_hxzEt-',
+        'gridItemSelected': 'selected_hxzEt-',
         'preview': 'decorationPreview_lCPrts',
         'previewSmall': 'smallDecorationPreviewsContainer_lCPrts',
         'previewUpsell': 'shopPreviewContainer__51743',
@@ -3792,7 +3792,7 @@ $classes: (
     ),
 
     'family': (
-      'containers': 'container_IQWzzZ' 'container__8cc9a' 'container__5b321',
+      'containers': 'container_IQWzzZ' 'container_lb1Q8G' 'container__5b321',
       'box': 'box_qCRz2b',
       'circle': 'circle_lb1Q8G',
       'iconContainer': 'iconContainer_qUlUyR',
@@ -3825,8 +3825,8 @@ $classes: (
 
     'connections': (
       'connectTopContainer': 'container_VhFsFg',
-      'connectionsContainer': 'connectionsContainer_c7f964',
-      'accountButtonInner': 'accountButtonInner_c7f964',
+      'connectionsContainer': 'connectionsContainer_yX-kzH',
+      'accountButtonInner': 'accountButtonInner_yX-kzH',
       'accountWrapper': 'accountAddWrapper_c7f964',
       'accountWrapperInner': 'accountAddInner_c7f964',
 
@@ -3837,11 +3837,11 @@ $classes: (
         'accountButtonInner': 'accountBtnInner_g9DJn9',
       ),
 
-      'connection': 'connection_c7f964',
+      'connection': 'connection_yX-kzH',
       'connectionHeader': 'connectionHeader_UpEWJT',
-      'connectionAccountLabel': 'connectionAccountLabel_c7f964',
-      'connectionIcon': 'connectionIcon_c7f964',
-      'connectionDelete': 'connectionDelete_c7f964',
+      'connectionAccountLabel': 'connectionAccountLabel_yX-kzH',
+      'connectionIcon': 'connectionIcon_yX-kzH',
+      'connectionDelete': 'connectionDelete_yX-kzH',
       'connectionMetadataContainer': 'metadataContainer_PLU3Jy',
     ),
 
@@ -3850,7 +3850,7 @@ $classes: (
       'giftButton': 'giftButton_MoTl1p',
       'perkCard': 'perkCard_hNerlt',
       'footerWrapper': 'wrapper_9n0AUP',
-      'footerWrapperBase': 'innerWrapperBase__553fd',
+      'footerWrapperBase': 'innerWrapperBase_9n0AUP',
       'footerSubButton': 'subButton_9n0AUP',
 
       // with nitro
@@ -3885,11 +3885,11 @@ $classes: (
 
     'subscriptions': (
       'sectionDescription': 'sectionDescription_e335a7',
-      'noItemsCardSubs': 'noItemsCard_e335a7',
+      'noItemsCardSubs': 'noItemsCard_4VCFtm',
       'noItemsIconSubs': 'noItemsIcon_NedsCW',
-      'nItemsCardCredits': 'noItemsCard__70151',
+      'nItemsCardCredits': 'noItemsCard_NedsCW',
       'noItemsIconCredits': 'noItemsIcon_NedsCW',
-      'detailsBlock': 'detailsBlock_e335a7',
+      'detailsBlock': 'detailsBlock_4VCFtm',
       'billingInformation': 'billingInformation_4VCFtm',
     ),
 
@@ -3901,7 +3901,7 @@ $classes: (
     'billing': (
       'descriptionWrapper': 'descriptionWrapper_OrFQq1',
       'defaultIndicator': 'defaultIndicator_LAvacu',
-      'premiumIndicator': 'premiumIndicator__43963',
+      'premiumIndicator': 'premiumIndicator_OrFQq1',
       'subText': 'subText_OrFQq1',
       'paymentPane': 'paymentPane_VuWkDZ',
       'bottomDivider': 'bottomDivider_VuWkDZ',
@@ -3950,7 +3950,7 @@ $classes: (
       'notches': 'notches_0EQxEk',
       'notchesGray': 'gray_0EQxEk',
       'notchprogress': 'progress_0EQxEk',
-      'sensitivityBar': 'sliderBar_ac7648',
+      'sensitivityBar': 'sliderBar_d-Ihb0',
       'sensitivitySpeaking': 'speaking_ac7648',
 
       'soundButton': 'soundButtonSettingContainer_VACzzt',
@@ -3963,10 +3963,10 @@ $classes: (
 
     'keybinds': (
       'keybindContainer': 'container__BLAbN',
-      'recorderContainer': 'recorderContainer__2636e',
+      'recorderContainer': 'recorderContainer_0PgvPQ',
       'keybindDisabled': 'containerDisabled_LekV6N',
       'keybindRecording': 'recording_0PgvPQ',
-      'removeButton': 'removeKeybind_f82450',
+      'removeButton': 'removeKeybind_-wlZx4',
       'default': 'defaultKeybind_-wlZx4',
       'defaultgroup': 'defaultKeybindGroup_-wlZx4',
       'shortcutGroup': 'defaultKeybindShortcutGroup_-wlZx4',
@@ -3986,19 +3986,19 @@ $classes: (
       'gameName': 'gameName_kQPUsd',
       'gameNameInput': 'gameNameInput_kQPUsd',
       'gameLastPlayed': 'gameNameLastPlayed_kQPUsd',
-      'overlayToggleIcon': 'toggleIcon_b53c4e',
-      'overlayToggleIconOn': 'toggleIconOn_b53c4e',
-      'overlayToggleIconOff': 'toggleIconOff_b53c4e',
-      'overlayToggleIconFill': 'fill_b53c4e',
+      'overlayToggleIcon': 'toggleIcon_kQPUsd',
+      'overlayToggleIconOn': 'toggleIconOn_kQPUsd',
+      'overlayToggleIconOff': 'toggleIconOff_kQPUsd',
+      'overlayToggleIconFill': 'fill_kQPUsd',
       'game': 'game_kQPUsd',
-      'removeGame': 'removeGame_b53c4e',
+      'removeGame': 'removeGame_kQPUsd',
       'addGamePopout': 'addGamePopout_HLMBUf',
     ),
 
     'overlay': (
       'collapseable': 'collapseable_DKMuWq',
       'expandedContainer': 'expandedContainer_DKMuWq',
-      'groupHeader': 'groupHeader__9d98d',
+      'groupHeader': 'groupHeader_DKMuWq',
       'groupContent': 'groupContent_DKMuWq',
       'groupCollapsedContainer': 'groupCollapsedContainer_DKMuWq',
       'groupContainer': 'groupContainer_DKMuWq'
@@ -4122,7 +4122,7 @@ $classes: (
     'audit': (
       'log': 'auditLog_LajYMK',
       'header': 'header_LajYMK',
-      'headerExpanded': 'headerExpanded__43dab',
+      'headerExpanded': 'headerExpanded_LajYMK',
       'divider': 'divider_LajYMK',
       'changeDetails': 'changeDetails_LajYMK',
     ),
@@ -4135,16 +4135,16 @@ $classes: (
     'automod': (
       'editCard': 'editCard_xX0l5K',
       'editCardToggled': 'toggled_xX0l5K',
-      'ruleIconContainer': 'ruleIconContainer_c5e6a1',
-      'ruleIcon': 'ruleIcon_c5e6a1',
+      'ruleIconContainer': 'ruleIconContainer_mQktSJ',
+      'ruleIcon': 'ruleIcon_mQktSJ',
       'pillContainer': 'actionContainer__Sq065',
       'pillIcon': 'actionIcon__Sq065',
       'pillText': 'actionTextHeader__Sq065',
       'stepIcon': 'stepCountIcon_DpUkVj',
-      'stepperContainer': 'stepperContainer_ed9c90',
-      'contentContainer': 'mentionLimitContainer_ed9c90' 'actionContainer__6446f',
-      'keywordsTextArea': 'keywordsTextArea__6a631',
-      'regexTextArea': 'textArea_c615b7',
+      'stepperContainer': 'stepperContainer_QSBA8Q',
+      'contentContainer': 'mentionLimitContainer_QSBA8Q' 'actionContainer_0xIELG',
+      'keywordsTextArea': 'keywordsTextArea_q4D1ZT',
+      'regexTextArea': 'textArea_65838B',
     ),
 
     'community': (
@@ -4161,7 +4161,7 @@ $classes: (
 
     'onboarding': (
       'testimonialContainer': 'testimonialHeroContainer_5ankAK',
-      'testimonialQuotes': 'quotes__3e7e2',
+      'testimonialQuotes': 'quotes_5ankAK',
       'testimonial': 'testimonial_5ankAK',
       'upsell': 'upsellPreview_yLJWMA',
       'upsellList': 'previewListItem_yLJWMA',
@@ -4226,12 +4226,12 @@ $classes: (
 
     'subs': (
       'howItWorksContainer': 'howItWorksContainer_TZZenC',
-      'howItWorksCard': 'howItWorksCard_dd30dc',
+      'howItWorksCard': 'howItWorksCard_TZZenC',
       'howItWorksImageContainer': 'howItWorksImageContainer_TZZenC',
       'card': 'card_HzBob3',
       'earningsPreviewContainer': 'earningsPreviewContainer_oGqn3i',
       'avatarCard': 'avatarCard_oGqn3i',
-      'avatarConnector': 'verticalConnector_oGqn3i' 'horizontalConnector__02e4c',
+      'avatarConnector': 'verticalConnector_oGqn3i' 'horizontalConnector_oGqn3i',
     ),
 
     'boost': (
@@ -4309,9 +4309,9 @@ $classes: (
       // click server name
       'scroller': 'scroller_M3qk4j',
       'separator': 'separator_M3qk4j',
-      'customItem': 'customItem_c1e9c4',
+      'customItem': 'customItem_M3qk4j',
       // found in quick react
-      'item': 'item_c1e9c4',
+      'item': 'item_M3qk4j',
       'labelContainer': 'labelContainer_M3qk4j',
       'itemDisabled': 'disabled_M3qk4j',
       'itemFocused': 'focused_M3qk4j',
@@ -4321,7 +4321,7 @@ $classes: (
       'subtext': 'subtext_M3qk4j',
       // "muted until $time" for easiest way of bringing this up
       'iconContainer': 'iconContainer_M3qk4j',
-      'iconContainerLeft': 'iconContainerLeft_c1e9c4',
+      'iconContainerLeft': 'iconContainerLeft_M3qk4j',
       // change status has this
       'icon': 'icon_M3qk4j',
 
@@ -4350,7 +4350,7 @@ $classes: (
       'hintContainer': 'hintContainer_c1e9c4',
 
       // this is the remove custom status thing
-      'groupLabel': 'groupLabel_c1e9c4',
+      'groupLabel': 'groupLabel_M3qk4j',
       // no idea where
       'loader': 'loader_M3qk4j',
       // no idea where
@@ -4640,7 +4640,7 @@ $classes: (
       'popout': 'contentWrapper_Z0Mo0M',
       'container': 'container_OfZRPz',
       'loading': 'container_5x0vse',
-      'sectionRowsContainer': 'sectionRowsContentContainer__927fc',
+      'sectionRowsContainer': 'sectionRowsContentContainer_OfZRPz',
       'itemContainer': 'container_LekV6N',
       'rowContainer': 'rowContainer_LekV6N',
       'rowDivider': 'rowDivider_LekV6N',
@@ -4844,11 +4844,11 @@ $classes: (
       'scroller': 'scroller_0JZW4Z',
       'messageBox': 'box_0JZW4Z',
       'channelHeader': 'channelHeader_8ZcKCk',
-      'guildIcon': 'icon__5d903',
+      'guildIcon': 'icon_8ZcKCk',
       'channelNameSection': 'channelNameSection_8ZcKCk',
       'channelNameHeading': 'channelNameHeading_8ZcKCk',
       'channelNameSpan': 'channelNameSpan_8ZcKCk',
-      'guildName': 'guildName__5d903',
+      'guildName': 'guildName_8ZcKCk',
       
       'emptyContainer': 'container_FgrH4y',
       'emptyIconContainer': 'iconContainer_FgrH4y',
@@ -4910,12 +4910,12 @@ $classes: (
     
     // @everyone with a larger server
     'mentionWarning': (
-      'popout': 'contentWarningPopout_d2eed6',
+      'popout': 'contentWarningPopout_E4U_PW',
       'body': 'body_E4U_PW',
       'animation': 'animation_E4U_PW',
-      'content': 'content_d2eed6',
-      'header': 'header_d2eed6',
-      'footer': 'footer_d2eed6',
+      'content': 'content_E4U_PW',
+      'header': 'header_E4U_PW',
+      'footer': 'footer_E4U_PW',
     ),
 
     // Click either an Emoji or a Sticker within chat
@@ -4936,7 +4936,7 @@ $classes: (
     'vcPreview': (
       // hover vc with members
       'popout': 'popover_81IzEA',
-      'streamPreview': 'previewContainer__0489e',
+      'streamPreview': 'previewContainer_1v6-1l',
     ),
 
     // click on role name in chat
@@ -4950,7 +4950,7 @@ $classes: (
     'hidden': 'hidden_bc663c',
     // best way to get this class is to change banner/avi and click gifs
     'focusLock': 'focusLock__KoJTP',
-    'root': 'root__KoJTP' 'container__8a031' /* quickswitcher, external links, server notifs */ ,
+    'root': 'root__KoJTP' 'container_dvN-MP' /* quickswitcher, external links, server notifs */ ,
     'header': 'header__KoJTP',
     // header text doesn't have its own class per se but can be targeted with header>h2
     'close': 'close__KoJTP',
@@ -4996,14 +4996,14 @@ $classes: (
       'divider': 'divider_JG2DGL',
       'iconButton': 'iconButton_JG2DGL',
 
-      'statusContainer': 'eventStatusContainer__29021',
+      'statusContainer': 'eventStatusContainer_2SWORW',
       'isRecurring': 'isRecurring__wH91U',
       // events that repeat every week
-      'statusLabel': 'eventStatusLabel__29021',
+      'statusLabel': 'eventStatusLabel_2SWORW',
 
       // main page      
       'card': 'card__wH91U',
-      'rsvpCount': 'rsvpCount_b5010b',
+      'rsvpCount': 'rsvpCount_dUw4ZS',
 
       // Within modal above, click an event
       'eventinfo': (
@@ -5020,17 +5020,17 @@ $classes: (
       'contentWrapper': 'contentWrapper_4hnqn0',
       'inviteSplash': 'inviteSplash_4hnqn0',
       // has style for background image
-      'headerContainer': 'container_fa285e',
+      'headerContainer': 'container_jh4URK',
       // houses guild icon, guild name, online/total count
-      'guildIcon': 'guildIcon_fa285e',
-      'title': 'title_fa285e',
+      'guildIcon': 'guildIcon_jh4URK',
+      'title': 'title_jh4URK',
       'activityCount': 'activityCount__xBAiH',
       'pill': 'pill_rN1Ls3',
       'pillOnline': 'pillOnline_rN1Ls3',
       'pillIcon': 'pillIcon_sPmmqh',
-      'pillIconOnline': 'pillIconOnline__921c5',
+      'pillIconOnline': 'pillIconOnline_rN1Ls3',
       'pillMessage': 'pillMessage_b83a05',
-      'pillIconTotal': 'pillIconTotal__921c5',
+      'pillIconTotal': 'pillIconTotal_rN1Ls3',
     ),
 
     // "Time Out" on another user
@@ -5057,7 +5057,7 @@ $classes: (
       'subtitle': 'modalSubtitle_jCEr5v',
       'list': 'keyboardShortcutList_jCEr5v',
       'group': 'keyboardShortcutListGroup_jCEr5v',
-      'firstGroup': 'firstGroup_f061f6',
+      'firstGroup': 'firstGroup_jCEr5v',
       'groupDescription': 'keybindGroupDescription_jCEr5v',
       'keybindGroup': 'keybindGroup_jCEr5v',
       'keybindkey': 'keybindKey_jCEr5v',
@@ -5110,9 +5110,9 @@ $classes: (
       'footer': 'footer_x3HD6i',
       'submitButton': 'submitButton_x3HD6i',
       'formItem': 'formItem_x3HD6i',
-      'notice': 'notice_b962dc',
+      'notice': 'notice_x3HD6i',
       'rejectionReasonLabel': 'rejectionReasonLabel_Br3ZUd',
-      'rejectionReason': 'rejectionReason_b962dc',
+      'rejectionReason': 'rejectionReason_x3HD6i',
 
       // questions stuff, different line
       'questions': (
@@ -5174,9 +5174,9 @@ $classes: (
       'emojiContainer': 'emojiContainer_UNsDQI',
       'emoji': 'emoji_UNsDQI',
       'emojiSelected': 'selected_UNsDQI',
-      'sad': 'sadFace__5c58b',
-      'neutral': 'neutralFace__5c58b',
-      'happy': 'happyFace__5c58b',
+      'sad': 'sadFace_UNsDQI',
+      'neutral': 'neutralFace_UNsDQI',
+      'happy': 'happyFace_UNsDQI',
       
       // Will show up if you select anything but happy in the "How'd x go?" rating modal
       'root': 'root_RJkt6C',
@@ -5189,10 +5189,10 @@ $classes: (
     'timedOut': (
       'container': 'container_tvVoIN',
       // This one can be closed by clicking "okay"
-      'iconContainer': 'iconContainer__65338',
-      'icon': 'icon__65338',
-      'header': 'header__65338',
-      'headerText': 'headerText__65338',
+      'iconContainer': 'iconContainer_tvVoIN',
+      'icon': 'icon_tvVoIN',
+      'header': 'header_tvVoIN',
+      'headerText': 'headerText_tvVoIN',
       'button': 'button_tvVoIN',
 
       'spamBanner': 'spamBanner_nJXYWe',
@@ -5256,9 +5256,9 @@ $classes: (
             'upsell': 'nitroPreviewUpsell_9J3Bpn',
 
             // own line
-            'notice': 'notice_d37fb3',
-            'withRightPadding': 'noticeWithRightPadding_d37fb3',
-            'withoutRightPadding': 'noticeWithoutRightPadding_d37fb3',
+            'notice': 'notice_UCQIss',
+            'withRightPadding': 'noticeWithRightPadding_UCQIss',
+            'withoutRightPadding': 'noticeWithoutRightPadding_UCQIss',
             'left': 'noticeLeft_UCQIss',
             'icon': 'icon_UCQIss',
             'text': 'text_UCQIss',
@@ -5296,32 +5296,32 @@ $classes: (
       'modal': 'container_CHlSZL',
 
       // first screen "Create a server"
-      'createServerHeader': 'header_c04f35',
-      'createServerTitle': 'title_c04f35',
+      'createServerHeader': 'header_mZNRSI',
+      'createServerTitle': 'title_mZNRSI',
       'createServerCloseButton': 'closeButton_mZNRSI',
       'createServerSubtitle': 'sutitle_bc04f3',
-      'createServerTemplatesList': 'templatesList_c04f35',
+      'createServerTemplatesList': 'templatesList_mZNRSI',
       'optionHeader': 'optionHeader_C77viY',
       'optionContainer': 'container_cidbEB',
       'optionIcon': 'icon_cidbEB',
       'optionText': 'text_cidbEB',
       'optionArrow': 'arrow_cidbEB',
-      'footerTitle': 'footerTitle_c04f35',
+      'footerTitle': 'footerTitle_mZNRSI',
 
       // second screen "Tell us more about your server"
       'tellUsMoreHeader': 'header_srE3KQ',
       'tellUsMoreTitle': 'title_srE3KQ',
       'tellUsMoreSubtitle': 'subtitle_srE3KQ',
-      'tellUsMoreBackButton': 'backButton__78f69',
+      'tellUsMoreBackButton': 'backButton_srE3KQ',
       'tellUsMoreOptionsList': 'optionsList_srE3KQ',
       'tellUsMoreCloseButton': 'closeButton_srE3KQ',
       'tellUsMoreSkip': 'skip_srE3KQ',
 
       // third screen "Customise your server"
-      'customiseHeader': 'header_b917ac',
-      'customiseTitle': 'title_b917ac',
+      'customiseHeader': 'header_du1EY3',
+      'customiseTitle': 'title_du1EY3',
       'customiseSubtitle': 'sutitle_bb917a',
-      'customiseCreateServer': 'createGuild_b917ac',
+      'customiseCreateServer': 'createGuild_du1EY3',
       'customiseUploadIcon': 'uploadIcon_du1EY3',
       'customiseIconContainer': 'iconContainer_YUKqn_',
 
@@ -5344,7 +5344,7 @@ $classes: (
     'upload': (
       'areaPosition': 'uploadArea_z_gUBg',
       // applies position fixed and other things with thread sidebar open/floating
-      'inner': 'inner_b78547',
+      'inner': 'inner_TLgD1o',
 
       // Used in drop and modify
       'drop': (
@@ -5356,7 +5356,7 @@ $classes: (
         // upload a folder to get this to appear
         // "pops" are in another (sub) category
         'bgScale': 'bgScale_TLgD1o',
-        'icons': 'icons_b78547',
+        'icons': 'icons_TLgD1o',
         // While the icons in this list are in order, the html tree order is one-three-two
         // the "uses" comment are other classes on the same element. they're listed all below under "fileTypes"
         'wrapOne': 'wrapOne_TLgD1o',
@@ -5371,18 +5371,18 @@ $classes: (
         'three': 'three_b78547',
 
         // uses code
-        'instructions': 'instructions_b78547',
-        'title': 'title_b78547',
+        'instructions': 'instructions_TLgD1o',
+        'title': 'title_TLgD1o',
       ),
 
       // All of these rules have a background-image applied to them. You can find these under the same line as drop, above
       // After the first the rules all seem to be prefixed by uploadModal inner(from drop) file(from drop) icon.[type]
       // (these aren't even the only set of things like this!)
       'fileTypes': (
-        'icon': 'icon_b78547',
+        'icon': 'icon_TLgD1o',
         // Base class for all of them
         'document': 'document_sBdlOA',
-        'image': 'image_b78547',
+        'image': 'image_TLgD1o',
         'code': 'code_TLgD1o',
         'video': 'video_TLgD1o',
         'acrobat': 'acrobat_sBdlOA',
@@ -5405,17 +5405,17 @@ $classes: (
         'base': 'base_IXpFcz',
         'sparkle': 'sparkle_NdYDYt',
         'pop': 'pop_IXpFcz',
-        'light': 'light_e42a84',
+        'light': 'light_IXpFcz',
         'cross': 'cross_L0tkeR',
 
         'sparkleOne': 'sparkleOne_TLgD1o',
         'sparkleTwo': 'sparkleTwo_TLgD1o',
         'popOne': 'popOne_TLgD1o',
         // There doesn't seem to be a popTwo
-        'lightOne': 'lightOne_b78547',
-        'lightTwo': 'lightTwo_b78547',
-        'crossOne': 'crossOne_b78547',
-        'crossTwo': 'crossTwo_b78547',
+        'lightOne': 'lightOne_TLgD1o',
+        'lightTwo': 'lightTwo_TLgD1o',
+        'crossOne': 'crossOne_TLgD1o',
+        'crossTwo': 'crossTwo_TLgD1o',
 
         // Colors use images
         'sparkleWhite': 'sparkleWhite_IXpFcz',
@@ -5424,11 +5424,11 @@ $classes: (
         'popWhite': 'popWhite_IXpFcz',
         'popGrey': 'popGrey_bce2e6',
         'popBlurple': 'popBlurple_bce2e6',
-        'lightWhite': 'lightWhite_e42a84',
+        'lightWhite': 'lightWhite_IXpFcz',
         'lightGrey': 'lightGrey_bce2e6',
         'lightBlurple': 'lightBlurple_bce2e6',
-        'crossWhite': 'crossWhite_e42a84',
-        'crossGrey': 'crossGrey_e42a84',
+        'crossWhite': 'crossWhite_IXpFcz',
+        'crossGrey': 'crossGrey_IXpFcz',
         'crossBlurple': 'crossBlurple_bce2e6',
       ),
 
@@ -5479,7 +5479,7 @@ $classes: (
       'backgroundRefresh': 'premiumBrandRefreshBackground_e5f3a9',
 
       'nitroTier': (
-        'header': 'skuSelectModalHeader_e50a4d',
+        'header': 'skuSelectModalHeader_ievAZy',
         'content': 'skuSelectModalContent_ievAZy',
         'contentRefresh': 'premiumBrandRefreshContent_e50a4d',
 
@@ -5487,26 +5487,26 @@ $classes: (
       ),
 
       'gift': (
-        'spinner': 'spinner_ca0af2',
-        'header': 'modalHeaderCustomGift_b54a5b',
+        'spinner': 'spinner_V4xidM',
+        'header': 'modalHeaderCustomGift_hvcsgP',
         'giftBox': 'customGiftBox_d50aac',
         'giftBoxSelected': 'customGiftBoxHighlighted_d50aac',
 
         // nitro
-        'selectionBox': 'selectionBox_b13085',
-        'selectionBoxSelected': 'selectedPlan_b13085',
+        'selectionBox': 'selectionBox_rvSze9',
+        'selectionBoxSelected': 'selectedPlan_rvSze9',
         'shopIcon': 'iconBackground_tVJ6Al',
 
         // profile decoration
         'customMessage': 'customGiftMessage_QegJ3p',
-        'preview': 'previewContainerSelected__50f14',
+        'preview': 'previewContainerSelected_0GYscM',
       ),
 
       'payment': (
-        'note': 'paymentNote_a8c622',
+        'note': 'paymentNote_j2jaDD',
         'breadcrumb': 'wrapper_nLdsb1',
-        'body': 'body_c6f1a4',
-        'table': 'table_fda3e4',
+        'body': 'body_QfSFaK',
+        'table': 'table_Atpnal',
         'cardPageBody': 'body_b25217',
         'cardInputWrapper': 'cardNumberWrapper_vel7TH',
         'cardInput': 'cardInput_vel7TH',
@@ -5522,7 +5522,7 @@ $classes: (
 
     'poll': (
       'create': (
-        'expressionPickerButton': 'expressionPickerButton__7b848',
+        'expressionPickerButton': 'expressionPickerButton_GNQQ1c',
         'expressionPickerIconDefault': 'expressionPickerIconDefault_GNQQ1c',
         'addAnswerButton': 'addAnswerButton_mCABKp',
       ),
@@ -6156,7 +6156,7 @@ $classes: (
           // src/channels/panels.scss
           'panelLiveBadge': 'liveBadge_PY60v2',
           // src/channels/panels.scss
-          'privateChannelActivityContainer': 'container__9fa5a',
+          'privateChannelActivityContainer': 'container_5kshUk',
           // src/channels/privateChannels.scss
           'callInviteButton': 'button_c6e099',
           // src/chat/call.scss
@@ -6178,9 +6178,9 @@ $classes: (
           'libraryTableHeader': 'header_-JvGQh',
           'libraryTableHeaderCell': 'headerCell_-JvGQh',
           'libraryTableHeaderCellSorted': 'headerCellSorted_-JvGQh',
-          'libraryTableHeaderCellContent': 'headerCellContent__5fe04',
+          'libraryTableHeaderCellContent': 'headerCellContent_7SwsrL',
           'libraryTableRowWrapper': 'rowWrapper_-JvGQh',
-          'libraryTableRowWrapperActive': 'rowWrapperActive_adb41f',
+          'libraryTableRowWrapperActive': 'rowWrapperActive_-JvGQh',
           'libraryTableRowWrapperDim': 'rowWrapperDim_-JvGQh',
           'libraryTableRow': 'row_-JvGQh',
           'libraryTableBodyCell': 'bodyCell_-JvGQh',
@@ -6193,15 +6193,15 @@ $classes: (
           'libraryTableLastPlayedCellNew': 'lastPlayedCellNew_-JvGQh',
           'libraryTableActionsCell': 'actionsCell_-JvGQh',
           'libraryTableSettingsIcons': 'settingIcons_-JvGQh',
-          'libraryTableSettingIcon': 'settingIcon_adb41f',
+          'libraryTableSettingIcon': 'settingIcon_-JvGQh',
           'libraryTableSettingIconHidden': 'hidden_-JvGQh',
           'librarySettingsScroller': 'scroller_tvrI4g',
           'libraryInstallationPath': 'installationPath_LAvacu',
           'libraryUsageBackground': 'background_bFFeGy',
           'libraryUsageForeground': 'foreground_vVEhpw',
           'libraryDefaultIndicator': 'defaultIndicator_LAvacu',
-          'libraryPlayButton': 'playButton__0cb56',
-          'libraryPlayButtonContents': 'playButtonContents__0cb56',
+          'libraryPlayButton': 'playButton_DV7fsY',
+          'libraryPlayButtonContents': 'playButtonContents_J5NjGG',
           'authModalScopeTimes': 'iconWrapper_cf14a8',
           'connectionDebugPopout': 'container_TP1WMf',
           'connectionDebugText': 'popoutText_effb26',
@@ -6221,13 +6221,13 @@ $classes: (
           'streamStillRunning': 'videoWrapper_7NOr2f',
           'serverWelcomeCards': 'card_rh88Fa',
           'serverInviteTick': 'checkmark_rh88Fa',
-          'stageMessageToast': 'toast_d3c698',
-          'stageMessageToastWrapper': 'messageContentWrapper_d3c698',
+          'stageMessageToast': 'toast_YtPzLx',
+          'stageMessageToastWrapper': 'messageContentWrapper_YtPzLx',
           'stageIconBigBackground': 'background_eZCiVE',
           'stageIconBigForeground': 'foreground_vVEhpw',
           'activeNowPreviewWrapper': 'applicationStreamingPreviewWrapper_o3hXTo',
           'emptyActiveNowText': 'emptyText_-7KzVR',
-          'promotedQuestPill': 'promotedTagBackground__1d868',
+          'promotedQuestPill': 'promotedTagBackground_4sN7lX',
           'quickReactButtonFocused': 'focused_f563df',
           'quickReactPremiumUpsell': 'premiumUpsell_aae531',
           'messagesPopoutThread': 'forumPost__7d15e',
@@ -6239,12 +6239,12 @@ $classes: (
           'waveButtonDisabled': 'compactButtonDisabled_sFyjfh',
           'eventIconCircle': 'circle__710ee',
           'eventNewBadgeText': 'newBadgeText__29021',
-          'eventStatusLabel': 'eventStatusLabel__29021',
-          'eventIconContainer': 'eventStatusContainer__29021',
-          'eventRSVPIcon': 'rsvpIcon_b5010b',
+          'eventStatusLabel': 'eventStatusLabel_2SWORW',
+          'eventIconContainer': 'eventStatusContainer_2SWORW',
+          'eventRSVPIcon': 'rsvpIcon_dUw4ZS',
           'eventInfoIconCircle': 'circle_aUV4Th',
-          'createEventProgressBar': 'progressBar__5537c',
-          'createEventProgressBarSelected': 'selectedProgressBar__5537c',
+          'createEventProgressBar': 'progressBar_HVkOMa',
+          'createEventProgressBarSelected': 'selectedProgressBar_HVkOMa',
           'createEventCreateStageContainer': 'container_DGtEk4',
           'phoneInput': 'phoneField_sz0S3U',
           'hubContainer': 'pageContainer_Z2risO',
@@ -6266,7 +6266,7 @@ $classes: (
           'sidebarPFPUpsell': 'editor_dbxnkK',
           'chatToolbarButton': 'button_hPmUPu',
           'chatToolbarIcon': 'icon_hPmUPu',
-          'serverShopIntro': 'container_adb50a',
+          'serverShopIntro': 'container_U1qmfF',
           'serverShopSelected': 'selected_GBvv4I',
           'inboxPopoutPill': 'unread__6fddf',
           'beforeTalkRule': 'termsRow_3mS44o',
@@ -6277,7 +6277,7 @@ $classes: (
           'clipsInterfacePlayPause': 'playPauseButtonWrapper_wUYaqe',
           'clipsInterfaceDragHandles': 'dragHandle_f18995',
           'clipInChatFooter': 'container_b9f75c',
-          'subEnabledServers': 'integrationWrapper_c7f964',
+          'subEnabledServers': 'integrationWrapper_yX-kzH',
           'freeBoost': 'header__99020',
 
           // SORTED AND NEED ALIASES

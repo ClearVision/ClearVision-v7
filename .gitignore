@@ -106,3 +106,4 @@ typings/
 # Manually held back
 public-unminified/
 screenshots/
+class-extractor/
