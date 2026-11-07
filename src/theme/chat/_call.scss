@@ -18,7 +18,7 @@
 }
 
 // HEADER
-#{c(call clipBadgeIcon)} {
+#{c(call clipsEnabledIndicator)} #{c(call clipBadgeIcon)} {
   background: cv('color.main') !important;
 }
 
@@ -39,9 +39,7 @@
 
 // USERS
 #{c(call tileBorder)} {
-  &#{c(call tileSpeaking)} {
-    box-shadow: inset 0 0 0 2px cv('color.main');
-  }
+  --status-speaking: #{cv('color.main')};
 }
 
 // DM CALL BG
@@ -49,9 +47,4 @@
   &#{c(call minimum)} {
     background: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.6));
   }
-}
-
-// REGION SELECTOR
-#{c(call quickSelectPopout)} {
-  background: cv('shading.popout')
 }

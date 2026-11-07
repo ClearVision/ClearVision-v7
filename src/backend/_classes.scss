@@ -699,7 +699,7 @@ $classes: (
     // There's a bit of overlap with "stage". feel free to jump down to there.
     // gradients use stage. more video stuff would be under stage too.
     'wrapper': 'wrapper_hbKzX7',
-    'minimum': 'minimum_cb9592',
+    'minimum': 'minimum_hbKzX7',
     'normal': 'normal_frsBab',
     // used when videos are enabled
     'container': 'callContainer_hbKzX7',
@@ -728,12 +728,10 @@ $classes: (
     'toolbar': 'toolbar_neq5ug',
 
     'clipsEnabledIndicator': 'clipsEnabledIndicator_U6LhXD',
-    'clipBadgeIcon': 'clipBadgeIcon__8c88a',
+    'clipBadgeIcon': 'badge_4guu7-',
     // inline bg
 
     'quickSelect': 'quickSelect_ohxi6x',
-    // for region
-    'quickSelectPopout': 'quickSelectPopout_ebaca5',
 
     'participantsButton': 'participantsButton_1uD6uZ',
 
@@ -793,7 +791,6 @@ $classes: (
     'rightTrayIcon': 'rightTrayIcon_ScIiLS',
 
     'tileBorder': 'border_7NOr2f',
-    'tileSpeaking': 'speaking__2f4f7',
     'streamBackground': 'root_eYyGVJ',
     'lowQualityWarningIcon': 'warningIcon_0_PsGx',
 
@@ -1086,20 +1083,20 @@ $classes: (
     // editing bottom text
 
     'reactions': (
-      'reactions': 'reactions_LuYMto',
+      'reactions': 'reactions_MmKct8',
       'reactionBtn': 'reactionBtn_MmKct8',
       'active': 'active_MmKct8',
       'visible': 'visible_MmKct8',
       'icon': 'icon_MmKct8',
       'hideEmoji': 'hideEmoji_quI2qP',
       'reaction': 'reaction_MmKct8',
-      'me': 'reactionMe__23977',
+      'me': 'reactionMe_MmKct8',
       'inner': 'reactionInner_MmKct8',
       'count': 'reactionCount_MmKct8',
       'remaining': 'remainingReactions_MmKct8',
       'tooltip': (
         'tooltip': 'reactionTooltip_5l5ajC', // Not sure if other also changed...
-        'button': 'reactionEmojiDetailsClickable_d5cd2d',
+        'button': 'reactionEmojiDetailsClickable_OU33XG',
       ),
       'burst': (
         'glow': 'burstGlow_MmKct8',
@@ -1329,7 +1326,7 @@ $classes: (
     'pinIcon': 'pinIcon_nLtnFF',
 
     'reaction': (
-      'reactions': 'reactions_LuYMto',
+      'reactions': 'reactions_UNkajC',
       'reactionBtn': 'reactionBtn_UNkajC',
       'icon': 'icon_UNkajC',
       'active': 'active_UNkajC',
@@ -1338,7 +1335,7 @@ $classes: (
 
       'reaction': 'reaction_UNkajC',
       'count': 'reactionCount_UNkajC',
-      'me': 'reactionMe_f8896c',
+      'me': 'reactionMe_UNkajC',
       'inner': 'reactionInner_UNkajC',
       'remainingReactions': 'remainingReactions_UNkajC',
 
@@ -1419,7 +1416,7 @@ $classes: (
             'header': 'header_HeWz1C',
             'reactButtons': 'reactButtons_HeWz1C',
             'addReactButton': 'addReactButton_HeWz1C',
-            'reactions': 'reactions_LuYMto',
+            'reactions': 'reactions_HeWz1C',
             'buttons': 'buttons_HeWz1C',
           ),
       ),
@@ -4871,7 +4868,7 @@ $classes: (
     ),
 
     'screenshare': (
-      'footer': 'footer__7f727',
+      'footer': 'footer_oszuaw',
 
       // selector pills
       'pillContainer': 'pillContainer_I4ubrz',

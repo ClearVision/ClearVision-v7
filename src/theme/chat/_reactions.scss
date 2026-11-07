@@ -3,16 +3,23 @@
 // CHAT
 #{c(chat reactions reactions)} {
   border-radius: 4px;
-  #{c(chat reactions me)} {
+  :is(#{c(chat reactions reaction)}, #{c(chat reactions reactionBtn)}) {
+    background: cv('shading.card');
+  }
+  #{c(chat reactions reaction)}#{c(chat reactions me)} {
     background: hsl(from cv('color.main') h s l/.15);
     border-color: cv('color.main');
     #{c(chat reactions count)} {
       color: var(--interactive-text-active);
     }
+    &:hover {
+      border-color: cv('color.hover');
+    }
   }
 }
 :is(#{c(chat reactions reaction)}, #{c(chat reactions reactionBtn)}) {
   &:hover {
+    background: hsl(from cv('color.hover') h s l/.15);
     border: 1px solid cv('color.hover');
   }
 }
@@ -20,16 +27,23 @@
 // FORUM
 #{c(forums reaction reactions)} {
   border-radius: 4px;
-  #{c(forums reaction me)} {
+  :is(#{c(forums reaction reaction)}, #{c(forums reaction reactionBtn)}) {
+    background: cv('shading.card');
+  }
+  #{c(forums reaction reaction)}#{c(forums reaction me)} {
     background: hsl(from cv('color.main') h s l/.15);
     border-color: cv('color.main');
     #{c(forums reaction count)} {
       color: var(--interactive-text-active);
     }
+    &:hover {
+      border-color: cv('color.hover');
+    }
   }
 }
 :is(#{c(forums reaction reaction)}, #{c(forums reaction reactionBtn)}) {
   &:hover {
+    background: hsl(from cv('color.hover') h s l/.15);
     border: 1px solid cv('color.hover');
   }
 }
