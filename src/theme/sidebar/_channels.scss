@@ -1,11 +1,5 @@
 @use 'backend' as *;
 
-// NEW CHANNEL BADGE
-#{c(sidebar server channels newChannelBadge)} {
-  background: cv('color.main') !important; //inline
-  color: cv('text.strong');
-}
-
 // CHANNELS BACKGROUND
 #{c(sidebar list)} {
   border-top-left-radius: 10px;
