@@ -315,7 +315,6 @@ $classes: (
     'spinnerCircleInner': 'spinningCircleInner_3H5mjG',
     'spinnerCirclePath': 'path_3H5mjG',
     'spinnerCirclePath3': 'path3_3H5mjG',
-    'spinnerPulsingEllipsisPopout': 'spinner_e90879',
     'spinnerPulsingEllipsis': 'pulsingEllipsis_3H5mjG',
 
     // has a filter relating to the saturation factor variable
@@ -575,7 +574,6 @@ $classes: (
     'characterBackground': 'characterBackground__dBQf7',
     // seemingly a parent class for the whole thing
     'artwork': 'artwork__dBQf7',
-    'loggingIn': 'loggingIn_bdd070',
     'logo': 'logo__dBQf7',
     'splashBackground': 'splashBackground_xknnko',
 
@@ -1646,7 +1644,6 @@ $classes: (
     // has background
     'stackedBars': 'stackedBars_2x8-Qn',
     // also has background
-    'stackedAttachedBar': 'stackedAttachedBar_bdf0de',
     'innerDisabled': 'innerDisabled_2x8-Qn',
     // paired with inner
     'scrollableContainer': 'scrollableContainer_2x8-Qn',
@@ -1675,7 +1672,6 @@ $classes: (
     'toolbar': 'toolbar_hPmUPu',
 
     'hasMore': 'hasMore_j9Vvzj',
-    'attachedBars': 'attachedBars_bdf0de',
     'clipContainer': 'clipContainer_rE8-46',
     'replyContainer': 'container_rE8-46',
     'replyBar': 'replyBar_rE8-46',
@@ -1757,7 +1753,6 @@ $classes: (
       'cardHeader': 'header_BTjcfU',
       'cardIcon': 'icon_BTjcfU',
       'cardIconMask': 'iconMask_BTjcfU',
-      'cardAvatar': 'avatar_e90879',
       'cardDetails': 'guildDetails_BTjcfU',
       'cardTitle': 'title_BTjcfU',
       'cardMemberDetails': 'memberDetails_BTjcfU',
@@ -2608,7 +2603,6 @@ $classes: (
     'lowerBadge': 'lowerBadge_hqZPsU',
     'upperBadge': 'upperBadge_hqZPsU',
     'iconBadge': 'iconBadge_rwEpIL',
-    'iconBadgeIcon': 'icon__650eb',
     'participating': 'isCurrentUserConnected_rwEpIL',
     // also used in header for some reason?
 
@@ -2945,8 +2939,6 @@ $classes: (
 
             // voice only
             // unknown, appears with same suffix
-            'unreadBlobWithHangStatus': 'unreadWithHangStatus_d8bfb3',
-            // no idea what this class is but it's with unreadBlob
             'withGuildIcon': 'withGuildIcon_TNyK-N',
 
             // appears on same element as linkBottom (from css)
@@ -3002,7 +2994,6 @@ $classes: (
                 'flipped': 'flipped_ieJ4Sq',
                 'userLarge': 'userLarge_YUoOxm',
                 'avatarLarge': 'avatarLarge_ks3kJR',
-                'clanTagBadgeContainer': 'clanTagBadgeContainer_d80634',
                 'iconPriortySpeaker': 'iconPriortySpeaker_YUoOxm',
                 // discord typo lol
                 'clanTag': 'clanTag_YUoOxm',
@@ -3278,7 +3269,6 @@ $classes: (
       // default colours are now provided with inline styling.
       'badgeList': 'container_IqWmhA',
       // seems to be used on all of them
-      'showOutOfBoundaryComponents': 'showOutOfBoundaryComponents_c69a7b',
 
       // profile backgrounds
       'customTheme': 'custom-user-profile-theme',
@@ -3490,7 +3480,6 @@ $classes: (
       // Some things labelled "card_" aren't from here and are instead unique to that area.
       'card': 'card_qCN-Ri',
       'primary': 'cardPrimary_qCN-Ri',
-      'outline': 'outline_b5dd01',
       'editable': 'editable_b5dd01',
 
       'brand': 'cardBrand_qCN-Ri',
@@ -4263,7 +4252,6 @@ $classes: (
       'wrapper': 'wrapper_uFkqU2',
       'select': 'select_uFkqU2',
       'filled': 'lookFilled_9OQtot',
-      'open': 'open_a16aea',
       'value': 'value_uFkqU2',
       'icons': 'icons_uFkqU2',
       'popout': 'popout_uFkqU2',
@@ -4380,7 +4368,6 @@ $classes: (
         'scroller': 'container_d2GpC2',
         'resultPlaceholder': 'placeholder_H8nOze',
         'result': 'result_H8nOze',
-        'resultFocused': 'focused_bad108',
         'favoritesFade': 'categoryFadeBlurple_d2GpC2',
         'categoryFade': 'categoryFade_d2GpC2',
         'categoryText': 'categoryText_d2GpC2',
@@ -4546,7 +4533,6 @@ $classes: (
           'emoji': 'emoji_N99eHz',
         ),
         'add': (
-          'text': 'soundAddText_c06ee5',
         ),
       ),
       'nitro': (
@@ -5866,10 +5852,6 @@ $classes: (
           // src/channels/channels.scss
           'userSummaryMoreUsers': 'moreUsers_m-EqeQ',
           // src/channels/channels.scss
-          'accountPanelTagButton': 'withTagAsButton_b2ca13',
-          // src/channels/panels.scss
-          'accountPanelTagless': 'withTagless_b2ca13',
-          // src/channels/panels.scss
           'listeningAlongPanel': 'listeningAlong_Zar2Rk',
           // src/channels/panels.scss
           'rtcConnectionStatus': 'rtcConnectionStatus_4LJE6I',
@@ -5922,14 +5904,12 @@ $classes: (
           'libraryDefaultIndicator': 'defaultIndicator_LAvacu',
           'libraryPlayButton': 'playButton_DV7fsY',
           'libraryPlayButtonContents': 'playButtonContents_J5NjGG',
-          'authModalScopeTimes': 'iconWrapper_cf14a8',
           'connectionDebugPopout': 'container_TP1WMf',
           'searchHubHeader': 'searchHeader_RRDnyC',
           'settingsToolsContainer': 'toolsContainer_jnk11m',
           'settingsTools': 'tools_jnk11m',
           'settingsImageUploaderInner': 'imageUploaderInner_zIVMHF',
           'settingsImageUploaderIcon': 'imageUploaderIcon_zIVMHF',
-          'settingsAttendeeCTA': 'attendeeCTA_ca5ce6',
           'guildFeatureAvailabilityIndicator': 'availabilityIndicator_C3UYpl',
           'streamStillRunning': 'videoWrapper_7NOr2f',
           'serverWelcomeCards': 'card_rh88Fa',
@@ -5941,7 +5921,6 @@ $classes: (
           'activeNowPreviewWrapper': 'applicationStreamingPreviewWrapper_o3hXTo',
           'emptyActiveNowText': 'emptyText_-7KzVR',
           'promotedQuestPill': 'promotedTagBackground_4sN7lX',
-          'quickReactPremiumUpsell': 'premiumUpsell_aae531',
           'channelThreadPopoutRow': 'row_j5xNzb',
           'channelThreadPopoutMore': 'more_AdrBHW',
           'threadMembersEmptyHeader': 'emptyStateHeader_UPjGEs',
