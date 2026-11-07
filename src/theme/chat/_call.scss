@@ -37,11 +37,6 @@
   }
 }
 
-// USERS
-#{c(call tileBorder)} {
-  --status-speaking: #{cv('color.main')};
-}
-
 // DM CALL BG
 #{c(call wrapper)} {
   &#{c(call minimum)} {
