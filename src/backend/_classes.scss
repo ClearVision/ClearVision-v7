@@ -2072,18 +2072,18 @@ $classes: (
 
   'shop': (
     'shop': 'shop_Mqg79R',
-    'scroll': 'shopScroll_4Qm5zV',
     'header': 'headerBar_ViLURN',
     'tab': 'tab__354ec',
+    'shopContainer': 'shopContainer_XBXDcd',
     
     // featured
-    'featuredScroll': 'shopScroll_4Qm5zV',
     'featured': 'shop_XBXDcd',
 
     // browse
-    'pageWrapper': 'pageWrapper_4Qm5zV',
-    'page': 'page_4Qm5zV',
-    'divider': 'divider_4Qm5zV',
+    'browseWrapper': 'pageWrapper_4Qm5zV',
+    'browsePage': 'page_4Qm5zV',
+    'browseScroll': 'shopScroll_4Qm5zV',
+    'browseDivider': 'divider_4Qm5zV',
     'filter': 'filterBar_4Qm5zV',
 
     // loading
@@ -2115,6 +2115,7 @@ $classes: (
     'filterThemeToggled': 'themeToggled_sO1rm5',
 
     // preview
+    'previewLeftRail': 'leftRail_xC7tSN',
     'previewInfo': 'collectibleInfoContainer_c50f62',
     'chatPreview': 'chatPreview_5JXgdm',
     'mockInput': 'mockInput_5JXgdm',
@@ -2208,7 +2209,8 @@ $classes: (
     'searchBar': 'searchBar__97492',
     'searchFilter': 'searchFilter_tknKcK',
     'searchAnswer': 'searchAnswer_tknKcK',
-    'iconBadge': 'iconBadge_ybUK7Z',
+    'iconBadge': 'iconBadge_ybUK7Z',    
+    'iconBadgeUnread': 'iconBadgeStyleUnread_ybUK7Z',
     'topic': 'topic_pVbL3l',
     'topicExpandable': 'expandable_pVbL3l',
     'avatar': 'avatar_z_gUBg',

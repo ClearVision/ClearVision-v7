@@ -1,19 +1,13 @@
 @use 'backend' as *;
 
-
-#{c(shop scroll)},
-#{c(shop featuredScroll)},
-#{c(shop page)} {
-  background: transparent;
-}
 #{c(shop shop)} {
   background: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.4));
 }
-#{c(shop featured)} {
+
+// BROWSE
+#{c(shop browseScroll)},
+#{c(shop browsePage)} {
   background: transparent;
-}
-#{c(shop divider)} {
-  margin-top: 0;
 }
 
 // CARD
@@ -54,14 +48,8 @@
 }
 
 // PREVIEW
-#{c(shop previewInfo)} {
+#{c(shop previewLeftRail)} {
   background: transparent;
-}
-
-// orb drop down modal
-#{c(shop orbCard)} {
-  background: cv('shading.card');
-  border: 2px solid cv('color.main');
 }
 
 // hover on tabs

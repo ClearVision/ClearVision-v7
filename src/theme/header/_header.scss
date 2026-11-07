@@ -20,6 +20,11 @@
   background: cv('color.main');
 }
 
+// ICON
+#{c(header iconBadgeUnread)} {
+  background: cv('color.main');
+}
+
 // SEARCH
 #{c(header searchBar)} {
   background-color: cv('shading.input.bg');
