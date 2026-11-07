@@ -27,6 +27,8 @@
 // FORUM
 #{c(forums reaction reactions)} {
   border-radius: 4px;
+}
+:is(#{c(main themeLight)}, #{c(main themeDark)}, #{c(main themeDarker)}, #{c(main themeMidnight)}) {
   :is(#{c(forums reaction reaction)}, #{c(forums reaction reactionBtn)}) {
     background: cv('shading.card');
   }

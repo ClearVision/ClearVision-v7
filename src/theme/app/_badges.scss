@@ -1,7 +1,6 @@
 @use 'backend' as *;
 
-#{c(badges number)},
-#{c(badges text)} {
+#{c(badges number)} {
   background: cv('color.main') !important;
   color: cv('text.strong');
 }

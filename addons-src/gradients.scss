@@ -62,7 +62,6 @@ $dark: ':is(#{c(main themeDark)}, #{c(main themeDarker)}, #{c(main themeMidnight
 [aria-disabled='false']#{c(popouts autocomplete clickable)} #{c(popouts autocomplete base)}:hover,
 // Badges
 #{c(badges number)},
-#{c(badges text)},
 // Buttons
 #{c(button lookFilled)}#{c(button colorBrand)},
 #{c(button lookFilled)}#{c(button colorGreen)},
@@ -145,8 +144,7 @@ $dark: ':is(#{c(main themeDark)}, #{c(main themeDarker)}, #{c(main themeMidnight
 }
 
 // Remove borders on pings
-#{c(badges number)},
-#{c(badges text)} {
+#{c(badges number)} {
   box-shadow: none !important;
 }
 
