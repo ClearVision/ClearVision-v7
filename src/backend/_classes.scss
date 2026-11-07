@@ -573,7 +573,8 @@ $classes: (
   'badges': (
     'base': 'base_lMvXrQ',
     'number': 'numberBadge_lMvXrQ',
-    'text': 'textBadge__463b7',
+    'text': 'textBadge_JPK15v',
+    'baseShapeRound': 'baseShapeRound_lMvXrQ',
   ),
   'login': (
     'characterBackground': 'characterBackground__dBQf7',
@@ -843,7 +844,7 @@ $classes: (
     // child of everywhere content
     'spaceBetweenTiles': 'spaceBetweenTiles_aPe7vI',
     // child, children of tileOuter (see call)
-    'tile': 'tile_fdc206',
+    'tile': 'tile_qROSAv',
 
     // child of call tileInner, not to be confused with every other fucking tile class
     // videoControls, children being gradientContainer+gradientBottom, controlSection[top, bottom]
@@ -1728,7 +1729,7 @@ $classes: (
 
     'toolbar': 'toolbar_hPmUPu',
 
-    'hasMore': 'hasMore_cf58b5',
+    'hasMore': 'hasMore_j9Vvzj',
     'attachedBars': 'attachedBars_bdf0de',
     'clipContainer': 'clipContainer_rE8-46',
     'replyContainer': 'container_rE8-46',
@@ -1750,6 +1751,7 @@ $classes: (
     'upload': 'upload_JyxBSo',
     'uploadContainer': 'uploadContainer_JyxBSo',
     'uploadActionBarIcon': 'actionBarIcon_aC5A21',
+    'uploadProgressBar': 'progressBar_GQQbyK',
 
     'typingBase': 'base_U9Tvvz',
     'typing': 'typing_U9Tvvz',
@@ -1788,7 +1790,7 @@ $classes: (
     'headerRelative': 'relative_Y0eJLL',
     'headerIconButton': 'iconButton_Y0eJLL',
 
-    'search': 'search__1ac1c',
+    'search': 'search_67Xl1N',
     'searchBar': 'searchBar_B1ffsk',
     'scroller': 'scroller_jkJlMe',
     'bannerContainer': 'container_-6JdM0',
@@ -2039,6 +2041,7 @@ $classes: (
       // primary color
       'barVolume': 'mediaBarInteractionVolume_s1cr3c',
       'bubble': 'bubble_s1cr3c',
+      'fakeEdges': 'fakeEdges_s1cr3c',
     ),
   'error': (
     'page': 'errorPage_3vxkcg',
@@ -2603,7 +2606,7 @@ $classes: (
     'emptyResultsContent': 'emptyResultsContent_QHVbp3',
     'noResultsImage': 'noResultsImage_QHVbp3',
     'emptyResultsText': 'emptyResultsText_QHVbp3',
-    'noResults': 'noResults_a98f3b',
+    'noResults': 'noResults_yLOKc6',
     'noResultsAlt': 'alt_2i8Bfm',
   ),
 
@@ -2622,26 +2625,26 @@ $classes: (
       // needs .visual-refresh
       // used in settings search, create dms
       // most others seem to be using _a45028 instead
-      'container': 'container_fea832',
-      'disabled': 'disabled_fea832',
+      'container': 'container_isqatr',
+      'disabled': 'disabled_isqatr',
       // Best seen in non-nitro stickers
-      'inner': 'inner_fea832',
-      'input': 'input_fea832',
+      'inner': 'inner_isqatr',
+      'input': 'input_isqatr',
       // text, usually. often has a `value=` when typing
-      'tag': 'tag_fea832',
+      'tag': 'tag_isqatr',
       // add/create dms' username
-      'close': 'close_fea832',
+      'close': 'close_isqatr',
       // add/create dms' username's cross
 
       'iconLayout': 'iconLayout_v966Ys',
-      'iconContainer': 'iconContainer_fea832',
-      'icon': 'icon_fea832',
+      'iconContainer': 'iconContainer_isqatr',
+      'icon': 'icon_isqatr',
       'iconVisible': 'visible_fea832',
-      'iconClear': 'clear_fea832',
+      'iconClear': 'clear_isqatr',
 
-      'small': 'small_fea832',
-      'medium': 'medium_fea832',
-      'large': 'large_fea832',
+      'small': 'small_isqatr',
+      'medium': 'medium_isqatr',
+      'large': 'large_isqatr',
 
     )
   ),
@@ -2672,11 +2675,14 @@ $classes: (
     'pillDiscover': 'pill__5bc7e',
     'pillWrapper': 'wrapper__o8_Xq',
     'pillItem': 'item__o8_Xq',
+    'pillHovered': 'hovered__o8_Xq',
+    'pillSelected': 'selected__o8_Xq',
     'blobContainer': 'blobContainer_IaPwK5',
     // seems to be inverse of listItemWrapper, except not folders
     'serverWrapper': 'wrapper_hqZPsU',
     // wrapper for everything, really.
     'serverWrapperSVG': 'svg_hqZPsU',
+    'serverWrapperSVGShift': 'shiftSVG_hqZPsU',
     // holds defs, mask and foreignObject
     'serverWrapperSimple': 'wrapperSimple_cc5dd2',
     'iconWrapper': 'wrapper_JJ-hgR',
@@ -2706,6 +2712,7 @@ $classes: (
     'folderGuildIcon': 'folderPreviewGuildIcon_RTMSuZ',
     // tiny server icons
     'folderGroupBackground': 'folderGroupBackground_RTMSuZ',
+    'folderGuildsList': 'folderGuildsList_RTMSuZ',
     // expanded folder
 
     'dragOver': 'dragOver_nL08_v',
@@ -2750,6 +2757,7 @@ $classes: (
         // placeholder text "find or start a converstation"
         'scroller': 'scroller_Bce46W',
         'headerContainer': 'privateChannelsHeaderContainer_Bce46W',
+        'friendRequestsButton': 'friendRequestsButton_QwUPp6',
         // Similar to category for servers
         'headerText': 'headerText_Bce46W',
         // with play again - might need to start an activity prior
@@ -2927,6 +2935,7 @@ $classes: (
 
             // hide/unhide toggle
             'name': 'name_yOdhm_',
+            'nameText': 'overflow__WDjet',
             // shares container__13cf1 and text__13cf1 with memberList
             'children': 'children_yOdhm_',
             // extra icons
@@ -3038,7 +3047,7 @@ $classes: (
             // appears on same element as linkBottom (from css)
             // other classes related to "Voice Limit" stuff, no idea on usage
             'voiceLimitPopoutHeaderContainer': 'popoutHeaderContainer_VYP6oe',
-            'voiceLimitExtraLong': 'extraLong__260e1',
+            'voiceLimitExtraLong': 'extraLong_QQRrAh',
 
             // appears on same element as voiceLimitUsers and voiceLimitTotal
             // specific stuff for voice channels, excluding "voice limit" thing.
@@ -3387,6 +3396,8 @@ $classes: (
     'caretFill': 'caretFill_ZDdyhE',
     'caretStroke': 'caretStroke_ZDdyhE',
     'content': 'tooltipContent_ZDdyhE',
+    'legacyTooltip': 'tooltip_3_v8qp',
+    'legacyTooltipBrand': 'tooltipBrand_3_v8qp',
 
     // different css lines
     'stageListenerPill': 'stageListenerPill__-eZlF',
@@ -3652,8 +3663,8 @@ $classes: (
       'selected': 'selected_zYsR7a',
       'statusGreen': 'statusGreen_zYsR7a',
       'statusYellow': 'statusYellow_zYsR7a',
-      'statusOrange': 'd96a9cdaeeba104e-statusOrange_d96a9c',
-      'statusRed': 'd96a9cdaeeba104e-statusRed_d96a9c',
+      'statusOrange': 'statusOrange_zYsR7a',
+      'statusRed': 'statusRed_zYsR7a',
 
       'collapseable': 'collapseable_DKMuWq',
       'collapseableToggled': 'toggled_xX0l5K',
@@ -3884,7 +3895,7 @@ $classes: (
     ),
 
     'subscriptions': (
-      'sectionDescription': 'sectionDescription_e335a7',
+      'sectionDescription': 'sectionDescription_edWQHR',
       'noItemsCardSubs': 'noItemsCard_4VCFtm',
       'noItemsIconSubs': 'noItemsIcon_NedsCW',
       'nItemsCardCredits': 'noItemsCard_NedsCW',
@@ -4345,7 +4356,7 @@ $classes: (
       // if you can find greens...
       'submenuPaddingContainer': 'submenuPaddingContainer_M3qk4j',
       // change status for easiest
-      'submenu': 'sumenu_bc1e9c',
+      'submenu': 'submenu_M3qk4j',
 
       'hintContainer': 'hintContainer_c1e9c4',
 
@@ -4397,15 +4408,15 @@ $classes: (
     'search': (
       'container': 'container_cbVzxY',
 
-      'groupWrapper': 'groupWrapper__8de16',
-      'groupHeader': 'groupHeader__8de16',
-      'itemContainer': 'itemContainer__8de16',
-      'item': 'item__8de16',
+      'groupWrapper': 'groupWrapper_lm2_KW',
+      'groupHeader': 'groupHeader_lm2_KW',
+      'itemContainer': 'itemContainer_lm2_KW',
+      'item': 'item_lm2_KW',
       'itemIcon': 'itemIcon_ge8IFm',
-      'filterSublabelTextContainer': 'filterSublabelTextContainer__8de16',
-      'divider': 'divider__8de16',
-      'autocompletePillContainer': 'autocompletePillContainer__8de16', // history
-      'clearSearchHistory': 'clearSearchHistory__8de16',
+      'filterSublabelTextContainer': 'filterSublabelTextContainer_lm2_KW',
+      'divider': 'divider_lm2_KW',
+      'autocompletePillContainer': 'autocompletePillContainer_lm2_KW', // history
+      'clearSearchHistory': 'clearSearchHistory_lm2_KW',
 
       // All below are found in more filters
       'calendar': (
@@ -5293,13 +5304,13 @@ $classes: (
 
     // Ctrl+N or click the green + at the bottom of the server list
     'addServer': (
-      'modal': 'container_CHlSZL',
+      'modal': 'modal_CHlSZL',
 
       // first screen "Create a server"
       'createServerHeader': 'header_mZNRSI',
       'createServerTitle': 'title_mZNRSI',
       'createServerCloseButton': 'closeButton_mZNRSI',
-      'createServerSubtitle': 'sutitle_bc04f3',
+      'createServerSubtitle': 'subtitle_mZNRSI',
       'createServerTemplatesList': 'templatesList_mZNRSI',
       'optionHeader': 'optionHeader_C77viY',
       'optionContainer': 'container_cidbEB',
@@ -5320,7 +5331,7 @@ $classes: (
       // third screen "Customise your server"
       'customiseHeader': 'header_du1EY3',
       'customiseTitle': 'title_du1EY3',
-      'customiseSubtitle': 'sutitle_bb917a',
+      'customiseSubtitle': 'subtitle_du1EY3',
       'customiseCreateServer': 'createGuild_du1EY3',
       'customiseUploadIcon': 'uploadIcon_du1EY3',
       'customiseIconContainer': 'iconContainer_YUKqn_',
