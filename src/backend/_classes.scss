@@ -455,77 +455,74 @@ $classes: (
     // I would've put a generator function of sorts in but find+replace tool wouldn't have found that
     'fontScaling': 'fontScaling_RAOoio',
     'display': (
-      'sm': 'display-sm_RAOoio' 'display-sm_RAOoio',
-      'md': 'display-md_RAOoio' 'display-md_RAOoio',
-      'lg': 'display-lg_RAOoio' 'display-lg_RAOoio',
+      'xs': 'display-xs_RAOoio',
+      'sm': 'display-sm_RAOoio',
+      'md': 'display-md_RAOoio',
+      'lg': 'display-lg_RAOoio',
+    ),
+    'nitro': (
+      'xs': 'nitro-xs_RAOoio',
+      'sm': 'nitro-sm_RAOoio',
+      'md': 'nitro-md_RAOoio',
+      'lg': 'nitro-lg_RAOoio',
     ),
     'heading': (
+      'xs': (
+        'medium': 'heading-xs\\/medium_RAOoio',
+        'semibold': 'heading-xs\\/semibold_RAOoio',
+      ),
       'sm': (
-        'normal': 'heading-sm_cf4812\/normal',
-        'medium': 'heading-sm_cf4812\/medium',
-        'semibold': 'heading-sm_cf4812\/semibold',
-        'bold': 'heading-sm_cf4812\/bold',
-        'extrabold': 'heading-sm_cf4812\/extrabold',
+        'medium': 'heading-sm\\/medium_RAOoio',
+        'semibold': 'heading-sm\\/semibold_RAOoio',
       ),
       'md': (
-        'normal': 'heading-md_cf4812\/normal',
-        'medium': 'heading-md_cf4812\/medium',
-        'semibold': 'heading-md_cf4812\/semibold',
-        'bold': 'heading-md_cf4812\/bold',
-        'extrabold': 'heading-md_cf4812\/extrabold',
+        'medium': 'heading-md\\/medium_RAOoio',
+        'semibold': 'heading-md\\/semibold_RAOoio',
       ),
       'lg': (
-        'normal': 'heading-lg_cf4812\/normal',
-        'medium': 'heading-lg_cf4812\/medium',
-        'semibold': 'heading-lg_cf4812\/semibold',
-        'bold': 'heading-lg_cf4812\/bold',
-        'extrabold': 'heading-lg_cf4812\/extrabold',
+        'medium': 'heading-lg\\/medium_RAOoio',
+        'semibold': 'heading-lg\\/semibold_RAOoio',
       ),
       'xl': (
-        'normal': 'heading-xl_cf4812\/normal',
-        'medium': 'heading-xl_cf4812\/medium',
-        'semibold': 'heading-xl_cf4812\/semibold',
-        'bold': 'heading-xl_cf4812\/bold',
-        'extrabold': 'heading-xl_cf4812\/extrabold',
+        'medium': 'heading-xl\\/medium_RAOoio',
+        'semibold': 'heading-xl\\/semibold_RAOoio',
       ),
       'xxl': (
-        'normal': 'heading-xxl_cf4812\/normal',
-        'medium': 'heading-xxl_cf4812\/medium',
-        'semibold': 'heading-xxl_cf4812\/semibold',
-        'bold': 'heading-xxl_cf4812\/bold',
-        'extrabold': 'heading-xxl_cf4812\/extrabold',
+        'medium': 'heading-xxl\\/medium_RAOoio',
+        'semibold': 'heading-xxl\\/semibold_RAOoio',
       ),
     ),
-    'text': (
-      'xxs': (
-        'normal': 'text-xxs_cf4812\/normal',
-        'medium': 'text-xxs_cf4812\/medium',
-        'semibold': 'text-xxs_cf4812\/semibold',
-        'bold':'text-xxs_cf4812\/bold',
-      ),
+    'body': (
       'xs': (
-        'normal': 'text-xs_cf4812\/normal',
-        'medium': 'text-xs_cf4812\/medium',
-        'semibold': 'text-xs_cf4812\/semibold',
-        'bold':'text-xs_cf4812\/bold',
+        'normal': 'body-xs\\/normal_RAOoio',
+        'medium': 'body-xs\\/medium_RAOoio',
+        'semibold': 'body-xs\\/semibold_RAOoio',
       ),
       'sm': (
-        'normal': 'text-sm_cf4812\/normal',
-        'medium': 'text-sm_cf4812\/medium',
-        'semibold': 'text-sm_cf4812\/semibold',
-        'bold': 'text-sm_cf4812\/bold',
+        'normal': 'body-sm\\/normal_RAOoio',
+        'medium': 'body-sm\\/medium_RAOoio',
+        'semibold': 'body-sm\\/semibold_RAOoio',
       ),
       'md': (
-        'normal': 'text-md_cf4812\/normal',
-        'medium': 'text-md_cf4812\/medium',
-        'semibold': 'text-md_cf4812\/semibold',
-        'bold': 'text-md_cf4812\/bold',
+        'normal': 'body-md\\/normal_RAOoio',
+        'medium': 'body-md\\/medium_RAOoio',
+        'semibold': 'body-md\\/semibold_RAOoio',
       ),
       'lg': (
-        'normal': 'text-lg_cf4812\/normal',
-        'medium': 'text-lg_cf4812\/medium',
-        'semibold': 'text-lg_cf4812\/semibold',
-        'bold': 'text-lg_cf4812\/bold',
+        'normal': 'body-lg\\/normal_RAOoio',
+        'medium': 'body-lg\\/medium_RAOoio',
+        'semibold': 'body-lg\\/semibold_RAOoio',
+      ),
+    ),
+    'footnote': (
+      'normal': 'footnote\\/normal_RAOoio',
+      'medium': 'footnote\\/medium_RAOoio',
+      'semibold': 'footnote\\/semibold_RAOoio',
+    ),
+    'mono': (
+      'md': (
+        'normal': 'mono-md\\/normal_RAOoio',
+        'bold': 'mono-md\\/bold_RAOoio',
       ),
     ),
   ),
@@ -1087,7 +1084,7 @@ $classes: (
       'active': 'active_MmKct8',
       'visible': 'visible_MmKct8',
       'icon': 'icon_MmKct8',
-      'hideEmoji': 'hideEmoji_quI2qP',
+      'hideEmoji': 'hideEmoji_MmKct8',
       'reaction': 'reaction_MmKct8',
       'me': 'reactionMe_MmKct8',
       'inner': 'reactionInner_MmKct8',
@@ -1330,7 +1327,7 @@ $classes: (
       'icon': 'icon_UNkajC',
       'active': 'active_UNkajC',
       'visible': 'visible_UNkajC',
-      'hideEmoji': 'hideEmoji_quI2qP',
+      'hideEmoji': 'hideEmoji_UNkajC',
 
       'reaction': 'reaction_UNkajC',
       'count': 'reactionCount_UNkajC',
@@ -1339,7 +1336,7 @@ $classes: (
       'remainingReactions': 'remainingReactions_UNkajC',
 
       'premiumIcon': 'premiumIcon_UNkajC',
-      'sparkles': 'sparkles_QF5mJe',
+      'sparkles': 'sparkles_UNkajC',
     ),
 
     // when posting, it's the attached file(s) thing
@@ -1727,7 +1724,7 @@ $classes: (
     'headerRelative': 'relative_Y0eJLL',
     'headerIconButton': 'iconButton_Y0eJLL',
 
-    'search': 'search_67Xl1N',
+    'search': 'search_B1ffsk',
     'searchBar': 'searchBar_B1ffsk',
     'scroller': 'scroller_jkJlMe',
     'bannerContainer': 'container_-6JdM0',
@@ -2120,7 +2117,7 @@ $classes: (
   ),
 
   'boost': (
-    'scroller': 'scroller_cO774m',
+    'scroller': 'scroller_0jpYct',
     'headerWave': 'headerWave__1dfae',
     'bodyWave': 'bodyWave__1dfae',
     'topPerksCard': 'topPerksCard__3add8',
@@ -2459,7 +2456,6 @@ $classes: (
     'addButton': 'addButton_nie4FD',
     'addButtonIcon': 'addButtonIcon_nie4FD',
     'icon': 'roleIcon_nie4FD',
-    'collapseButton': 'collapseButton_EpdO4n',
 
     // Show role colours next to names
     'svg': 'svg_7RsUnm',
@@ -2545,9 +2541,9 @@ $classes: (
       // add/create dms' username's cross
 
       'iconLayout': 'iconLayout_v966Ys',
-      'iconContainer': 'iconContainer_isqatr',
-      'icon': 'icon_isqatr',
-      'iconClear': 'clear_isqatr',
+      'iconContainer': 'iconContainer_v966Ys',
+      'icon': 'icon_v966Ys',
+      'iconClear': 'clear_v966Ys',
 
       'small': 'small_isqatr',
       'medium': 'medium_isqatr',
@@ -3299,7 +3295,7 @@ $classes: (
       // container also holds badges, notes button
       'username': (
         'userTagUsername': 'userTagUsername_C2XpHA',
-        'userTag': 'userTag_I0dgbG',
+        'userTag': 'userTag_C2XpHA',
         'pronouns': 'pronouns_C2XpHA',
         'userTagDiscriminator': 'userTagDiscriminator_C2XpHA',
         'dotSpacer': 'dotSpacer_C2XpHA',
@@ -4148,7 +4144,7 @@ $classes: (
       'colorDefault': 'colorDefault_M3qk4j',
       'colorBrand': 'colorBrand_M3qk4j',
       // invite people
-      'colorDanger': 'colorDanger_Q02kKo',
+      'colorDanger': 'colorDanger_M3qk4j',
       // leave server, report raid, server mute/deaf, kick, ban, disconnect, timeout etc
       'colorPremium': 'colorPremium_M3qk4j',
       // sets icon to boost color
@@ -4506,7 +4502,7 @@ $classes: (
           'overlayBackground': 'buttonOverlayBackground_N99eHz',
           // never appears in refresh
           'overlayActions': 'buttonOverlayActions_N99eHz',
-          'absoluteFill': 'absoluteFill_NemNeq',
+          'absoluteFill': 'absoluteFill_N99eHz',
           // position absolute; top,left,right,bottom 0
         ),
         'primaryIcon': 'primaryIcon_N99eHz',
@@ -4781,7 +4777,7 @@ $classes: (
       'activityCount': 'activityCount__xBAiH',
       'pill': 'pill_rN1Ls3',
       'pillOnline': 'pillOnline_rN1Ls3',
-      'pillIcon': 'pillIcon_sPmmqh',
+      'pillIcon': 'pillIcon_rN1Ls3',
       'pillIconOnline': 'pillIconOnline_rN1Ls3',
       'pillMessage': 'pillMessage_rN1Ls3',
       'pillIconTotal': 'pillIconTotal_rN1Ls3',
@@ -4927,7 +4923,7 @@ $classes: (
       'button': 'button_tvVoIN',
 
       'spamBanner': 'spamBanner_nJXYWe',
-      'bannerIcon': 'bannerIcon_tWF9s9',
+      'bannerIcon': 'bannerIcon_Fy07E7',
       'bannerText': 'bannerText_nJXYWe',
     ),
 
@@ -5116,10 +5112,10 @@ $classes: (
       // These little things appear briefly and ARE used elsewhere within modals or the app itself.
       'pop': (
         'base': 'base_IXpFcz',
-        'sparkle': 'sparkle_NdYDYt',
+        'sparkle': 'sparkle_IXpFcz',
         'pop': 'pop_IXpFcz',
         'light': 'light_IXpFcz',
-        'cross': 'cross_L0tkeR',
+        'cross': 'cross_IXpFcz',
 
         'sparkleOne': 'sparkleOne_TLgD1o',
         'sparkleTwo': 'sparkleTwo_TLgD1o',
@@ -5911,7 +5907,7 @@ $classes: (
           'stageMessageToast': 'toast_YtPzLx',
           'stageMessageToastWrapper': 'messageContentWrapper_YtPzLx',
           'stageIconBigBackground': 'background_eZCiVE',
-          'stageIconBigForeground': 'foreground_vVEhpw',
+          'stageIconBigForeground': 'foreground_eZCiVE',
           'activeNowPreviewWrapper': 'applicationStreamingPreviewWrapper_o3hXTo',
           'emptyActiveNowText': 'emptyText_-7KzVR',
           'promotedQuestPill': 'promotedTagBackground_4sN7lX',
