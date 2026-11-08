@@ -412,20 +412,20 @@ $classes: (
   ),
 
   'slider': (
-    'slider': 'slider_p3RiOL',
-    'mini': 'mini_p3RiOL',
-    'bar': 'bar_p3RiOL',
-    'barFill': 'barFill_p3RiOL',
-    'grabber': 'grabber_p3RiOL',
-    'disabled': 'disabled_p3RiOL',
-    'track': 'track_p3RiOL',
-    'mark': 'mark_p3RiOL',
-    'markAbove': 'markAbove_p3RiOL',
-    'markBelow': 'markBelow_p3RiOL',
-    'markValue': 'markValue_p3RiOL',
-    'markDash': 'markDash_p3RiOL',
-    'markDashSimple': 'markDashSimple_p3RiOL',
-    'defaultValue': 'defaultValue_p3RiOL',
+    'slider': 'slider_OnqacX',
+    'mini': 'mini_OnqacX',
+    'bar': 'bar_OnqacX',
+    'barFill': 'barFill_OnqacX',
+    'grabber': 'grabber_OnqacX',
+    'disabled': 'disabled_OnqacX',
+    'track': 'track_OnqacX',
+    'mark': 'mark_OnqacX',
+    'markAbove': 'markAbove_OnqacX',
+    'markBelow': 'markBelow_OnqacX',
+    'markValue': 'markValue_OnqacX',
+    'markDash': 'markDash_OnqacX',
+    'markDashSimple': 'markDashSimple_OnqacX',
+    'defaultValue': 'defaultValue_OnqacX',
   ),
 
   'pagination': (  
@@ -2066,8 +2066,10 @@ $classes: (
   'shop': (
     'shop': 'shop_Mqg79R',
     'header': 'headerBar_ViLURN',
-    'tab': 'tab__354ec',
-    'shopContainer': 'shopContainer_XBXDcd',
+    'tab': 'navigationMenuItemContainer_C10mff',
+    'container': 'shopContainer_XBXDcd',
+
+    'orbWalletContainer': 'orbWalletContainer_hSuDqh',
     
     // featured
     'featured': 'shop_XBXDcd',
@@ -2077,15 +2079,19 @@ $classes: (
     'browsePage': 'page_4Qm5zV',
     'browseScroll': 'shopScroll_4Qm5zV',
     'browseDivider': 'divider_4Qm5zV',
-    'filter': 'filterBar_4Qm5zV',
+
+    // collection
+    'collectionContainer': 'container_b0Gizz',
 
     // loading
+    'loadingBanner' : 'bannerSkeleton_SzDcnN',
+    'loadingCardAnimation': 'pulseAnimation_kIZjPZ',
     'loadingCardSkeleton': 'productSkeletonCardContainer_kIZjPZ',
-    'loadingCardSkeletonAnimation': 'pulseAnimation_kIZjPZ',
     'loadingCardContent': 'productSkeletonContent_kIZjPZ',
     'loadingCardText': 'productSkeletonText_kIZjPZ',
-    'loadingFeaturedSkeleton': 'featuredBlockSkeleton_XBXDcd',
-    'loadingFeaturedLogo': 'featuredBlockSkeletonLogo_XBXDcd',
+    'loadingFeaturedHeading': 'skeletonHeading_b0Gizz',
+    'loadingFeatured': 'skeletonFeaturedBlock_b0Gizz',
+    // bottom of collection/shop all
 
     // cards
     'card': 'productCardContainer_UGbKo5',
@@ -2097,6 +2103,8 @@ $classes: (
     'cardFooter': 'footerContainer_UGbKo5',
 
     // filter
+    
+    'filterOverlay': 'filterOverlay_4Qm5zV', // appears when app is resized smaller
     'filterBar': 'filterBar_sO1rm5',
     'filterSection': 'filterSection_sO1rm5',
     'filterTitle' : 'filterTitle__11877',
@@ -2114,6 +2122,11 @@ $classes: (
 
     // orb
     'orbCard': 'baseCardOutline_Ok2rPi',
+
+    // game
+    'gameStandalone': 'standalone_Og3lGk',
+    'gameBackground': 'backgroundContainer_TgTH47',
+
   ),
 
   'boost': (

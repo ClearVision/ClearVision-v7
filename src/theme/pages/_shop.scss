@@ -3,10 +3,28 @@
 #{c(shop shop)} {
   background: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.4));
 }
+#{c(shop container)} {
+  background: none;
+}
+
+// TABS HOVER
+#{c(shop tab)}:hover {
+  border-bottom-color: cv('color.main');
+}
+
+// ORBS
+#{c(shop orbWalletContainer)} {
+  background: cv('shading.popout');
+}
 
 // BROWSE
 #{c(shop browseScroll)},
 #{c(shop browsePage)} {
+  background: transparent;
+}
+
+// COLLECTION
+#{c(shop collectionContainer)} {
   background: transparent;
 }
 
@@ -21,21 +39,24 @@
 
 // LOADING
 #{c(shop loadingCardSkeleton)},
-#{c(shop loadingFeaturedSkeleton)} {
+#{c(shop loadingFeaturedHeading)},
+#{c(shop loadingFeatured)} {
   background: cv('shading.card');
 }
 #{c(main options fullMotion)} {
-  #{c(shop loadingCardSkeletonAnimation)},
-  #{c(shop loadingFeaturedSkeleton)} {
+  #{c(shop loadingCardAnimation)},
+  #{c(shop loadingFeatured)} {
     animation: cv-card-loading 1.5s infinite ease-in-out;
   }
 }
-#{c(shop loadingCardText)},
-#{c(shop loadingFeaturedLogo)} {
+#{c(shop loadingCardText)} {
   background: cv('shading.cardAlt');
 }
 
 // FILTER
+#{c(shop filterOverlay)} {
+  background: cv('shading.popout');
+}
 #{c(shop filterBar)} {
   background: transparent;
 }
@@ -52,7 +73,10 @@
   background: transparent;
 }
 
-// hover on tabs
-#{c(shop tab)}:hover {
-  border-bottom: 2px solid cv('color.main');
+// GAME SHOP
+#{c(shop gameStandalone)} {
+  background: transparent;
+}
+#{c(shop gameBackground)} {
+  background: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.5));
 }
