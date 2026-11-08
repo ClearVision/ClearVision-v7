@@ -119,12 +119,12 @@
 
   // BUTTONS
   #{c(button new primary)} {
-    background-color: var(--control-background-primary-default);
-    border-color: var(--control-border-primary-default);
+    background-color: var(--control-primary-background-default);
+    border-color: var(--control-primary-border-default);
   }
   #{c(button new secondary)} {
-    background-color: var(--control-background-secondary-default);
-    border-color: var(--control-border-secondary-default);
+    background-color: var(--control-secondary-background-default);
+    border-color: var(--control-secondary-border-default);
   }
 
   // SCROLLBAR

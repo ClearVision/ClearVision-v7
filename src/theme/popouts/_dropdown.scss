@@ -4,7 +4,7 @@
   &#{c(popouts dropdown select)} {
     box-shadow: none;
     &:hover {
-      border: 1px solid var(--input-border);
+      border: 1px solid var(--input-border-default);
     }
   }
 }

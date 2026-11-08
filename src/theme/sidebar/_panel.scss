@@ -28,7 +28,7 @@
       }
       &#{c(sidebar panel voice actionButtons active)} {
         background: hsl(from cv('color.main') h s l/.4);
-        color: var(--button-secondary-text);
+        color: var(--button-secondary-text-default);
         border-color: hsl(from cv('color.main') h s l/.2);
         &:hover {
           background: hsl(from cv('color.hover') h s l/.3);
