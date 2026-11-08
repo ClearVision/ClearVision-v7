@@ -270,7 +270,7 @@ $classes: (
     'appLayer': 'layer_Fd0FEH',
     'appLayers': 'layers_Fd0FEH',
 
-    'backdrop': 'backdrop_UQqFnR',
+    'backdrop': 'backdrop__78332',
 
     // Themes
     'themeLight': 'theme-light',
@@ -713,7 +713,7 @@ $classes: (
     'videoControls': 'videoControls_rTsZa_',
     'controlSection': 'controlSection_rTsZa_',
     // both top and bottom are paired with this depending on location
-    'topControls': 'topControls_qOjco6',
+    'topControls': 'topControls_rTsZa_',
     // contains header and region selector
     'headerWrapper': 'headerWrapper_hbKzX7',
 
@@ -727,7 +727,7 @@ $classes: (
     'clipBadgeIcon': 'badge_4guu7-',
     // inline bg
 
-    'quickSelect': 'quickSelect_ohxi6x',
+    'quickSelect': 'quickSelect_ebaca5',
 
     'participantsButton': 'participantsButton_1uD6uZ',
 
@@ -810,11 +810,11 @@ $classes: (
     // child of everywhere content
     'spaceBetweenTiles': 'spaceBetweenTiles_aPe7vI',
     // child, children of tileOuter (see call)
-    'tile': 'tile_qROSAv',
+    'tile': 'tile_Jawyqy',
 
     // child of call tileInner, not to be confused with every other fucking tile class
     // videoControls, children being gradientContainer+gradientBottom, controlSection[top, bottom]
-    'gradientContainer': 'gradientContainer_NnWqs2',
+    'gradientContainer': 'gradientContainer_rTsZa_',
     // child
     'gradientBottom': 'gradientBottom_rTsZa_',
     'gradientTop': 'gradientTop_rTsZa_',
@@ -861,7 +861,7 @@ $classes: (
     // child to callContainer, sibling to sidebarVisible only if this is open
     'requestToSpeakContainer': 'container_s7QiTL',
     'rtsHeaderContainer': 'headerContainer_s7QiTL',
-    'rtsHeaderClose': 'headerClose_jo3GZE',
+    'rtsHeaderClose': 'headerClose_s7QiTL',
 
     'rtsContentContainer': 'contentContainer_s7QiTL',
 
@@ -1802,10 +1802,10 @@ $classes: (
       'wrapper': 'wrapper_jsxF_b',
       'destinationExpired': 'inviteDestinationExpired_jsxF_b',
       'serverIcon': 'guildIcon_jsxF_b',
-      'serverIconImage': 'guildIconImage_s97CBE',
+      'serverIconImage': 'guildIconImage_jsxF_b',
       'serverIconExpired': 'guildIconExpired_jsxF_b',
       'resolvingBackground': 'resolvingBackground_jsxF_b',
-      'splash': 'inviteSplash_4hnqn0',
+      'splash': 'inviteSplash_jsxF_b',
       'splashImage': 'inviteSplashImage_jsxF_b',
       'splashImageLoaded': 'inviteSplashImageLoaded_jsxF_b',
       'guildInfo': 'guildInfo_jsxF_b',
@@ -2199,14 +2199,14 @@ $classes: (
     'channelIcon': 'channelIcon_ybUK7Z',
     'channelIconWrapper': 'iconWrapper_ybUK7Z',
     'iconWrapper': 'iconWrapper_ybUK7Z',
-    'updateDownloadingCloud': 'cloud_tYuRNZ',
+    'updateDownloadingCloud': 'cloud__49676',
     'icon': 'icon_ybUK7Z',
     'iconClickable': 'clickable_ybUK7Z',
     'title': 'title_ybUK7Z',
     'dot': 'dot_ybUK7Z',
     // space between channel name and description
-    'akaBadge': 'akaBadge_AAMT29',
-    'input': 'input_CJLDJI',
+    'akaBadge': 'akaBadge__488b1',
+    'input': 'input__4f074',
     'toolbar': 'toolbar_ybUK7Z',
     'iconSelected': 'selected_ybUK7Z',
     'search': 'search_bWCaDq',
@@ -2659,7 +2659,7 @@ $classes: (
     'private': (
         'channels': 'privateChannels_u88IQl',
         'searchBar': 'searchBar_u88IQl',
-        'searchBarComponent': 'searchBarComponent_6mnjB2',
+        'searchBarComponent': 'searchBarComponent_u88IQl',
         // placeholder text "find or start a converstation"
         'scroller': 'scroller_Bce46W',
         'headerContainer': 'privateChannelsHeaderContainer_Bce46W',
@@ -2753,7 +2753,7 @@ $classes: (
             'communityInfoVisible': 'communityInfoVisible_XH4OpX',
 
             // unsure if used?
-            'headerButton': 'headerButton_dndGAS',
+            'headerButton': 'headerButton_XH4OpX',
 
             'headerChildren': 'headerChildren_XH4OpX',
 
@@ -2852,7 +2852,7 @@ $classes: (
             'addButtonIcon': 'addButtonIcon_yOdhm_',
 
             // unknown, appears with same suffix
-            'containerUserOver': 'containerUserOver_Wx6SnQ',
+            'containerUserOver': 'containerUserOver_yOdhm_',
             'dismissButton': 'dismissButton_yOdhm_',
             'dismiss': 'dismiss_yOdhm_',
             'voiceChannelsButtonRefresh': 'refreshVoiceChannelsButton_yOdhm_',
@@ -2947,7 +2947,7 @@ $classes: (
 
             // appears on same element as linkBottom (from css)
             // other classes related to "Voice Limit" stuff, no idea on usage
-            'voiceLimitPopoutHeaderContainer': 'popoutHeaderContainer_VYP6oe',
+            'voiceLimitPopoutHeaderContainer': 'popoutHeaderContainer_QQRrAh',
             'voiceLimitExtraLong': 'extraLong_QQRrAh',
 
             // appears on same element as voiceLimitUsers and voiceLimitTotal
@@ -2959,7 +2959,7 @@ $classes: (
                 // listGeneric because it *SEEMS* generic
                 'collapsed': 'collapsed_6Du7S1',
                 'withGuildIcon': 'withGuildIcon_6Du7S1',
-                'disableInteraction': 'disableInteraction_cXmH6r',
+                'disableInteraction': 'disableInteraction_6Du7S1',
 
                 'list': 'list_YUoOxm',
                 'listDefault': 'listDefault_YUoOxm',
@@ -3114,7 +3114,7 @@ $classes: (
         ),
 
         // other classes that idk too much about
-        'customStatusContainer': 'customStatusContainer__emG3x',
+        'customStatusContainer': 'customStatusContainer_9U6LUN',
         'voiceUsers': 'voiceUsers_9U6LUN',
         'withText': 'withText_9U6LUN',
         // relates to buttons
@@ -3155,7 +3155,7 @@ $classes: (
         'liveIndicator': 'liveIndicator_8eCwJY',
         // appears as child of gameWrapper
         'sparkleContainer': 'sparkleContainer_8eCwJY',
-        'sparkles': 'sparkles_QF5mJe',
+        'sparkles': 'sparkles_8eCwJY',
         'infoWithDrops': 'infoWithDrops_8eCwJY',
         'channel': 'channel_8eCwJY',
         'perksDemoContainer': 'perksDemoContainer_8eCwJY',
@@ -3172,7 +3172,7 @@ $classes: (
         'disabled': 'disabled_Y-8oZW',
 
         // you cannot interact with it
-        'redIcon': 'redIcon__WEKcz',
+        'redIcon': 'redIcon_g6VwXp',
         // used when server deafened, applied to #{c(button contents)}
         'lottieIcon': 'lottieIcon_69Onuk',
 
@@ -3219,7 +3219,7 @@ $classes: (
     'communityInfoPill': 'communityInfoPill_XH4OpX',
     'communityInfoIcon': 'communityIcon_XH4OpX',
 
-    'boostProgressBarContainer': 'progressBarContainer_5cFAmt',
+    'boostProgressBarContainer': 'progressBarContainer_eff079',
 
     'loadingAnimationContainer': 'container_SeV6PM',
     // container has animation tag on it
@@ -3417,7 +3417,7 @@ $classes: (
         'emptyIconStreamerMode': 'emptyIconStreamerMode_6X8yxV',
         'emptyText': 'emptyText_6X8yxV',
           
-        'noteTextarea': 'textarea_1mgvSC',
+        'noteTextarea': 'textarea_7NTkEC',
         ),
 
       // Go to the DMs of someone while your screen is larger than
@@ -3570,7 +3570,7 @@ $classes: (
 
     'account': (
       'profileCard': 'accountProfileCard_a9178b',
-      'badgeList': 'badgeList_JZRLB9',
+      'badgeList': 'badgeList_a27e58',
       'fieldBackground': 'background_a9178b',
       'fieldList': 'fieldList_a27e58',
 
@@ -4214,7 +4214,7 @@ $classes: (
       'groupHeader': 'groupHeader_lm2_KW',
       'itemContainer': 'itemContainer_lm2_KW',
       'item': 'item_lm2_KW',
-      'itemIcon': 'itemIcon_ge8IFm',
+      'itemIcon': 'itemIcon_lm2_KW',
       'filterSublabelTextContainer': 'filterSublabelTextContainer_lm2_KW',
       'divider': 'divider_lm2_KW',
       'autocompletePillContainer': 'autocompletePillContainer_lm2_KW', // history
@@ -4254,7 +4254,7 @@ $classes: (
     'dropdown': (
       'wrapper': 'wrapper_uFkqU2',
       'select': 'select_uFkqU2',
-      'filled': 'lookFilled_9OQtot',
+      'filled': 'lookFilled_uFkqU2',
       'value': 'value_uFkqU2',
       'icons': 'icons_uFkqU2',
       'popout': 'popout_uFkqU2',
@@ -4465,7 +4465,7 @@ $classes: (
     // In voice call, open up the sound board
     'soundboard': (
       'picker': 'picker_1lN7Eh',
-      'refresh': 'refresh_61u9G9',
+      'refresh': 'refresh__09f65',
       // less compact version, appears to be the "new" version that is being used.
       'header': 'header_6EKaag',
       'searchWrapper': 'wrapper_xdTfZL',
@@ -5207,7 +5207,7 @@ $classes: (
         // nitro
         'selectionBox': 'selectionBox_rvSze9',
         'selectionBoxSelected': 'selectedPlan_rvSze9',
-        'shopIcon': 'iconBackground_tVJ6Al',
+        'shopIcon': 'iconBackground__33980',
 
         // profile decoration
         'customMessage': 'customGiftMessage_ZwzaBx',
@@ -5905,7 +5905,7 @@ $classes: (
           'libraryUsageBackground': 'background_bFFeGy',
           'libraryUsageForeground': 'foreground_bFFeGy',
           'libraryDefaultIndicator': 'defaultIndicator_LAvacu',
-          'libraryPlayButton': 'playButton_DV7fsY',
+          'libraryPlayButton': 'playButton_J5NjGG',
           'libraryPlayButtonContents': 'playButtonContents_J5NjGG',
           'connectionDebugPopout': 'container_TP1WMf',
           'searchHubHeader': 'searchHeader_RRDnyC',
@@ -5925,7 +5925,7 @@ $classes: (
           'emptyActiveNowText': 'emptyText_-7KzVR',
           'promotedQuestPill': 'promotedTagBackground_4sN7lX',
           'channelThreadPopoutRow': 'row_j5xNzb',
-          'channelThreadPopoutMore': 'more_AdrBHW',
+          'channelThreadPopoutMore': 'more__76f04',
           'threadMembersEmptyHeader': 'emptyStateHeader_UPjGEs',
           'threadMembersEmptyIcon': 'emptyStateIcon_UPjGEs',
           'waveButtonDisabled': 'compactButtonDisabled_sFyjfh',
