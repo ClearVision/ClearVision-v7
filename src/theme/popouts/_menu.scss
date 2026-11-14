@@ -47,16 +47,16 @@
 // STATUS PICKER
 // inline styles
 #{c(popouts menus status)} {
-  &[style='background-color: rgb(132, 133, 141);'] {
+  &[style='background-color: rgb(133, 134, 140);'] {
     background-color: cv('color.offline') !important;
   }
-  &[style='background-color: rgb(69, 163, 102);'] {
+  &[style='background-color: rgb(81, 151, 106);'] {
     background-color: cv('color.online') !important;
   }
-  &[style='background-color: rgb(255, 192, 78);'] {
+  &[style='background-color: rgb(233, 186, 100);'] {
     background-color: cv('color.idle') !important;
   }
-  &[style='background-color: rgb(218, 62, 68);'] {
+  &[style='background-color: rgb(198, 82, 86);'] {
     background-color: cv('color.dnd') !important;
   }
 }
@@ -72,6 +72,9 @@
   }
   &#set-status-submenu-invisible {
     background-color: cv('color.offline');
+  }
+  #{c(popouts menus status)} {
+    background-color: var(--interactive-text-active) !important;
   }
 }
 
